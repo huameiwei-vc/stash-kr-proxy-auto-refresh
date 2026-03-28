@@ -101,7 +101,7 @@ def anonymity_rank(value: str) -> int:
 
 
 def protocol_rank(value: str) -> int:
-    return {"socks5": 0, "http": 1, "socks4": 2}.get(value, 9)
+    return {"socks5": 0, "http": 1}.get(value, 9)
 
 
 def fetch_proxyscrape() -> list[Candidate]:
@@ -203,7 +203,7 @@ def fetch_geonode(limit: int = 200, page: int = 1) -> list[Candidate]:
             continue
         for protocol in item.get("protocols", []) or []:
             protocol = (protocol or "").lower()
-            if protocol not in {"http", "socks4", "socks5"}:
+            if protocol not in {"http", "socks5"}:
                 continue
             candidates.append(
                 Candidate(
@@ -258,7 +258,7 @@ def fetch_monosans_kr_json() -> list[Candidate]:
     candidates: list[Candidate] = []
     for item in data:
         protocol = (item.get("protocol") or "").lower()
-        if protocol not in {"http", "socks4", "socks5"}:
+        if protocol not in {"http", "socks5"}:
             continue
         geo = item.get("geolocation") or {}
         country = (geo.get("country") or {}).get("iso_code")
