@@ -1,93 +1,62 @@
 {
-  "generated_at": "2026-03-28T17:53:38+08:00",
+  "generated_at": "2026-03-28T12:02:58+00:00",
   "per_source_counts": {
-    "proxyscrape": 19,
-    "proxifly": 8,
-    "iplocate": 1,
-    "monosans_fallback": 0
+    "proxyscrape": 17,
+    "proxifly": 12,
+    "iplocate": 3,
+    "monosans_fallback": 136
   },
-  "candidate_count_after_dedupe": 27,
+  "candidate_count_after_dedupe": 30,
   "results": [
     {
-      "source": "proxyscrape",
+      "source": "iplocate",
       "proxy": "http://121.126.185.63:25152",
       "protocol": "http",
       "ip": "121.126.185.63",
       "port": 25152,
-      "anonymity": "elite",
+      "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 4.498,
-      "https_time_s": 3.598,
+      "geo_time_s": 6.003,
+      "https_time_s": 2.548,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.126.185.63"
       },
-      "https_result": "204 3.584051",
+      "https_result": "204 2.540091",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "timeout_ms": 2106.2,
-        "city": "Gwangmyeong",
-        "country_code": "KR",
-        "api": "proxyscrape_v4"
-      },
-      "stash_name": null
-    },
-    {
-      "source": "proxyscrape",
-      "proxy": "http://210.223.44.230:3128",
-      "protocol": "http",
-      "ip": "210.223.44.230",
-      "port": 3128,
-      "anonymity": "anonymous",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.757,
-      "https_time_s": 0.506,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "210.223.44.230"
-      },
-      "https_result": "204 0.493931",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "timeout_ms": 1235.1,
-        "city": "Seoul",
-        "country_code": "KR",
-        "api": "proxyscrape_v4"
+        "country_code": "KR"
       },
       "stash_name": null
     },
     {
       "source": "proxifly",
-      "proxy": "socks5://121.169.46.116:1090",
+      "proxy": "socks5://94.130.16.48:30006",
       "protocol": "socks5",
-      "ip": "121.169.46.116",
-      "port": 1090,
+      "ip": "94.130.16.48",
+      "port": 30006,
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.945,
-      "https_time_s": 0.445,
+      "geo_time_s": 2.081,
+      "https_time_s": 7.185,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "121.169.46.116"
+        "query": "45.67.97.71"
       },
-      "https_result": "204 0.431391",
+      "https_result": "204 7.177864",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "https_hint": false,
         "score": 1,
-        "city": "Osan",
+        "city": "Unknown",
         "country_code": "KR"
       },
       "stash_name": null
@@ -101,76 +70,20 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.43,
-      "https_time_s": 0.326,
+      "geo_time_s": 6.176,
+      "https_time_s": 4.024,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "204 0.311856",
+      "https_result": "204 4.016594",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "timeout_ms": 742.0,
+        "timeout_ms": 11565.6,
         "city": "Dongdaemun",
-        "country_code": "KR",
-        "api": "proxyscrape_v4"
-      },
-      "stash_name": null
-    },
-    {
-      "source": "proxyscrape",
-      "proxy": "http://219.249.37.107:8382",
-      "protocol": "http",
-      "ip": "219.249.37.107",
-      "port": 8382,
-      "anonymity": "elite",
-      "geo_ok": true,
-      "https_ok": false,
-      "geo_time_s": 0.441,
-      "https_time_s": 0.116,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "219.249.37.107"
-      },
-      "https_result": "000 0.105590",
-      "geo_error": null,
-      "https_error": "curl: (43) A libcurl function was given a bad argument",
-      "source_meta": {
-        "timeout_ms": 1017.7,
-        "city": "Miryang",
-        "country_code": "KR",
-        "api": "proxyscrape_v4"
-      },
-      "stash_name": null
-    },
-    {
-      "source": "proxyscrape",
-      "proxy": "http://43.200.30.144:80",
-      "protocol": "http",
-      "ip": "43.200.30.144",
-      "port": 80,
-      "anonymity": "elite",
-      "geo_ok": true,
-      "https_ok": false,
-      "geo_time_s": 0.572,
-      "https_time_s": 0.188,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "15.164.203.30"
-      },
-      "https_result": "000 0.179090",
-      "geo_error": null,
-      "https_error": "curl: (56) Proxy CONNECT aborted",
-      "source_meta": {
-        "timeout_ms": 735.4,
-        "city": "Seoul",
         "country_code": "KR",
         "api": "proxyscrape_v4"
       },
@@ -185,42 +98,19 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": false,
-      "geo_time_s": 0.414,
-      "https_time_s": 4.044,
+      "geo_time_s": 0.768,
+      "https_time_s": 0.569,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "8.213.151.128"
       },
-      "https_result": "000 4.026140",
+      "https_result": "000 0.561333",
       "geo_error": null,
-      "https_error": "curl: (60) SSL certificate problem: self signed certificate in certificate chain\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.",
+      "https_error": "curl: (60) SSL certificate problem: self-signed certificate in certificate chain\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.",
       "source_meta": {
-        "timeout_ms": 663.4,
-        "city": "Seoul",
-        "country_code": "KR",
-        "api": "proxyscrape_v4"
-      },
-      "stash_name": null
-    },
-    {
-      "source": "proxyscrape",
-      "proxy": "http://150.109.236.146:3128",
-      "protocol": "http",
-      "ip": "150.109.236.146",
-      "port": 3128,
-      "anonymity": "elite",
-      "geo_ok": false,
-      "https_ok": false,
-      "geo_time_s": 0.174,
-      "https_time_s": null,
-      "geo": null,
-      "https_result": null,
-      "geo_error": "curl: (56) Recv failure: Connection reset by peer",
-      "https_error": null,
-      "source_meta": {
-        "timeout_ms": 757.3,
+        "timeout_ms": 720.0,
         "city": "Seoul",
         "country_code": "KR",
         "api": "proxyscrape_v4"
@@ -236,11 +126,11 @@
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 8.018,
+      "geo_time_s": 8.009,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
-      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
       "https_error": null,
       "source_meta": {
         "timeout_ms": 1269.0,
@@ -259,11 +149,11 @@
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 0.084,
+      "geo_time_s": 0.189,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
-      "geo_error": "curl: (7) Failed to connect to 210.206.242.116 port 5031 after 74 ms: Couldn't connect to server",
+      "geo_error": "curl: (7) Failed to connect to 210.206.242.116 port 5031 after 182 ms: Couldn't connect to server",
       "https_error": null,
       "source_meta": {
         "timeout_ms": 4366.4,
@@ -282,7 +172,7 @@
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 3.1,
+      "geo_time_s": 3.392,
       "https_time_s": null,
       "geo": {
         "status": "success",
@@ -320,7 +210,7 @@
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 7.144,
+      "geo_time_s": 7.57,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
@@ -336,22 +226,22 @@
     },
     {
       "source": "proxyscrape",
-      "proxy": "socks4://52.78.241.34:9770",
+      "proxy": "socks4://221.138.233.203:8081",
       "protocol": "socks4",
-      "ip": "52.78.241.34",
-      "port": 9770,
+      "ip": "221.138.233.203",
+      "port": 8081,
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 8.015,
+      "geo_time_s": 8.009,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
-      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "geo_error": "curl: (28) Connection timed out after 8001 milliseconds",
       "https_error": null,
       "source_meta": {
-        "timeout_ms": 10790.9,
-        "city": "Seoul",
+        "timeout_ms": 18370.5,
+        "city": "Songpa-gu",
         "country_code": "KR",
         "api": "proxyscrape_v4"
       },
@@ -366,11 +256,11 @@
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 8.018,
+      "geo_time_s": 8.009,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
-      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
       "https_error": null,
       "source_meta": {
         "timeout_ms": 881.2,
@@ -382,22 +272,22 @@
     },
     {
       "source": "proxyscrape",
-      "proxy": "socks4://221.138.233.203:8081",
+      "proxy": "socks4://52.78.241.34:9770",
       "protocol": "socks4",
-      "ip": "221.138.233.203",
-      "port": 8081,
+      "ip": "52.78.241.34",
+      "port": 9770,
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 8.02,
+      "geo_time_s": 8.009,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
-      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
       "https_error": null,
       "source_meta": {
-        "timeout_ms": 18370.5,
-        "city": "Songpa-gu",
+        "timeout_ms": 10790.9,
+        "city": "Seoul",
         "country_code": "KR",
         "api": "proxyscrape_v4"
       },
@@ -412,14 +302,37 @@
       "anonymity": "elite",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 8.02,
+      "geo_time_s": 8.011,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
-      "geo_error": "curl: (28) Connection timed out after 8004 milliseconds",
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
       "https_error": null,
       "source_meta": {
         "timeout_ms": 1195.5,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://156.228.100.217:3128",
+      "protocol": "socks4",
+      "ip": "156.228.100.217",
+      "port": 3128,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.012,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 21893.3,
         "city": "Seoul",
         "country_code": "KR",
         "api": "proxyscrape_v4"
@@ -435,47 +348,19 @@
       "anonymity": "anonymous",
       "geo_ok": true,
       "https_ok": false,
-      "geo_time_s": 0.583,
-      "https_time_s": 0.167,
+      "geo_time_s": 1.813,
+      "https_time_s": 0.385,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "221.153.190.28"
       },
-      "https_result": "000 0.157207",
+      "https_result": "000 0.378088",
       "geo_error": null,
       "https_error": "curl: (56) Proxy CONNECT aborted",
       "source_meta": {
-        "timeout_ms": 1263.6,
-        "city": "Seongnam-si",
-        "country_code": "KR",
-        "api": "proxyscrape_v4"
-      },
-      "stash_name": null
-    },
-    {
-      "source": "proxyscrape",
-      "proxy": "http://183.110.216.128:8090",
-      "protocol": "http",
-      "ip": "183.110.216.128",
-      "port": 8090,
-      "anonymity": "anonymous",
-      "geo_ok": true,
-      "https_ok": false,
-      "geo_time_s": 2.609,
-      "https_time_s": 0.172,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "221.153.190.28"
-      },
-      "https_result": "000 0.155048",
-      "geo_error": null,
-      "https_error": "curl: (56) Proxy CONNECT aborted",
-      "source_meta": {
-        "timeout_ms": 1256.6,
+        "timeout_ms": 1289.1,
         "city": "Seongnam-si",
         "country_code": "KR",
         "api": "proxyscrape_v4"
@@ -491,19 +376,19 @@
       "anonymity": "anonymous",
       "geo_ok": true,
       "https_ok": false,
-      "geo_time_s": 3.723,
-      "https_time_s": 1.17,
+      "geo_time_s": 0.832,
+      "https_time_s": 0.391,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "221.153.190.28"
       },
-      "https_result": "000 1.158264",
+      "https_result": "000 0.384098",
       "geo_error": null,
       "https_error": "curl: (56) Proxy CONNECT aborted",
       "source_meta": {
-        "timeout_ms": 1312.9,
+        "timeout_ms": 1255.5,
         "city": "Seongnam-si",
         "country_code": "KR",
         "api": "proxyscrape_v4"
@@ -511,25 +396,3059 @@
       "stash_name": null
     },
     {
-      "source": "iplocate",
-      "proxy": "http://183.110.216.159:8090",
+      "source": "proxyscrape",
+      "proxy": "http://183.110.216.128:8090",
       "protocol": "http",
-      "ip": "183.110.216.159",
+      "ip": "183.110.216.128",
       "port": 8090,
-      "anonymity": "unknown",
+      "anonymity": "anonymous",
       "geo_ok": true,
       "https_ok": false,
-      "geo_time_s": 0.53,
-      "https_time_s": 0.163,
+      "geo_time_s": 3.838,
+      "https_time_s": 1.405,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "221.153.190.28"
       },
-      "https_result": "000 0.151244",
+      "https_result": "000 1.398768",
       "geo_error": null,
       "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "timeout_ms": 1273.8,
+        "city": "Seongnam-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://183.110.216.159:8090",
+      "protocol": "http",
+      "ip": "183.110.216.159",
+      "port": 8090,
+      "anonymity": "anonymous",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 1.834,
+      "https_time_s": 1.431,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "221.153.190.28"
+      },
+      "https_result": "000 1.424884",
+      "geo_error": null,
+      "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "timeout_ms": 1332.7,
+        "city": "Seongnam-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://210.223.44.230:3128",
+      "protocol": "http",
+      "ip": "210.223.44.230",
+      "port": 3128,
+      "anonymity": "anonymous",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.012,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 4567.2,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://163.123.181.147:9950",
+      "protocol": "socks5",
+      "ip": "163.123.181.147",
+      "port": 9950,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.085,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) Recv failure: Connection reset by peer",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.200:6609",
+      "protocol": "socks5",
+      "ip": "206.123.156.200",
+      "port": 6609,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.095,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.200 port 6609 after 89 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.182:6252",
+      "protocol": "socks5",
+      "ip": "206.123.156.182",
+      "port": 6252,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.096,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.182 port 6252 after 89 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.201:4231",
+      "protocol": "socks5",
+      "ip": "206.123.156.201",
+      "port": 4231,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.102,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.201 port 4231 after 97 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.188:8488",
+      "protocol": "socks5",
+      "ip": "206.123.156.188",
+      "port": 8488,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.104,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.188 port 8488 after 98 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.184:10796",
+      "protocol": "socks5",
+      "ip": "206.123.156.184",
+      "port": 10796,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.105,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.184 port 10796 after 98 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.210:9639",
+      "protocol": "socks5",
+      "ip": "206.123.156.210",
+      "port": 9639,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.13,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.210 port 9639 after 123 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://94.230.127.180:1080",
+      "protocol": "socks5",
+      "ip": "94.230.127.180",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.16,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 94.230.127.180 port 1080 after 153 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.196:7280",
+      "protocol": "socks5",
+      "ip": "206.123.156.196",
+      "port": 7280,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.169,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 206.123.156.196 port 7280 after 162 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://89.124.79.162:1080",
+      "protocol": "socks5",
+      "ip": "89.124.79.162",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.26,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) Can't complete SOCKS5 connection to ip-api.com. (4)",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://5.75.202.83:10000",
+      "protocol": "socks5",
+      "ip": "5.75.202.83",
+      "port": 10000,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.407,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Germany",
+        "countryCode": "DE",
+        "query": "5.75.202.83"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://5.42.103.183:1080",
+      "protocol": "socks5",
+      "ip": "5.42.103.183",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.452,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) connection to proxy closed",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://173.249.5.133:1080",
+      "protocol": "socks5",
+      "ip": "173.249.5.133",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.649,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "France",
+        "countryCode": "FR",
+        "query": "173.249.5.133"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://45.59.117.163:8080",
+      "protocol": "socks5",
+      "ip": "45.59.117.163",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.711,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "query": "45.59.117.163"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://64.227.76.27:1080",
+      "protocol": "socks5",
+      "ip": "64.227.76.27",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.775,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "query": "64.227.76.27"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://66.42.59.155:443",
+      "protocol": "socks5",
+      "ip": "66.42.59.155",
+      "port": 443,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.055,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "query": "66.42.59.155"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://94.130.16.48:30000",
+      "protocol": "socks5",
+      "ip": "94.130.16.48",
+      "port": 30000,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.307,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Uzbekistan",
+        "countryCode": "UZ",
+        "query": "98.159.226.87"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://212.58.132.5:1080",
+      "protocol": "socks5",
+      "ip": "212.58.132.5",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.313,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "query": "212.58.132.5"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://64.227.131.240:1080",
+      "protocol": "socks5",
+      "ip": "64.227.131.240",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.37,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "India",
+        "countryCode": "IN",
+        "query": "64.227.131.240"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://147.45.240.36:1080",
+      "protocol": "socks5",
+      "ip": "147.45.240.36",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.406,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "The Netherlands",
+        "countryCode": "NL",
+        "query": "147.45.240.36"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://192.145.96.180:1080",
+      "protocol": "socks5",
+      "ip": "192.145.96.180",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.769,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Russia",
+        "countryCode": "RU",
+        "query": "192.145.96.180"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://31.130.131.142:1080",
+      "protocol": "socks5",
+      "ip": "31.130.131.142",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 2.256,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "query": "31.130.131.142"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://20.64.246.199:1080",
+      "protocol": "socks5",
+      "ip": "20.64.246.199",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 2.436,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "20.64.246.199"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://94.130.16.48:30094",
+      "protocol": "socks5",
+      "ip": "94.130.16.48",
+      "port": 30094,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 3.007,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "151.241.123.192"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://94.130.16.48:30089",
+      "protocol": "socks5",
+      "ip": "94.130.16.48",
+      "port": 30089,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 3.254,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Estonia",
+        "countryCode": "EE",
+        "query": "165.231.182.50"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.213:9386",
+      "protocol": "socks5",
+      "ip": "206.123.156.213",
+      "port": 9386,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 4.132,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) Can't complete SOCKS5 connection to ip-api.com. (1)",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.215:6548",
+      "protocol": "socks5",
+      "ip": "206.123.156.215",
+      "port": 6548,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 4.447,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Canada",
+        "countryCode": "CA",
+        "query": "54.39.17.116"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.202:4588",
+      "protocol": "socks5",
+      "ip": "206.123.156.202",
+      "port": 4588,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.433,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "query": "185.2.31.101"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.211:4418",
+      "protocol": "socks5",
+      "ip": "206.123.156.211",
+      "port": 4418,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.727,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "208.109.188.137"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://8.218.99.137:1011",
+      "protocol": "socks5",
+      "ip": "8.218.99.137",
+      "port": 1011,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.771,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (52) Empty reply from server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://20.57.138.93:1080",
+      "protocol": "socks5",
+      "ip": "20.57.138.93",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.968,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "20.57.138.93"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://45.119.97.69:443",
+      "protocol": "socks5",
+      "ip": "45.119.97.69",
+      "port": 443,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 6.063,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) Can't complete SOCKS5 connection to ip-api.com. (4)",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://52.233.95.134:1080",
+      "protocol": "socks5",
+      "ip": "52.233.95.134",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 6.731,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "52.233.95.134"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://213.165.58.5:1080",
+      "protocol": "socks5",
+      "ip": "213.165.58.5",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 6.765,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Finland",
+        "countryCode": "FI",
+        "query": "213.165.58.5"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.208:6628",
+      "protocol": "socks5",
+      "ip": "206.123.156.208",
+      "port": 6628,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 6.948,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "France",
+        "countryCode": "FR",
+        "query": "82.196.25.136"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.200:6462",
+      "protocol": "socks5",
+      "ip": "206.123.156.200",
+      "port": 6462,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 7.313,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Vietnam",
+        "countryCode": "VN",
+        "query": "103.56.163.133"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://129.151.198.68:1111",
+      "protocol": "socks5",
+      "ip": "129.151.198.68",
+      "port": 1111,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 7.517,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (52) Empty reply from server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.184:6803",
+      "protocol": "socks5",
+      "ip": "206.123.156.184",
+      "port": 6803,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 7.586,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "query": "185.2.31.101"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.197:6313",
+      "protocol": "socks5",
+      "ip": "206.123.156.197",
+      "port": 6313,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.007,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8000 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://213.165.58.6:1080",
+      "protocol": "socks5",
+      "ip": "213.165.58.6",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.007,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8000 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://94.159.107.168:8888",
+      "protocol": "socks5",
+      "ip": "94.159.107.168",
+      "port": 8888,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.007,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8000 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://109.71.241.67:1080",
+      "protocol": "socks5",
+      "ip": "109.71.241.67",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://141.98.189.2:1080",
+      "protocol": "socks5",
+      "ip": "141.98.189.2",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://160.250.54.9:9000",
+      "protocol": "socks5",
+      "ip": "160.250.54.9",
+      "port": 9000,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://193.233.254.82:1080",
+      "protocol": "socks5",
+      "ip": "193.233.254.82",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://20.64.149.180:1080",
+      "protocol": "socks5",
+      "ip": "20.64.149.180",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8001 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.176:14986",
+      "protocol": "socks5",
+      "ip": "206.123.156.176",
+      "port": 14986,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.178:7231",
+      "protocol": "socks5",
+      "ip": "206.123.156.178",
+      "port": 7231,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.186:4779",
+      "protocol": "socks5",
+      "ip": "206.123.156.186",
+      "port": 4779,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.199:4716",
+      "protocol": "socks5",
+      "ip": "206.123.156.199",
+      "port": 4716,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.200:7133",
+      "protocol": "socks5",
+      "ip": "206.123.156.200",
+      "port": 7133,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8001 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.219:4036",
+      "protocol": "socks5",
+      "ip": "206.123.156.219",
+      "port": 4036,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8001 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://213.165.58.7:1080",
+      "protocol": "socks5",
+      "ip": "213.165.58.7",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://5.45.126.12:1080",
+      "protocol": "socks5",
+      "ip": "5.45.126.12",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://185.114.73.2:1080",
+      "protocol": "socks5",
+      "ip": "185.114.73.2",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://193.233.254.38:1080",
+      "protocol": "socks5",
+      "ip": "193.233.254.38",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://194.219.112.106:1080",
+      "protocol": "socks5",
+      "ip": "194.219.112.106",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.180:5722",
+      "protocol": "socks5",
+      "ip": "206.123.156.180",
+      "port": 5722,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.180:5743",
+      "protocol": "socks5",
+      "ip": "206.123.156.180",
+      "port": 5743,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.182:26240",
+      "protocol": "socks5",
+      "ip": "206.123.156.182",
+      "port": 26240,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8003 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.184:4331",
+      "protocol": "socks5",
+      "ip": "206.123.156.184",
+      "port": 4331,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.185:4595",
+      "protocol": "socks5",
+      "ip": "206.123.156.185",
+      "port": 4595,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.195:4901",
+      "protocol": "socks5",
+      "ip": "206.123.156.195",
+      "port": 4901,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.207:4413",
+      "protocol": "socks5",
+      "ip": "206.123.156.207",
+      "port": 4413,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.208:5368",
+      "protocol": "socks5",
+      "ip": "206.123.156.208",
+      "port": 5368,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.212:4315",
+      "protocol": "socks5",
+      "ip": "206.123.156.212",
+      "port": 4315,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.217:7128",
+      "protocol": "socks5",
+      "ip": "206.123.156.217",
+      "port": 7128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.218:4023",
+      "protocol": "socks5",
+      "ip": "206.123.156.218",
+      "port": 4023,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.234:4890",
+      "protocol": "socks5",
+      "ip": "206.123.156.234",
+      "port": 4890,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.234:5693",
+      "protocol": "socks5",
+      "ip": "206.123.156.234",
+      "port": 5693,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://206.123.156.240:5547",
+      "protocol": "socks5",
+      "ip": "206.123.156.240",
+      "port": 5547,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_socks5",
+      "proxy": "socks5://5.255.117.250:1080",
+      "protocol": "socks5",
+      "ip": "5.255.117.250",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://159.203.61.169:3128",
+      "protocol": "http",
+      "ip": "159.203.61.169",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.053,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: Forbidden",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://185.41.152.110:3128",
+      "protocol": "http",
+      "ip": "185.41.152.110",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.095,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 185.41.152.110 port 3128 after 88 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://138.68.60.8:3128",
+      "protocol": "http",
+      "ip": "138.68.60.8",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.144,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: Forbidden",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://147.161.239.240:8800",
+      "protocol": "http",
+      "ip": "147.161.239.240",
+      "port": 8800,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.381,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Germany",
+        "countryCode": "DE",
+        "query": "147.161.239.234"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://45.167.124.52:8080",
+      "protocol": "http",
+      "ip": "45.167.124.52",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.406,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Colombia",
+        "countryCode": "CO",
+        "query": "45.167.124.52"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://139.59.1.14:8080",
+      "protocol": "http",
+      "ip": "139.59.1.14",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.42,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: Forbidden",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://95.213.217.168:52004",
+      "protocol": "http",
+      "ip": "95.213.217.168",
+      "port": 52004,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.431,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Russia",
+        "countryCode": "RU",
+        "query": "95.213.217.162"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://20.24.43.214:80",
+      "protocol": "http",
+      "ip": "20.24.43.214",
+      "port": 80,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.47,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: ERR_ACCESS_DENIED",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://35.225.22.61:80",
+      "protocol": "http",
+      "ip": "35.225.22.61",
+      "port": 80,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.658,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "35.225.22.61"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://147.161.210.140:8800",
+      "protocol": "http",
+      "ip": "147.161.210.140",
+      "port": 8800,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.684,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "147.161.210.130"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://167.103.115.102:8800",
+      "protocol": "http",
+      "ip": "167.103.115.102",
+      "port": 8800,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.712,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "query": "167.103.115.101"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://101.47.73.135:3128",
+      "protocol": "http",
+      "ip": "101.47.73.135",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.732,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "query": "101.47.73.135"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://167.103.34.108:8800",
+      "protocol": "http",
+      "ip": "167.103.34.108",
+      "port": 8800,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.734,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "India",
+        "countryCode": "IN",
+        "query": "167.103.34.98"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://43.99.54.236:5555",
+      "protocol": "http",
+      "ip": "43.99.54.236",
+      "port": 5555,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.746,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "query": "43.99.54.236"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://113.160.132.26:8080",
+      "protocol": "http",
+      "ip": "113.160.132.26",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.87,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Vietnam",
+        "countryCode": "VN",
+        "query": "113.160.132.26"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://198.199.86.11:3128",
+      "protocol": "http",
+      "ip": "198.199.86.11",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.916,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: Forbidden",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://103.84.95.54:7890",
+      "protocol": "http",
+      "ip": "103.84.95.54",
+      "port": 7890,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.003,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "query": "103.84.95.54"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://180.250.219.58:53281",
+      "protocol": "http",
+      "ip": "180.250.219.58",
+      "port": 53281,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.125,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Indonesia",
+        "countryCode": "ID",
+        "query": "180.250.219.58"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://209.97.150.167:3128",
+      "protocol": "http",
+      "ip": "209.97.150.167",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.126,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: Forbidden",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://158.160.215.167:8126",
+      "protocol": "http",
+      "ip": "158.160.215.167",
+      "port": 8126,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.173,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (56) Recv failure: Connection reset by peer",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://5.102.109.41:999",
+      "protocol": "http",
+      "ip": "5.102.109.41",
+      "port": 999,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.582,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Mexico",
+        "countryCode": "MX",
+        "query": "5.102.109.41"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.65.78:3172",
+      "protocol": "http",
+      "ip": "116.80.65.78",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.634,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.65.78"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.65.79:3172",
+      "protocol": "http",
+      "ip": "116.80.65.79",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.739,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.65.79"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.49.161:3172",
+      "protocol": "http",
+      "ip": "116.80.49.161",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.748,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.49.161"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://64.227.76.27:1080",
+      "protocol": "http",
+      "ip": "64.227.76.27",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.841,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "query": "64.227.76.27"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://165.232.146.249:3128",
+      "protocol": "http",
+      "ip": "165.232.146.249",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 2.213,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United States",
+        "countryCode": "US",
+        "query": "165.232.146.249"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://185.76.240.219:10001",
+      "protocol": "http",
+      "ip": "185.76.240.219",
+      "port": 10001,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 2.343,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Russia",
+        "countryCode": "RU",
+        "query": "185.76.240.96"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.49.165:3172",
+      "protocol": "http",
+      "ip": "116.80.49.165",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 2.734,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.49.165"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.49.159:3172",
+      "protocol": "http",
+      "ip": "116.80.49.159",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 3.792,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.49.159"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.49.162:3172",
+      "protocol": "http",
+      "ip": "116.80.49.162",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 4.753,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.49.162"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://193.23.200.251:10808",
+      "protocol": "http",
+      "ip": "193.23.200.251",
+      "port": 10808,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.24,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: ",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://106.75.15.167:7890",
+      "protocol": "http",
+      "ip": "106.75.15.167",
+      "port": 7890,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.525,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: ",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://181.41.201.85:3128",
+      "protocol": "http",
+      "ip": "181.41.201.85",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.65,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Brazil",
+        "countryCode": "BR",
+        "query": "181.41.201.85"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.96.103:3172",
+      "protocol": "http",
+      "ip": "116.80.96.103",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 5.868,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.96.103"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.65.80:3172",
+      "protocol": "http",
+      "ip": "116.80.65.80",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 7.904,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "Japan",
+        "countryCode": "JP",
+        "query": "116.80.65.80"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://115.231.181.40:8128",
+      "protocol": "http",
+      "ip": "115.231.181.40",
+      "port": 8128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.007,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8001 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://185.76.240.15:10001",
+      "protocol": "http",
+      "ip": "185.76.240.15",
+      "port": 10001,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.007,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8001 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://103.147.52.97:3125",
+      "protocol": "http",
+      "ip": "103.147.52.97",
+      "port": 3125,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://113.11.36.205:30226",
+      "protocol": "http",
+      "ip": "113.11.36.205",
+      "port": 30226,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://158.160.215.167:8127",
+      "protocol": "http",
+      "ip": "158.160.215.167",
+      "port": 8127,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8002 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://185.114.73.2:1080",
+      "protocol": "http",
+      "ip": "185.114.73.2",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://222.228.171.92:8080",
+      "protocol": "http",
+      "ip": "222.228.171.92",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8001 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://45.144.232.5:11741",
+      "protocol": "http",
+      "ip": "45.144.232.5",
+      "port": 11741,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8001 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://45.88.0.113:3128",
+      "protocol": "http",
+      "ip": "45.88.0.113",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8002 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://89.200.217.250:8080",
+      "protocol": "http",
+      "ip": "89.200.217.250",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://92.62.149.82:8080",
+      "protocol": "http",
+      "ip": "92.62.149.82",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://109.73.192.102:1080",
+      "protocol": "http",
+      "ip": "109.73.192.102",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.48.217:7777",
+      "protocol": "http",
+      "ip": "116.80.48.217",
+      "port": 7777,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.64.157:7777",
+      "protocol": "http",
+      "ip": "116.80.64.157",
+      "port": 7777,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.64.44:7777",
+      "protocol": "http",
+      "ip": "116.80.64.44",
+      "port": 7777,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.65.74:3172",
+      "protocol": "http",
+      "ip": "116.80.65.74",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.65.81:3172",
+      "protocol": "http",
+      "ip": "116.80.65.81",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://116.80.96.102:3172",
+      "protocol": "http",
+      "ip": "116.80.96.102",
+      "port": 3172,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "iplocate",
+      "proxy": "http://14.34.180.21:38157",
+      "protocol": "http",
+      "ip": "14.34.180.21",
+      "port": 38157,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://160.238.65.2:3128",
+      "protocol": "http",
+      "ip": "160.238.65.2",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://160.238.65.3:3128",
+      "protocol": "http",
+      "ip": "160.238.65.3",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8002 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://160.238.65.6:3128",
+      "protocol": "http",
+      "ip": "160.238.65.6",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://202.58.73.10:1111",
+      "protocol": "http",
+      "ip": "202.58.73.10",
+      "port": 1111,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://203.205.49.2:10014",
+      "protocol": "http",
+      "ip": "203.205.49.2",
+      "port": 10014,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://45.88.0.114:3128",
+      "protocol": "http",
+      "ip": "45.88.0.114",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8002 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://45.88.0.115:3128",
+      "protocol": "http",
+      "ip": "45.88.0.115",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://83.239.34.82:8080",
+      "protocol": "http",
+      "ip": "83.239.34.82",
+      "port": 8080,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://45.88.0.111:3128",
+      "protocol": "http",
+      "ip": "45.88.0.111",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.015,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8002 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "monosans_http",
+      "proxy": "http://158.160.215.167:8123",
+      "protocol": "http",
+      "ip": "158.160.215.167",
+      "port": 8123,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.019,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "generic_list": true
+      },
+      "stash_name": null
+    },
+    {
+      "source": "iplocate",
+      "proxy": "socks4://58.235.170.51:5678",
+      "protocol": "socks4",
+      "ip": "58.235.170.51",
+      "port": 5678,
+      "anonymity": "unknown",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 1.398,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) Can't complete SOCKS4 connection to 0.0.0.0:0. (91), request rejected or failed.",
+      "https_error": null,
       "source_meta": {
         "country_code": "KR"
       },
@@ -537,28 +3456,23 @@
     },
     {
       "source": "proxifly",
-      "proxy": "http://221.153.152.43:80",
-      "protocol": "http",
-      "ip": "221.153.152.43",
-      "port": 80,
+      "proxy": "socks5://121.169.46.116:1090",
+      "protocol": "socks5",
+      "ip": "121.169.46.116",
+      "port": 1090,
       "anonymity": "transparent",
-      "geo_ok": true,
+      "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 0.516,
-      "https_time_s": 0.43,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "221.153.152.43"
-      },
-      "https_result": "000 0.411278",
-      "geo_error": null,
-      "https_error": "curl: (56) CONNECT tunnel failed, response 400",
+      "geo_time_s": 0.188,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 121.169.46.116 port 1090 after 182 ms: Couldn't connect to server",
+      "https_error": null,
       "source_meta": {
         "https_hint": false,
         "score": 1,
-        "city": "Suwon",
+        "city": "Osan",
         "country_code": "KR"
       },
       "stash_name": null
@@ -572,15 +3486,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": false,
-      "geo_time_s": 1.781,
-      "https_time_s": 1.172,
+      "geo_time_s": 1.017,
+      "https_time_s": 0.39,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "183.109.79.187"
       },
-      "https_result": "000 1.154701",
+      "https_result": "000 0.384101",
       "geo_error": null,
       "https_error": "curl: (56) CONNECT tunnel failed, response 400",
       "source_meta": {
@@ -600,34 +3514,11 @@
       "anonymity": "transparent",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 0.173,
+      "geo_time_s": 0.372,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
       "geo_error": "curl: (52) Empty reply from server",
-      "https_error": null,
-      "source_meta": {
-        "https_hint": true,
-        "score": 1,
-        "city": "Unknown",
-        "country_code": "KR"
-      },
-      "stash_name": null
-    },
-    {
-      "source": "proxifly",
-      "proxy": "http://211.34.105.110:4443",
-      "protocol": "http",
-      "ip": "211.34.105.110",
-      "port": 4443,
-      "anonymity": "transparent",
-      "geo_ok": false,
-      "https_ok": false,
-      "geo_time_s": 0.173,
-      "https_time_s": null,
-      "geo": null,
-      "https_result": null,
-      "geo_error": "bad-json: <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>400 Bad Request</title>\n</head><body>\n<h1>Bad Request</h1>\n<p>Your browser sent a request",
       "https_error": null,
       "source_meta": {
         "https_hint": true,
@@ -646,11 +3537,57 @@
       "anonymity": "transparent",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 0.197,
+      "geo_time_s": 0.374,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
       "geo_error": "curl: (52) Empty reply from server",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": true,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://221.153.152.43:80",
+      "protocol": "http",
+      "ip": "221.153.152.43",
+      "port": 80,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.38,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: <html>\n<head><title>500 Internal Server Error</title></head>\n<body>\n<center><h1>500 Internal Server Error</h1></center>\n<hr><center>nginx</center>\n</body>\n</htm",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Suwon",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://211.34.105.110:4443",
+      "protocol": "http",
+      "ip": "211.34.105.110",
+      "port": 4443,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.386,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>400 Bad Request</title>\n</head><body>\n<h1>Bad Request</h1>\n<p>Your browser sent a request",
       "https_error": null,
       "source_meta": {
         "https_hint": true,
@@ -669,7 +3606,7 @@
       "anonymity": "transparent",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 0.595,
+      "geo_time_s": 0.396,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
@@ -692,7 +3629,7 @@
       "anonymity": "transparent",
       "geo_ok": false,
       "https_ok": false,
-      "geo_time_s": 8.014,
+      "geo_time_s": 8.008,
       "https_time_s": null,
       "geo": null,
       "https_result": null,
@@ -702,6 +3639,52 @@
         "https_hint": false,
         "score": 1,
         "city": "Seo-gu",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://59.11.138.229:3128",
+      "protocol": "http",
+      "ip": "59.11.138.229",
+      "port": 3128,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.008,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Operation timed out after 8001 milliseconds with 0 bytes received",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "socks4://175.194.61.56:1080",
+      "protocol": "socks4",
+      "ip": "175.194.61.56",
+      "port": 1080,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.009,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Unknown",
         "country_code": "KR"
       },
       "stash_name": null
