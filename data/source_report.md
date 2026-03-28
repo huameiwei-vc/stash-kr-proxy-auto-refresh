@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-03-28T20:48:21+08:00）
+# KR 免费代理自动刷新报告（2026-03-28T21:01:22+08:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -10,21 +10,36 @@
    - <https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/KR/data.json>
 3. **iplocate 韩国国家列表**  
    - <https://raw.githubusercontent.com/iplocate/free-proxy-list/main/countries/KR/proxies.txt>
-4. **monosans 通用列表（仅在前述来源不足时作为网络搜索后的兜底）**  
+4. **Geonode 韩国代理 API**  
+   - <https://proxylist.geonode.com/api/proxy-list?limit=200&page=1&sort_by=lastChecked&sort_type=desc&country=KR>
+5. **niek 实时页面**  
+   - <https://niek.github.io/free-proxy-list/>
+6. **monosans 带地理信息的 KR 列表**  
+   - <https://raw.githubusercontent.com/monosans/proxy-list/main/proxies.json>
+7. **通用列表兜底（仅在 KR 专用来源不足时测试）**  
    - <https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt>  
-   - <https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt>
+   - <https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt>  
+   - <https://raw.githubusercontent.com/Skillter/ProxyGather/master/proxies/working-proxies-http.txt>  
+   - <https://raw.githubusercontent.com/Skillter/ProxyGather/master/proxies/working-proxies-socks5.txt>
 
 ## 原始候选数量
 
+- geonode: 129
 - iplocate: 1
-- monosans_fallback: 184
+- monosans_fallback: 0
+- monosans_kr_json: 3
+- niek: 8
 - proxifly: 9
-- proxyscrape: 18
-- 去重后总候选: 26
+- proxyscrape: 17
+- skillter_fallback: 0
+- 去重后总候选: 157
 
 ## 当前验证通过的代理
 
-- 本轮没有找到通过 KR 出口 + HTTPS 验证的代理。
+- 1. `http://112.163.160.93:3128` | `http` | `elite` | 200 0.408212 | source=`proxyscrape`
+- 2. `http://121.126.185.63:25152` | `http` | `elite` | 200 0.996906 | source=`geonode`
+- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.951620 | source=`monosans_kr_json`
+- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 0.857843 | source=`proxifly`
 
 ## 输出文件
 
@@ -35,6 +50,7 @@
 
 ## 说明
 
-- 只保留同时满足 **KR 出口** 和 **HTTPS 可连** 的代理。
+- 只保留同时满足 **KR 出口** 和 **Naver HTTPS 可连** 的代理。
+- 当前配置的用途是“可用韩国 IP”，**不保证 Google 一定可达**。
 - `节点选择` 默认先给你 `KR-安全自动测速`，再给 `KR-全量自动测速`。
 - 免费代理波动很大，建议用前再执行一次刷新脚本。
