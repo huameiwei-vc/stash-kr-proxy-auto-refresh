@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-03-28T21:01:22+08:00）
+# KR 免费代理自动刷新报告（2026-03-28T13:03:46+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -26,27 +26,27 @@
 
 - geonode: 129
 - iplocate: 1
-- monosans_fallback: 0
+- monosans_fallback: 184
 - monosans_kr_json: 3
 - niek: 8
 - proxifly: 9
-- proxyscrape: 17
-- skillter_fallback: 0
-- 去重后总候选: 157
+- proxyscrape: 16
+- skillter_fallback: 240
+- 去重后总候选: 156
 
 ## 当前验证通过的代理
 
-- 1. `http://112.163.160.93:3128` | `http` | `elite` | 200 0.408212 | source=`proxyscrape`
-- 2. `http://121.126.185.63:25152` | `http` | `elite` | 200 0.996906 | source=`geonode`
-- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.951620 | source=`monosans_kr_json`
-- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 0.857843 | source=`proxifly`
+- 1. `http://121.126.185.63:25152` | `http` | `elite` | 200 1.974599 | source=`geonode`
+- 2. `socks5://175.194.61.56:1080` | `socks5` | `unknown` | 200 1.283140 | source=`skillter_socks5`
+- 3. `socks5://94.130.16.48:30006` | `socks5` | `unknown` | 200 7.444488 | source=`monosans_kr_json`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.007574 | source=`monosans_kr_json`
 
 ## 输出文件
 
-- Stash 配置：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/stash_kr_free.yaml`
-- 测试明细：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/tested_kr_proxies.json`
-- 运行摘要：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/run_summary.json`
-- 本脚本：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/refresh_kr_stash.py`
+- Stash 配置：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml`
+- 测试明细：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/tested_kr_proxies.json`
+- 运行摘要：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/run_summary.json`
+- 本脚本：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/refresh_kr_stash.py`
 
 ## 说明
 
