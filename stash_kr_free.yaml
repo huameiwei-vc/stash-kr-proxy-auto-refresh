@@ -1,4 +1,4 @@
-# Generated at 2026-03-28T20:12:59+08:00
+# Generated at 2026-03-28T12:18:26+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.gstatic.com/generate_204
 # Sources: proxyscrape, proxifly, iplocate, monosans(fallback)
 mixed-port: 7890
@@ -11,10 +11,19 @@ proxies:
     type: http
     server: 121.126.185.63
     port: 25152
-  - name: "KR-HTTP-02-TRANSPARENT-1.231.81.166:3128"
+  - name: "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    udp: true
+  - name: "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
     type: http
     server: 1.231.81.166
     port: 3128
+  - name: "KR-HTTP-04-TRANSPARENT-222.102.86.137:3116"
+    type: http
+    server: 222.102.86.137
+    port: 3116
 
 proxy-groups:
   - name: "节点选择"
@@ -23,7 +32,9 @@ proxy-groups:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
       - "KR-HTTP-01-UNKNOWN-121.126.185.63:25152"
-      - "KR-HTTP-02-TRANSPARENT-1.231.81.166:3128"
+      - "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
+      - "KR-HTTP-04-TRANSPARENT-222.102.86.137:3116"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -39,7 +50,9 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-HTTP-01-UNKNOWN-121.126.185.63:25152"
-      - "KR-HTTP-02-TRANSPARENT-1.231.81.166:3128"
+      - "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
+      - "KR-HTTP-04-TRANSPARENT-222.102.86.137:3116"
 
 rules:
   - MATCH,节点选择
