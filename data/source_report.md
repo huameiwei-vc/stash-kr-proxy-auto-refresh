@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-03-28T12:21:32+00:00）
+# KR 免费代理自动刷新报告（2026-03-28T20:48:21+08:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -19,21 +19,19 @@
 - iplocate: 1
 - monosans_fallback: 184
 - proxifly: 9
-- proxyscrape: 21
-- 去重后总候选: 29
+- proxyscrape: 18
+- 去重后总候选: 26
 
 ## 当前验证通过的代理
 
-- 1. `socks5://94.130.16.48:30006` | `socks5` | `unknown` | 204 6.327540 | source=`monosans_socks5`
-- 2. `http://121.126.185.63:25152` | `http` | `unknown` | 204 5.773133 | source=`iplocate`
-- 3. `http://1.231.81.166:3128` | `http` | `transparent` | 204 0.891773 | source=`proxyscrape`
+- 本轮没有找到通过 KR 出口 + HTTPS 验证的代理。
 
 ## 输出文件
 
-- Stash 配置：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml`
-- 测试明细：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/tested_kr_proxies.json`
-- 运行摘要：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/run_summary.json`
-- 本脚本：`/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/refresh_kr_stash.py`
+- Stash 配置：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/stash_kr_free.yaml`
+- 测试明细：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/tested_kr_proxies.json`
+- 运行摘要：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/run_summary.json`
+- 本脚本：`/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/refresh_kr_stash.py`
 
 ## 说明
 
