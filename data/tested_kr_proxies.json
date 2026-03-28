@@ -1,0 +1,710 @@
+{
+  "generated_at": "2026-03-28T17:53:38+08:00",
+  "per_source_counts": {
+    "proxyscrape": 19,
+    "proxifly": 8,
+    "iplocate": 1,
+    "monosans_fallback": 0
+  },
+  "candidate_count_after_dedupe": 27,
+  "results": [
+    {
+      "source": "proxyscrape",
+      "proxy": "http://121.126.185.63:25152",
+      "protocol": "http",
+      "ip": "121.126.185.63",
+      "port": 25152,
+      "anonymity": "elite",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 4.498,
+      "https_time_s": 3.598,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "121.126.185.63"
+      },
+      "https_result": "204 3.584051",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 2106.2,
+        "city": "Gwangmyeong",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://210.223.44.230:3128",
+      "protocol": "http",
+      "ip": "210.223.44.230",
+      "port": 3128,
+      "anonymity": "anonymous",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.757,
+      "https_time_s": 0.506,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "210.223.44.230"
+      },
+      "https_result": "204 0.493931",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 1235.1,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "socks5://121.169.46.116:1090",
+      "protocol": "socks5",
+      "ip": "121.169.46.116",
+      "port": 1090,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.945,
+      "https_time_s": 0.445,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "121.169.46.116"
+      },
+      "https_result": "204 0.431391",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Osan",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://1.231.81.166:3128",
+      "protocol": "http",
+      "ip": "1.231.81.166",
+      "port": 3128,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.43,
+      "https_time_s": 0.326,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "1.231.81.166"
+      },
+      "https_result": "204 0.311856",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 742.0,
+        "city": "Dongdaemun",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://219.249.37.107:8382",
+      "protocol": "http",
+      "ip": "219.249.37.107",
+      "port": 8382,
+      "anonymity": "elite",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 0.441,
+      "https_time_s": 0.116,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "219.249.37.107"
+      },
+      "https_result": "000 0.105590",
+      "geo_error": null,
+      "https_error": "curl: (43) A libcurl function was given a bad argument",
+      "source_meta": {
+        "timeout_ms": 1017.7,
+        "city": "Miryang",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://43.200.30.144:80",
+      "protocol": "http",
+      "ip": "43.200.30.144",
+      "port": 80,
+      "anonymity": "elite",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 0.572,
+      "https_time_s": 0.188,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "15.164.203.30"
+      },
+      "https_result": "000 0.179090",
+      "geo_error": null,
+      "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "timeout_ms": 735.4,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://8.213.151.128:3128",
+      "protocol": "http",
+      "ip": "8.213.151.128",
+      "port": 3128,
+      "anonymity": "elite",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 0.414,
+      "https_time_s": 4.044,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "8.213.151.128"
+      },
+      "https_result": "000 4.026140",
+      "geo_error": null,
+      "https_error": "curl: (60) SSL certificate problem: self signed certificate in certificate chain\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.",
+      "source_meta": {
+        "timeout_ms": 663.4,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://150.109.236.146:3128",
+      "protocol": "http",
+      "ip": "150.109.236.146",
+      "port": 3128,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.174,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (56) Recv failure: Connection reset by peer",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 757.3,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://123.141.181.73:5031",
+      "protocol": "http",
+      "ip": "123.141.181.73",
+      "port": 5031,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.018,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 1269.0,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://210.206.242.116:5031",
+      "protocol": "socks4",
+      "ip": "210.206.242.116",
+      "port": 5031,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.084,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (7) Failed to connect to 210.206.242.116 port 5031 after 74 ms: Couldn't connect to server",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 4366.4,
+        "city": "Yongsan-dong",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://8.213.156.191:9080",
+      "protocol": "socks4",
+      "ip": "8.213.156.191",
+      "port": 9080,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 3.1,
+      "https_time_s": null,
+      "geo": {
+        "status": "success",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "region": "ENG",
+        "regionName": "England",
+        "city": "Whitechapel",
+        "zip": "E1",
+        "lat": 51.5026,
+        "lon": -0.0668,
+        "timezone": "Europe/London",
+        "isp": "XIFTCS Company",
+        "org": "THAHTG, LLC",
+        "as": "AS415579 XIFTCS Company, LLC",
+        "query": "8.213.156.191"
+      },
+      "https_result": null,
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 3451.3,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://121.139.218.165:43295",
+      "protocol": "socks4",
+      "ip": "121.139.218.165",
+      "port": 43295,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 7.144,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (97) Can't complete SOCKS4 connection to 0.0.0.0:0. (91), request rejected or failed.",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 2212.3,
+        "city": "Ansan-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://52.78.241.34:9770",
+      "protocol": "socks4",
+      "ip": "52.78.241.34",
+      "port": 9770,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.015,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 10790.9,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://39.24.211.163:11579",
+      "protocol": "socks4",
+      "ip": "39.24.211.163",
+      "port": 11579,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.018,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 881.2,
+        "city": "Seongnam-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://221.138.233.203:8081",
+      "protocol": "socks4",
+      "ip": "221.138.233.203",
+      "port": 8081,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.02,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8006 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 18370.5,
+        "city": "Songpa-gu",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "socks4://8.213.129.2:800",
+      "protocol": "socks4",
+      "ip": "8.213.129.2",
+      "port": 800,
+      "anonymity": "elite",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.02,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8004 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 1195.5,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://183.110.216.128:8091",
+      "protocol": "http",
+      "ip": "183.110.216.128",
+      "port": 8091,
+      "anonymity": "anonymous",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 0.583,
+      "https_time_s": 0.167,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "221.153.190.28"
+      },
+      "https_result": "000 0.157207",
+      "geo_error": null,
+      "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "timeout_ms": 1263.6,
+        "city": "Seongnam-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://183.110.216.128:8090",
+      "protocol": "http",
+      "ip": "183.110.216.128",
+      "port": 8090,
+      "anonymity": "anonymous",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 2.609,
+      "https_time_s": 0.172,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "221.153.190.28"
+      },
+      "https_result": "000 0.155048",
+      "geo_error": null,
+      "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "timeout_ms": 1256.6,
+        "city": "Seongnam-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://183.110.216.159:8091",
+      "protocol": "http",
+      "ip": "183.110.216.159",
+      "port": 8091,
+      "anonymity": "anonymous",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 3.723,
+      "https_time_s": 1.17,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "221.153.190.28"
+      },
+      "https_result": "000 1.158264",
+      "geo_error": null,
+      "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "timeout_ms": 1312.9,
+        "city": "Seongnam-si",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "iplocate",
+      "proxy": "http://183.110.216.159:8090",
+      "protocol": "http",
+      "ip": "183.110.216.159",
+      "port": 8090,
+      "anonymity": "unknown",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 0.53,
+      "https_time_s": 0.163,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "221.153.190.28"
+      },
+      "https_result": "000 0.151244",
+      "geo_error": null,
+      "https_error": "curl: (56) Proxy CONNECT aborted",
+      "source_meta": {
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://221.153.152.43:80",
+      "protocol": "http",
+      "ip": "221.153.152.43",
+      "port": 80,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 0.516,
+      "https_time_s": 0.43,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "221.153.152.43"
+      },
+      "https_result": "000 0.411278",
+      "geo_error": null,
+      "https_error": "curl: (56) CONNECT tunnel failed, response 400",
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Suwon",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://183.109.79.187:80",
+      "protocol": "http",
+      "ip": "183.109.79.187",
+      "port": 80,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": false,
+      "geo_time_s": 1.781,
+      "https_time_s": 1.172,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "183.109.79.187"
+      },
+      "https_result": "000 1.154701",
+      "geo_error": null,
+      "https_error": "curl: (56) CONNECT tunnel failed, response 400",
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Yeongdeungpo-gu",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://203.246.113.240:443",
+      "protocol": "http",
+      "ip": "203.246.113.240",
+      "port": 443,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.173,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (52) Empty reply from server",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": true,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://211.34.105.110:4443",
+      "protocol": "http",
+      "ip": "211.34.105.110",
+      "port": 4443,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.173,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "bad-json: <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>400 Bad Request</title>\n</head><body>\n<h1>Bad Request</h1>\n<p>Your browser sent a request",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": true,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://13.125.141.135:443",
+      "protocol": "http",
+      "ip": "13.125.141.135",
+      "port": 443,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.197,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (52) Empty reply from server",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": true,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://64.110.88.200:30000",
+      "protocol": "http",
+      "ip": "64.110.88.200",
+      "port": 30000,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 0.595,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (52) Empty reply from server",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": true,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    },
+    {
+      "source": "proxifly",
+      "proxy": "http://211.230.49.122:3128",
+      "protocol": "http",
+      "ip": "211.230.49.122",
+      "port": 3128,
+      "anonymity": "transparent",
+      "geo_ok": false,
+      "https_ok": false,
+      "geo_time_s": 8.014,
+      "https_time_s": null,
+      "geo": null,
+      "https_result": null,
+      "geo_error": "curl: (28) Connection timed out after 8002 milliseconds",
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Seo-gu",
+        "country_code": "KR"
+      },
+      "stash_name": null
+    }
+  ]
+}
