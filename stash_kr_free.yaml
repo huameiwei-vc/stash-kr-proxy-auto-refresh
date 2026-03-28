@@ -1,53 +1,18 @@
-# Generated at 2026-03-28T12:21:32+00:00
-# Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.gstatic.com/generate_204
-# Sources: proxyscrape, proxifly, iplocate, monosans(fallback)
+# Generated at 2026-03-28T20:48:21+08:00
+# Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.google.com/generate_204
+# No KR proxy passed this round of validation.
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 
-proxies:
-  - name: "KR-SOCKS5-01-UNKNOWN-94.130.16.48:30006"
-    type: socks5
-    server: 94.130.16.48
-    port: 30006
-    udp: true
-  - name: "KR-HTTP-02-UNKNOWN-121.126.185.63:25152"
-    type: http
-    server: 121.126.185.63
-    port: 25152
-  - name: "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
-    type: http
-    server: 1.231.81.166
-    port: 3128
+proxies: []
 
 proxy-groups:
   - name: "节点选择"
     type: select
     proxies:
-      - "KR-安全自动测速"
-      - "KR-全量自动测速"
-      - "KR-SOCKS5-01-UNKNOWN-94.130.16.48:30006"
-      - "KR-HTTP-02-UNKNOWN-121.126.185.63:25152"
-      - "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
       - DIRECT
-  - name: "KR-安全自动测速"
-    type: url-test
-    url: "https://www.gstatic.com/generate_204"
-    interval: 180
-    tolerance: 150
-    proxies:
-      - "KR-SOCKS5-01-UNKNOWN-94.130.16.48:30006"
-      - "KR-HTTP-02-UNKNOWN-121.126.185.63:25152"
-  - name: "KR-全量自动测速"
-    type: url-test
-    url: "https://www.gstatic.com/generate_204"
-    interval: 180
-    tolerance: 150
-    proxies:
-      - "KR-SOCKS5-01-UNKNOWN-94.130.16.48:30006"
-      - "KR-HTTP-02-UNKNOWN-121.126.185.63:25152"
-      - "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
 
 rules:
   - MATCH,节点选择
