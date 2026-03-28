@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-28T12:02:58+00:00",
-  "working_count": 3,
+  "generated_at": "2026-03-28T20:12:59+08:00",
+  "working_count": 2,
   "working": [
     {
       "source": "iplocate",
@@ -11,49 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 6.003,
-      "https_time_s": 2.548,
+      "geo_time_s": 6.558,
+      "https_time_s": 10.243,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.126.185.63"
       },
-      "https_result": "204 2.540091",
+      "https_result": "204 10.226536",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "country_code": "KR"
       },
       "stash_name": "KR-HTTP-01-UNKNOWN-121.126.185.63:25152"
-    },
-    {
-      "source": "proxifly",
-      "proxy": "socks5://94.130.16.48:30006",
-      "protocol": "socks5",
-      "ip": "94.130.16.48",
-      "port": 30006,
-      "anonymity": "transparent",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 2.081,
-      "https_time_s": 7.185,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "45.67.97.71"
-      },
-      "https_result": "204 7.177864",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "https_hint": false,
-        "score": 1,
-        "city": "Unknown",
-        "country_code": "KR"
-      },
-      "stash_name": "KR-SOCKS5-02-TRANSPARENT-94.130.16.48:30006"
     },
     {
       "source": "proxyscrape",
@@ -64,27 +36,27 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 6.176,
-      "https_time_s": 4.024,
+      "geo_time_s": 0.56,
+      "https_time_s": 0.469,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "204 4.016594",
+      "https_result": "204 0.453240",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "timeout_ms": 11565.6,
+        "timeout_ms": 753.0,
         "city": "Dongdaemun",
         "country_code": "KR",
         "api": "proxyscrape_v4"
       },
-      "stash_name": "KR-HTTP-03-TRANSPARENT-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-02-TRANSPARENT-1.231.81.166:3128"
     }
   ],
-  "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
-  "tested_results": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/tested_kr_proxies.json",
-  "report": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/source_report.md"
+  "output_yaml": "/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/stash_kr_free.yaml",
+  "tested_results": "/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/tested_kr_proxies.json",
+  "report": "/Users/songchao/Documents/git/2api/注册机/注册机学习/家宽/auto_refresh_deploy/data/source_report.md"
 }
