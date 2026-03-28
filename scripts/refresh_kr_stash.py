@@ -361,7 +361,7 @@ def render_yaml(working: list[Result], generated_at: str) -> str:
             "  - name: \"KR-安全自动测速\"",
             "    type: url-test",
             f"    url: \"{TEST_URL_HTTPS}\"",
-            "    interval: 600",
+            "    interval: 180",
             "    tolerance: 150",
             "    proxies:",
         ]
@@ -376,7 +376,7 @@ def render_yaml(working: list[Result], generated_at: str) -> str:
             "  - name: \"KR-全量自动测速\"",
             "    type: url-test",
             f"    url: \"{TEST_URL_HTTPS}\"",
-            "    interval: 600",
+            "    interval: 180",
             "    tolerance: 150",
             "    proxies:",
         ]
