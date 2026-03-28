@@ -18,7 +18,7 @@ WORK = ROOT / "data"
 WORK.mkdir(parents=True, exist_ok=True)
 
 TEST_URL_HTTP = "http://ip-api.com/json/?fields=status,country,countryCode,query,message"
-TEST_URL_HTTPS = "https://www.gstatic.com/generate_204"
+TEST_URL_HTTPS = "https://www.google.com/generate_204"
 
 PROXYSCRAPE_API = "https://api.proxyscrape.com/v4/free-proxy-list/get"
 PROXIFLY_KR_JSON = "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/countries/KR/data.json"
@@ -277,11 +277,23 @@ def validate_candidate(candidate: Candidate, geo_timeout_s: int = 8, https_timeo
     if not result.geo_ok:
         return result
 
-    https_rc, https_out, https_err, https_dt = run_cmd(build_https_cmd(candidate, https_timeout_s))
-    result.https_result = https_out
-    result.https_error = https_err or None
-    result.https_time_s = round(https_dt, 3)
-    result.https_ok = https_rc == 0 and https_out.startswith("204 ")
+    https_rc_1, https_out_1, https_err_1, https_dt_1 = run_cmd(build_https_cmd(candidate, https_timeout_s))
+    first_ok = https_rc_1 == 0 and https_out_1.startswith("204 ")
+    if not first_ok:
+        result.https_result = https_out_1
+        result.https_error = https_err_1 or None
+        result.https_time_s = round(https_dt_1, 3)
+        result.https_ok = False
+        return result
+
+    time.sleep(0.8)
+    https_rc_2, https_out_2, https_err_2, https_dt_2 = run_cmd(build_https_cmd(candidate, https_timeout_s))
+    second_ok = https_rc_2 == 0 and https_out_2.startswith("204 ")
+
+    result.https_result = f"{https_out_1} | {https_out_2}"
+    result.https_error = https_err_2 or None
+    result.https_time_s = round(max(https_dt_1, https_dt_2), 3)
+    result.https_ok = first_ok and second_ok
     return result
 
 
@@ -446,6 +458,31 @@ def render_report(generated_at: str, per_source: dict[str, int], candidate_count
     return "\n".join(lines)
 
 
+def render_empty_yaml(generated_at: str) -> str:
+    lines = [
+        f"# Generated at {generated_at}",
+        f"# Verified through {TEST_URL_HTTP} and {TEST_URL_HTTPS}",
+        "# No KR proxy passed this round of validation.",
+        "mixed-port: 7890",
+        "allow-lan: false",
+        "mode: rule",
+        "log-level: info",
+        "",
+        "proxies: []",
+        "",
+        "proxy-groups:",
+        "  - name: \"节点选择\"",
+        "    type: select",
+        "    proxies:",
+        "      - DIRECT",
+        "",
+        "rules:",
+        "  - MATCH,节点选择",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Refresh KR proxies for Stash")
     parser.add_argument("--min-working", type=int, default=4, help="fallback to generic lists if fewer than this many working proxies")
@@ -512,19 +549,26 @@ def main() -> int:
     (WORK / "tested_kr_proxies.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if not working:
+        yaml_text = render_empty_yaml(generated_at)
+        (ROOT / "stash_kr_free.yaml").write_text(yaml_text, encoding="utf-8")
+        report_text = render_report(generated_at, per_source_counts, len(candidates), working)
+        (WORK / "source_report.md").write_text(report_text, encoding="utf-8")
         (WORK / "run_summary.json").write_text(
             json.dumps(
                 {
                     "generated_at": generated_at,
                     "working_count": 0,
                     "message": "No KR proxy passed both geo and HTTPS validation.",
+                    "output_yaml": str(ROOT / "stash_kr_free.yaml"),
+                    "tested_results": str(WORK / "tested_kr_proxies.json"),
+                    "report": str(WORK / "source_report.md"),
                 },
                 ensure_ascii=False,
                 indent=2,
             ),
             encoding="utf-8",
         )
-        return 1
+        return 0
 
     yaml_text = render_yaml(working, generated_at)
     (ROOT / "stash_kr_free.yaml").write_text(yaml_text, encoding="utf-8")
