@@ -1,33 +1,62 @@
 {
-  "generated_at": "2026-03-29T23:52:57+00:00",
+  "generated_at": "2026-03-30T01:11:16+00:00",
   "working_count": 4,
   "working": [
     {
-      "source": "monosans_kr_json",
-      "proxy": "socks5://1.225.116.115:1080",
-      "protocol": "socks5",
-      "ip": "1.225.116.115",
-      "port": 1080,
-      "anonymity": "unknown",
+      "source": "proxyscrape",
+      "proxy": "http://121.126.185.63:25152",
+      "protocol": "http",
+      "ip": "121.126.185.63",
+      "port": 25152,
+      "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 4.492,
-      "https_time_s": 6.154,
+      "geo_time_s": 3.414,
+      "https_time_s": 6.558,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "1.225.116.115"
+        "query": "121.126.185.63"
       },
-      "https_result": "200 6.148648",
+      "https_result": "200 6.551539",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Goyang-si",
+        "timeout_ms": 2670.6,
+        "city": "Gwangmyeong",
         "country_code": "KR",
-        "timeout_s": 1.8
+        "api": "proxyscrape_v4"
       },
-      "stash_name": "KR-SOCKS5-01-UNKNOWN-1.225.116.115:1080"
+      "stash_name": "KR-HTTP-01-ELITE-121.126.185.63:25152"
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://45.93.30.241:6005",
+      "protocol": "http",
+      "ip": "45.93.30.241",
+      "port": 6005,
+      "anonymity": "elite",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 3.335,
+      "https_time_s": 7.421,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "45.93.30.241"
+      },
+      "https_result": "200 7.414196",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 4668.1,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": "KR-HTTP-02-ELITE-45.93.30.241:6005"
     },
     {
       "source": "monosans_kr_json",
@@ -38,50 +67,23 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 2.033,
-      "https_time_s": 1.631,
+      "geo_time_s": 1.389,
+      "https_time_s": 1.778,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.625287",
+      "https_result": "200 1.769947",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dongdaemun",
         "country_code": "KR",
-        "timeout_s": 3.97
+        "timeout_s": 2.85
       },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-    },
-    {
-      "source": "monosans_kr_json",
-      "proxy": "http://121.126.185.63:25152",
-      "protocol": "http",
-      "ip": "121.126.185.63",
-      "port": 25152,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 3.9,
-      "https_time_s": 5.681,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "121.126.185.63"
-      },
-      "https_result": "200 5.674321",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "city": "Changwŏn",
-        "country_code": "KR",
-        "timeout_s": 4.22
-      },
-      "stash_name": "KR-HTTP-03-UNKNOWN-121.126.185.63:25152"
+      "stash_name": "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
     },
     {
       "source": "proxifly",
@@ -92,15 +94,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.926,
-      "https_time_s": 0.701,
+      "geo_time_s": 1.384,
+      "https_time_s": 0.963,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.694169",
+      "https_result": "200 0.955571",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
