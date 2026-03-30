@@ -1,32 +1,7 @@
 {
-  "generated_at": "2026-03-30T20:23:29+00:00",
+  "generated_at": "2026-03-30T21:55:08+00:00",
   "working_count": 4,
   "working": [
-    {
-      "source": "iplocate",
-      "proxy": "http://59.8.203.55:80",
-      "protocol": "http",
-      "ip": "59.8.203.55",
-      "port": 80,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.747,
-      "https_time_s": 0.763,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "59.8.203.55"
-      },
-      "https_result": "200 0.755895",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "country_code": "KR"
-      },
-      "stash_name": "KR-HTTP-01-UNKNOWN-59.8.203.55:80"
-    },
     {
       "source": "monosans_kr_json",
       "proxy": "http://1.231.81.166:3128",
@@ -36,15 +11,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.792,
-      "https_time_s": 1.015,
+      "geo_time_s": 0.606,
+      "https_time_s": 1.019,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.009195",
+      "https_result": "200 1.011444",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -52,7 +27,7 @@
         "country_code": "KR",
         "timeout_s": 1.15
       },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     },
     {
       "source": "monosans_kr_json",
@@ -63,23 +38,23 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.071,
-      "https_time_s": 1.159,
+      "geo_time_s": 1.759,
+      "https_time_s": 1.212,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.126.185.63"
       },
-      "https_result": "200 1.151883",
+      "https_result": "200 1.204152",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Changwŏn",
         "country_code": "KR",
-        "timeout_s": 1.76
+        "timeout_s": 3.06
       },
-      "stash_name": "KR-HTTP-03-UNKNOWN-121.126.185.63:25152"
+      "stash_name": "KR-HTTP-02-UNKNOWN-121.126.185.63:25152"
     },
     {
       "source": "proxifly",
@@ -90,15 +65,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.13,
-      "https_time_s": 0.999,
+      "geo_time_s": 1.691,
+      "https_time_s": 1.045,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.992528",
+      "https_result": "200 1.036907",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -107,7 +82,35 @@
         "city": "Osan",
         "country_code": "KR"
       },
-      "stash_name": "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
+      "stash_name": "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+    },
+    {
+      "source": "proxyscrape",
+      "proxy": "http://146.56.182.165:3128",
+      "protocol": "http",
+      "ip": "146.56.182.165",
+      "port": 3128,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 1.914,
+      "https_time_s": 3.044,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "146.56.182.165"
+      },
+      "https_result": "200 3.036414",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "timeout_ms": 675.9,
+        "city": "Seoul",
+        "country_code": "KR",
+        "api": "proxyscrape_v4"
+      },
+      "stash_name": "KR-HTTP-04-TRANSPARENT-146.56.182.165:3128"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
