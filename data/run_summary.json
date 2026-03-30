@@ -1,32 +1,7 @@
 {
-  "generated_at": "2026-03-30T06:12:21+00:00",
-  "working_count": 4,
+  "generated_at": "2026-03-30T07:59:48+00:00",
+  "working_count": 3,
   "working": [
-    {
-      "source": "skillter_http",
-      "proxy": "http://106.10.55.212:1121",
-      "protocol": "http",
-      "ip": "106.10.55.212",
-      "port": 1121,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.748,
-      "https_time_s": 0.74,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "106.10.55.212"
-      },
-      "https_result": "200 0.732600",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-01-UNKNOWN-106.10.55.212:1121"
-    },
     {
       "source": "monosans_kr_json",
       "proxy": "http://1.231.81.166:3128",
@@ -36,26 +11,26 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.55,
-      "https_time_s": 0.743,
+      "geo_time_s": 0.708,
+      "https_time_s": 0.933,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.735696",
+      "https_result": "200 0.925644",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dongdaemun",
         "country_code": "KR",
-        "timeout_s": 1.13
+        "timeout_s": 1.48
       },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     },
     {
-      "source": "monosans_kr_json",
+      "source": "iplocate",
       "proxy": "http://121.126.185.63:25152",
       "protocol": "http",
       "ip": "121.126.185.63",
@@ -63,23 +38,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.411,
-      "https_time_s": 0.909,
+      "geo_time_s": 3.98,
+      "https_time_s": 1.1,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.126.185.63"
       },
-      "https_result": "200 0.901861",
+      "https_result": "200 1.092785",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Changwŏn",
-        "country_code": "KR",
-        "timeout_s": 2.75
+        "country_code": "KR"
       },
-      "stash_name": "KR-HTTP-03-UNKNOWN-121.126.185.63:25152"
+      "stash_name": "KR-HTTP-02-UNKNOWN-121.126.185.63:25152"
     },
     {
       "source": "proxifly",
@@ -90,15 +63,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.335,
-      "https_time_s": 0.923,
+      "geo_time_s": 1.108,
+      "https_time_s": 0.863,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.915748",
+      "https_result": "200 0.855755",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -107,7 +80,7 @@
         "city": "Osan",
         "country_code": "KR"
       },
-      "stash_name": "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
+      "stash_name": "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
