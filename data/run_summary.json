@@ -1,33 +1,61 @@
 {
-  "generated_at": "2026-03-31T12:38:42+00:00",
-  "working_count": 1,
+  "generated_at": "2026-03-31T15:21:13+00:00",
+  "working_count": 2,
   "working": [
     {
       "source": "monosans_kr_json",
-      "proxy": "http://1.231.81.166:3128",
+      "proxy": "http://121.126.185.63:25152",
       "protocol": "http",
-      "ip": "1.231.81.166",
-      "port": 3128,
+      "ip": "121.126.185.63",
+      "port": 25152,
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.714,
-      "https_time_s": 0.967,
+      "geo_time_s": 2.057,
+      "https_time_s": 1.982,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "1.231.81.166"
+        "query": "121.126.185.63"
       },
-      "https_result": "200 0.960682",
+      "https_result": "200 1.974353",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Dongdaemun",
+        "city": "Changwŏn",
         "country_code": "KR",
-        "timeout_s": 2.22
+        "timeout_s": 3.15
       },
-      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-UNKNOWN-121.126.185.63:25152"
+    },
+    {
+      "source": "proxifly",
+      "proxy": "socks5://121.169.46.116:1090",
+      "protocol": "socks5",
+      "ip": "121.169.46.116",
+      "port": 1090,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 1.453,
+      "https_time_s": 1.016,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "121.169.46.116"
+      },
+      "https_result": "200 1.008943",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Osan",
+        "country_code": "KR"
+      },
+      "stash_name": "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
