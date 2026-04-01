@@ -1,33 +1,62 @@
 {
-  "generated_at": "2026-04-01T10:45:46+00:00",
-  "working_count": 1,
+  "generated_at": "2026-04-01T11:41:16+00:00",
+  "working_count": 2,
   "working": [
     {
-      "source": "monosans_kr_json",
-      "proxy": "http://1.231.81.166:3128",
+      "source": "proxyscrape",
+      "proxy": "http://175.194.173.105:3128",
       "protocol": "http",
-      "ip": "1.231.81.166",
+      "ip": "175.194.173.105",
       "port": 3128,
-      "anonymity": "unknown",
+      "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.672,
-      "https_time_s": 1.135,
+      "geo_time_s": 0.872,
+      "https_time_s": 0.575,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "1.231.81.166"
+        "query": "175.194.173.105"
       },
-      "https_result": "200 1.126982",
+      "https_result": "200 0.567557",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Dongdaemun",
+        "timeout_ms": 822.9,
+        "city": "Goyang-si",
         "country_code": "KR",
-        "timeout_s": 2.06
+        "api": "proxyscrape_v4"
       },
-      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-ELITE-175.194.173.105:3128"
+    },
+    {
+      "source": "proxifly",
+      "proxy": "socks5://121.169.46.116:1090",
+      "protocol": "socks5",
+      "ip": "121.169.46.116",
+      "port": 1090,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 1.876,
+      "https_time_s": 0.856,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "121.169.46.116"
+      },
+      "https_result": "200 0.848381",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Osan",
+        "country_code": "KR"
+      },
+      "stash_name": "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
