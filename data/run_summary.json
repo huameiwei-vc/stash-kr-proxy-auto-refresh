@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T19:51:38+00:00",
+  "generated_at": "2026-04-03T20:21:42+00:00",
   "working_count": 2,
   "working": [
     {
@@ -11,21 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.567,
-      "https_time_s": 0.831,
+      "geo_time_s": 0.863,
+      "https_time_s": 1.159,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.823405",
+      "https_result": "200 1.151691",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dongdaemun",
         "country_code": "KR",
-        "timeout_s": 1.15
+        "timeout_s": 1.79
       },
       "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     },
@@ -38,15 +38,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.024,
-      "https_time_s": 1.184,
+      "geo_time_s": 1.993,
+      "https_time_s": 2.022,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.176659",
+      "https_result": "200 2.014882",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
