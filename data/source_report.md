@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-04T03:41:52+00:00）
+# KR 免费代理自动刷新报告（2026-04-04T05:11:49+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,23 +24,23 @@
 
 ## 原始候选数量
 
-- geonode: 29
-- iplocate: 4
-- monosans_fallback: 133
-- monosans_kr_json: 1
+- geonode: 28
+- iplocate: 0
+- iplocate_error: 0
+- monosans_fallback: 0
+- monosans_kr_json: 0
 - niek: 5
-- proxifly: 11
-- proxyscrape: 18
-- skillter_fallback: 240
-- 去重后总候选: 62
+- proxifly: 8
+- proxyscrape: 14
+- skillter_fallback: 0
+- 去重后总候选: 55
 
 ## 当前验证通过的代理
 
-- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.871877 | source=`monosans_kr_json`
-- 2. `http://122.45.51.68:11113` | `http` | `unknown` | 200 1.585645 | source=`skillter_http`
-- 3. `http://122.45.51.68:33333` | `http` | `unknown` | 200 1.959647 | source=`skillter_http`
-- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.117469 | source=`proxifly`
-- 5. `http://140.245.66.105:8081` | `http` | `transparent` | 200 3.738391 | source=`proxyscrape`
+- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.139873 | source=`niek`
+- 2. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.297849 | source=`proxifly`
+- 3. `http://61.76.102.153:3036` | `http` | `transparent` | 200 1.309719 | source=`proxyscrape`
+- 4. `http://61.76.102.64:3088` | `http` | `transparent` | 200 2.180963 | source=`proxyscrape`
 
 ## 输出文件
 

@@ -1,4 +1,4 @@
-# Generated at 2026-04-04T03:41:52+00:00
+# Generated at 2026-04-04T05:11:49+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -12,23 +12,19 @@ proxies:
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-HTTP-02-UNKNOWN-122.45.51.68:11113"
-    type: http
-    server: 122.45.51.68
-    port: 11113
-  - name: "KR-HTTP-03-UNKNOWN-122.45.51.68:33333"
-    type: http
-    server: 122.45.51.68
-    port: 33333
-  - name: "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
+  - name: "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
     type: socks5
     server: 121.169.46.116
     port: 1090
     udp: true
-  - name: "KR-HTTP-05-TRANSPARENT-140.245.66.105:8081"
+  - name: "KR-HTTP-03-TRANSPARENT-61.76.102.153:3036"
     type: http
-    server: 140.245.66.105
-    port: 8081
+    server: 61.76.102.153
+    port: 3036
+  - name: "KR-HTTP-04-TRANSPARENT-61.76.102.64:3088"
+    type: http
+    server: 61.76.102.64
+    port: 3088
 
 proxy-groups:
   - name: "节点选择"
@@ -37,10 +33,9 @@ proxy-groups:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
       - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-02-UNKNOWN-122.45.51.68:11113"
-      - "KR-HTTP-03-UNKNOWN-122.45.51.68:33333"
-      - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
-      - "KR-HTTP-05-TRANSPARENT-140.245.66.105:8081"
+      - "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-03-TRANSPARENT-61.76.102.153:3036"
+      - "KR-HTTP-04-TRANSPARENT-61.76.102.64:3088"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -49,8 +44,6 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-02-UNKNOWN-122.45.51.68:11113"
-      - "KR-HTTP-03-UNKNOWN-122.45.51.68:33333"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
@@ -58,10 +51,9 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-02-UNKNOWN-122.45.51.68:11113"
-      - "KR-HTTP-03-UNKNOWN-122.45.51.68:33333"
-      - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
-      - "KR-HTTP-05-TRANSPARENT-140.245.66.105:8081"
+      - "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-03-TRANSPARENT-61.76.102.153:3036"
+      - "KR-HTTP-04-TRANSPARENT-61.76.102.64:3088"
 
 rules:
   - MATCH,节点选择
