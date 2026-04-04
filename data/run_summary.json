@@ -1,32 +1,7 @@
 {
-  "generated_at": "2026-04-04T06:11:08+00:00",
-  "working_count": 9,
+  "generated_at": "2026-04-04T07:15:48+00:00",
+  "working_count": 2,
   "working": [
-    {
-      "source": "iplocate",
-      "proxy": "http://59.8.203.55:80",
-      "protocol": "http",
-      "ip": "59.8.203.55",
-      "port": 80,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.707,
-      "https_time_s": 0.786,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "59.8.203.55"
-      },
-      "https_result": "200 0.780902",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "country_code": "KR"
-      },
-      "stash_name": "KR-HTTP-01-UNKNOWN-59.8.203.55:80"
-    },
     {
       "source": "niek",
       "proxy": "http://1.231.81.166:3128",
@@ -36,122 +11,22 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.764,
-      "https_time_s": 0.976,
+      "geo_time_s": 0.868,
+      "https_time_s": 1.129,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.970251",
+      "https_result": "200 1.121075",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "country_code": "KR",
         "status": "page_live"
       },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://122.45.51.68:33334",
-      "protocol": "http",
-      "ip": "122.45.51.68",
-      "port": 33334,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 4.982,
-      "https_time_s": 1.502,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "122.45.51.68"
-      },
-      "https_result": "200 1.496170",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-03-UNKNOWN-122.45.51.68:33334"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://122.45.51.68:6666",
-      "protocol": "http",
-      "ip": "122.45.51.68",
-      "port": 6666,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 1.884,
-      "https_time_s": 1.593,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "122.45.51.68"
-      },
-      "https_result": "200 1.587451",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-04-UNKNOWN-122.45.51.68:6666"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://122.45.51.68:8887",
-      "protocol": "http",
-      "ip": "122.45.51.68",
-      "port": 8887,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 2.124,
-      "https_time_s": 1.798,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "122.45.51.68"
-      },
-      "https_result": "200 1.791711",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-05-UNKNOWN-122.45.51.68:8887"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://122.45.51.68:9991",
-      "protocol": "http",
-      "ip": "122.45.51.68",
-      "port": 9991,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 2.125,
-      "https_time_s": 1.802,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "122.45.51.68"
-      },
-      "https_result": "200 1.796378",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-06-UNKNOWN-122.45.51.68:9991"
+      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     },
     {
       "source": "skillter_http",
@@ -162,71 +37,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 3.542,
-      "https_time_s": 2.078,
+      "geo_time_s": 1.413,
+      "https_time_s": 2.235,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "122.45.51.68"
       },
-      "https_result": "200 2.072620",
+      "https_result": "200 2.228015",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "generic_list": true
       },
-      "stash_name": "KR-HTTP-07-UNKNOWN-122.45.51.68:11113"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://122.45.51.68:45680",
-      "protocol": "http",
-      "ip": "122.45.51.68",
-      "port": 45680,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 2.077,
-      "https_time_s": 2.264,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "122.45.51.68"
-      },
-      "https_result": "200 2.257742",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-08-UNKNOWN-122.45.51.68:45680"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://122.45.51.68:56789",
-      "protocol": "http",
-      "ip": "122.45.51.68",
-      "port": 56789,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 1.725,
-      "https_time_s": 3.146,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "122.45.51.68"
-      },
-      "https_result": "200 3.140484",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-09-UNKNOWN-122.45.51.68:56789"
+      "stash_name": "KR-HTTP-02-UNKNOWN-122.45.51.68:11113"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",

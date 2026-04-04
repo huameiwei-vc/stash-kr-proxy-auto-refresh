@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-04T06:11:08+00:00）
+# KR 免费代理自动刷新报告（2026-04-04T07:15:48+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,26 +25,20 @@
 ## 原始候选数量
 
 - geonode: 28
-- iplocate: 2
-- monosans_fallback: 112
-- monosans_kr_json: 0
+- iplocate: 0
+- iplocate_error: 0
+- monosans_fallback: 172
+- monosans_kr_json: 1
 - niek: 5
-- proxifly: 10
+- proxifly: 9
 - proxyscrape: 17
 - skillter_fallback: 240
 - 去重后总候选: 58
 
 ## 当前验证通过的代理
 
-- 1. `http://59.8.203.55:80` | `http` | `unknown` | 200 0.780902 | source=`iplocate`
-- 2. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.970251 | source=`niek`
-- 3. `http://122.45.51.68:33334` | `http` | `unknown` | 200 1.496170 | source=`skillter_http`
-- 4. `http://122.45.51.68:6666` | `http` | `unknown` | 200 1.587451 | source=`skillter_http`
-- 5. `http://122.45.51.68:8887` | `http` | `unknown` | 200 1.791711 | source=`skillter_http`
-- 6. `http://122.45.51.68:9991` | `http` | `unknown` | 200 1.796378 | source=`skillter_http`
-- 7. `http://122.45.51.68:11113` | `http` | `unknown` | 200 2.072620 | source=`skillter_http`
-- 8. `http://122.45.51.68:45680` | `http` | `unknown` | 200 2.257742 | source=`skillter_http`
-- 9. `http://122.45.51.68:56789` | `http` | `unknown` | 200 3.140484 | source=`skillter_http`
+- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.121075 | source=`niek`
+- 2. `http://122.45.51.68:11113` | `http` | `unknown` | 200 2.228015 | source=`skillter_http`
 
 ## 输出文件
 
