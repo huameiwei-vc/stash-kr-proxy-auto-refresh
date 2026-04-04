@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-04T07:15:48+00:00）
+# KR 免费代理自动刷新报告（2026-04-04T08:00:22+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -30,15 +30,19 @@
 - monosans_fallback: 172
 - monosans_kr_json: 1
 - niek: 5
-- proxifly: 9
-- proxyscrape: 17
+- proxifly: 10
+- proxyscrape: 18
 - skillter_fallback: 240
-- 去重后总候选: 58
+- 去重后总候选: 59
 
 ## 当前验证通过的代理
 
-- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.121075 | source=`niek`
-- 2. `http://122.45.51.68:11113` | `http` | `unknown` | 200 2.228015 | source=`skillter_http`
+- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.810464 | source=`niek`
+- 2. `http://122.45.51.68:8889` | `http` | `unknown` | 200 1.464792 | source=`skillter_http`
+- 3. `http://122.45.51.68:6666` | `http` | `unknown` | 200 1.786017 | source=`skillter_http`
+- 4. `http://122.45.51.68:9991` | `http` | `unknown` | 200 3.142712 | source=`skillter_http`
+- 5. `http://122.45.51.68:23457` | `http` | `unknown` | 200 6.728260 | source=`skillter_http`
+- 6. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.256391 | source=`proxifly`
 
 ## 输出文件
 
