@@ -1,33 +1,34 @@
 {
-  "generated_at": "2026-04-05T12:28:14+00:00",
+  "generated_at": "2026-04-05T13:33:43+00:00",
   "working_count": 2,
   "working": [
     {
-      "source": "monosans_kr_json",
-      "proxy": "http://1.231.81.166:3128",
+      "source": "proxyscrape",
+      "proxy": "http://210.223.44.230:3128",
       "protocol": "http",
-      "ip": "1.231.81.166",
+      "ip": "210.223.44.230",
       "port": 3128,
-      "anonymity": "unknown",
+      "anonymity": "anonymous",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.592,
-      "https_time_s": 0.959,
+      "geo_time_s": 2.035,
+      "https_time_s": 0.784,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "1.231.81.166"
+        "query": "210.223.44.230"
       },
-      "https_result": "200 0.951734",
+      "https_result": "200 0.777447",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Dongdaemun",
+        "timeout_ms": 726.1,
+        "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 1.11
+        "api": "proxyscrape_v4"
       },
-      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-ANONYMOUS-210.223.44.230:3128"
     },
     {
       "source": "proxifly",
@@ -38,15 +39,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.944,
-      "https_time_s": 1.147,
+      "geo_time_s": 1.25,
+      "https_time_s": 0.961,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.139599",
+      "https_result": "200 0.953857",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
