@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-06T14:39:22+00:00",
+  "generated_at": "2026-04-06T15:29:17+00:00",
   "working_count": 2,
   "working": [
     {
-      "source": "niek",
+      "source": "monosans_kr_json",
       "proxy": "http://1.231.81.166:3128",
       "protocol": "http",
       "ip": "1.231.81.166",
@@ -11,20 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 3.637,
-      "https_time_s": 1.518,
+      "geo_time_s": 1.412,
+      "https_time_s": 3.386,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.510991",
+      "https_result": "200 3.377460",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
+        "city": "Dongdaemun",
         "country_code": "KR",
-        "status": "page_live"
+        "timeout_s": 1.22
       },
       "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     },
@@ -37,15 +38,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.169,
-      "https_time_s": 0.885,
+      "geo_time_s": 1.679,
+      "https_time_s": 2.061,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.877410",
+      "https_result": "200 2.052815",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
