@@ -1,4 +1,4 @@
-# Generated at 2026-04-07T17:37:32+00:00
+# Generated at 2026-04-07T18:34:31+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -8,15 +8,14 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
+  - name: "KR-HTTP-01-ELITE-112.163.160.93:3128"
+    type: http
+    server: 112.163.160.93
+    port: 3128
+  - name: "KR-SOCKS5-02-UNKNOWN-123.214.62.25:6881"
     type: socks5
     server: 123.214.62.25
     port: 6881
-    udp: true
-  - name: "KR-SOCKS5-02-UNKNOWN-206.123.156.190:4885"
-    type: socks5
-    server: 206.123.156.190
-    port: 4885
     udp: true
   - name: "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
     type: http
@@ -34,8 +33,8 @@ proxy-groups:
     proxies:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
-      - "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
-      - "KR-SOCKS5-02-UNKNOWN-206.123.156.190:4885"
+      - "KR-HTTP-01-ELITE-112.163.160.93:3128"
+      - "KR-SOCKS5-02-UNKNOWN-123.214.62.25:6881"
       - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
       - DIRECT
@@ -45,8 +44,8 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
-      - "KR-SOCKS5-02-UNKNOWN-206.123.156.190:4885"
+      - "KR-HTTP-01-ELITE-112.163.160.93:3128"
+      - "KR-SOCKS5-02-UNKNOWN-123.214.62.25:6881"
       - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
   - name: "KR-全量自动测速"
     type: url-test
@@ -54,8 +53,8 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
-      - "KR-SOCKS5-02-UNKNOWN-206.123.156.190:4885"
+      - "KR-HTTP-01-ELITE-112.163.160.93:3128"
+      - "KR-SOCKS5-02-UNKNOWN-123.214.62.25:6881"
       - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
 
