@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T16:37:52+00:00",
+  "generated_at": "2026-04-07T17:37:32+00:00",
   "working_count": 4,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.211,
-      "https_time_s": 1.148,
+      "geo_time_s": 1.732,
+      "https_time_s": 0.86,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "123.214.62.25"
       },
-      "https_result": "200 1.140935",
+      "https_result": "200 0.854346",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -29,53 +29,28 @@
     },
     {
       "source": "skillter_socks5",
-      "proxy": "socks5://1.225.116.115:1080",
+      "proxy": "socks5://206.123.156.190:4885",
       "protocol": "socks5",
-      "ip": "1.225.116.115",
-      "port": 1080,
+      "ip": "206.123.156.190",
+      "port": 4885,
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.233,
-      "https_time_s": 11.544,
+      "geo_time_s": 2.941,
+      "https_time_s": 5.964,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "1.225.116.115"
+        "query": "141.164.37.171"
       },
-      "https_result": "200 11.537563",
+      "https_result": "200 5.957286",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "generic_list": true
       },
-      "stash_name": "KR-SOCKS5-02-UNKNOWN-1.225.116.115:1080"
-    },
-    {
-      "source": "skillter_http",
-      "proxy": "http://1.225.116.115:1080",
-      "protocol": "http",
-      "ip": "1.225.116.115",
-      "port": 1080,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.709,
-      "https_time_s": 0.749,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "1.225.116.115"
-      },
-      "https_result": "200 0.742642",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-03-UNKNOWN-1.225.116.115:1080"
+      "stash_name": "KR-SOCKS5-02-UNKNOWN-206.123.156.190:4885"
     },
     {
       "source": "monosans_kr_json",
@@ -86,23 +61,51 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.758,
-      "https_time_s": 1.063,
+      "geo_time_s": 2.533,
+      "https_time_s": 4.217,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.056740",
+      "https_result": "200 4.210721",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dongdaemun",
         "country_code": "KR",
-        "timeout_s": 4.07
+        "timeout_s": 1.18
       },
-      "stash_name": "KR-HTTP-04-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
+    },
+    {
+      "source": "proxifly",
+      "proxy": "socks5://121.169.46.116:1090",
+      "protocol": "socks5",
+      "ip": "121.169.46.116",
+      "port": 1090,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.919,
+      "https_time_s": 0.676,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "121.169.46.116"
+      },
+      "https_result": "200 0.670341",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Osan",
+        "country_code": "KR"
+      },
+      "stash_name": "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
