@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-08T12:40:10+00:00）
+# KR 免费代理自动刷新报告（2026-04-08T14:12:19+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,28 +25,23 @@
 ## 原始候选数量
 
 - geonode: 32
-- iplocate: 3
+- iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 8
+- monosans_kr_json: 4
 - niek: 7
-- proxifly: 19
+- proxifly: 15
 - proxyscrape: 12
 - skillter_fallback: 0
-- 去重后总候选: 75
+- 去重后总候选: 62
 
 ## 当前验证通过的代理
 
-- 1. `socks5://206.123.156.189:10004` | `socks5` | `unknown` | 200 9.889078 | source=`monosans_kr_json`
-- 2. `socks5://206.123.156.224:8708` | `socks5` | `unknown` | 200 10.493802 | source=`iplocate`
-- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 6.082307 | source=`niek`
-- 4. `socks5://1.234.75.15:1080` | `socks5` | `transparent` | 200 0.845915 | source=`proxifly`
-- 5. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 0.870760 | source=`proxifly`
-- 6. `socks5://206.123.156.181:5436` | `socks5` | `transparent` | 200 3.769085 | source=`proxifly`
-- 7. `socks5://206.123.156.224:4240` | `socks5` | `transparent` | 200 4.219863 | source=`proxifly`
-- 8. `socks5://206.123.156.188:5221` | `socks5` | `transparent` | 200 4.445876 | source=`proxifly`
-- 9. `socks5://206.123.156.233:11753` | `socks5` | `transparent` | 200 4.689972 | source=`proxifly`
-- 10. `socks5://206.123.156.209:5229` | `socks5` | `transparent` | 200 4.836863 | source=`proxifly`
-- 11. `socks5://206.123.156.181:7228` | `socks5` | `transparent` | 200 6.906636 | source=`proxifly`
+- 1. `socks5://110.10.174.60:1080` | `socks5` | `unknown` | 200 0.922986 | source=`iplocate`
+- 2. `socks5://1.234.75.15:1080` | `socks5` | `unknown` | 200 0.934929 | source=`monosans_kr_json`
+- 3. `socks5://206.123.156.223:7713` | `socks5` | `unknown` | 200 5.156455 | source=`iplocate`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.272453 | source=`monosans_kr_json`
+- 5. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.144357 | source=`proxifly`
+- 6. `socks5://206.123.156.216:6455` | `socks5` | `transparent` | 200 4.767237 | source=`proxifly`
 
 ## 输出文件
 
