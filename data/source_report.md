@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-08T14:12:19+00:00）
+# KR 免费代理自动刷新报告（2026-04-08T15:41:42+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,24 +24,21 @@
 
 ## 原始候选数量
 
-- geonode: 32
-- iplocate: 2
-- monosans_fallback: 0
-- monosans_kr_json: 4
+- geonode: 31
+- iplocate: 4
+- monosans_fallback: 177
+- monosans_kr_json: 1
 - niek: 7
-- proxifly: 15
+- proxifly: 24
 - proxyscrape: 12
-- skillter_fallback: 0
-- 去重后总候选: 62
+- skillter_fallback: 237
+- 去重后总候选: 74
 
 ## 当前验证通过的代理
 
-- 1. `socks5://110.10.174.60:1080` | `socks5` | `unknown` | 200 0.922986 | source=`iplocate`
-- 2. `socks5://1.234.75.15:1080` | `socks5` | `unknown` | 200 0.934929 | source=`monosans_kr_json`
-- 3. `socks5://206.123.156.223:7713` | `socks5` | `unknown` | 200 5.156455 | source=`iplocate`
-- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.272453 | source=`monosans_kr_json`
-- 5. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.144357 | source=`proxifly`
-- 6. `socks5://206.123.156.216:6455` | `socks5` | `transparent` | 200 4.767237 | source=`proxifly`
+- 1. `socks5://110.10.174.60:1080` | `socks5` | `unknown` | 200 0.724306 | source=`iplocate`
+- 2. `socks5://1.234.75.15:1080` | `socks5` | `unknown` | 200 0.758739 | source=`monosans_kr_json`
+- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 5.541344 | source=`niek`
 
 ## 输出文件
 
