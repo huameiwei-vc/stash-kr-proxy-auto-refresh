@@ -1,4 +1,4 @@
-# Generated at 2026-04-07T20:22:14+00:00
+# Generated at 2026-04-08T05:54:59+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -22,10 +22,6 @@ proxies:
     server: 121.169.46.116
     port: 1090
     udp: true
-  - name: "KR-HTTP-04-TRANSPARENT-119.195.17.15:3112"
-    type: http
-    server: 119.195.17.15
-    port: 3112
 
 proxy-groups:
   - name: "节点选择"
@@ -36,7 +32,6 @@ proxy-groups:
       - "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
-      - "KR-HTTP-04-TRANSPARENT-119.195.17.15:3112"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -55,7 +50,6 @@ proxy-groups:
       - "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
-      - "KR-HTTP-04-TRANSPARENT-119.195.17.15:3112"
 
 rules:
   - MATCH,节点选择
