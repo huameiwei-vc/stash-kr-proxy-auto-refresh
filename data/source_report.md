@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-08T20:37:08+00:00）
+# KR 免费代理自动刷新报告（2026-04-08T22:05:03+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,24 +25,28 @@
 ## 原始候选数量
 
 - geonode: 32
-- iplocate: 2
+- iplocate: 0
+- iplocate_error: 0
 - monosans_fallback: 0
-- monosans_kr_json: 21
+- monosans_kr_json: 7
 - niek: 7
-- proxifly: 22
-- proxyscrape: 11
+- proxifly: 56
+- proxyscrape: 10
 - skillter_fallback: 0
-- 去重后总候选: 84
+- 去重后总候选: 107
 
 ## 当前验证通过的代理
 
-- 1. `socks5://110.10.174.60:1080` | `socks5` | `unknown` | 200 1.690001 | source=`monosans_kr_json`
-- 2. `socks5://206.123.156.212:8232` | `socks5` | `unknown` | 200 6.301336 | source=`monosans_kr_json`
-- 3. `socks5://1.234.75.15:1080` | `socks5` | `unknown` | 200 6.713891 | source=`monosans_kr_json`
-- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.943836 | source=`monosans_kr_json`
-- 5. `http://112.163.160.93:3128` | `http` | `unknown` | 200 2.259647 | source=`niek`
-- 6. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 0.938833 | source=`proxifly`
-- 7. `socks5://206.123.156.220:47250` | `socks5` | `transparent` | 200 4.844569 | source=`proxifly`
+- 1. `socks5://110.10.174.60:1080` | `socks5` | `unknown` | 200 5.913523 | source=`monosans_kr_json`
+- 2. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.039818 | source=`niek`
+- 3. `socks5://206.123.156.224:6832` | `socks5` | `transparent` | 200 3.236958 | source=`proxifly`
+- 4. `socks5://206.123.156.224:4940` | `socks5` | `transparent` | 200 4.166059 | source=`proxifly`
+- 5. `socks5://206.123.156.224:5622` | `socks5` | `transparent` | 200 4.174176 | source=`proxifly`
+- 6. `socks5://206.123.156.199:8043` | `socks5` | `transparent` | 200 4.935072 | source=`proxifly`
+- 7. `socks5://206.123.156.233:10091` | `socks5` | `transparent` | 200 5.600570 | source=`proxifly`
+- 8. `socks5://206.123.156.233:6798` | `socks5` | `transparent` | 200 6.285924 | source=`proxifly`
+- 9. `socks5://206.123.156.189:8783` | `socks5` | `transparent` | 200 7.152490 | source=`proxifly`
+- 10. `http://121.177.154.16:3176` | `http` | `transparent` | 200 1.549214 | source=`proxyscrape`
 
 ## 输出文件
 
