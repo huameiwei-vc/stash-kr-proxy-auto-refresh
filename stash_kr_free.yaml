@@ -1,4 +1,4 @@
-# Generated at 2026-04-09T05:24:41+00:00
+# Generated at 2026-04-09T06:52:16+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -8,15 +8,15 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "KR-SOCKS5-01-UNKNOWN-110.10.174.60:1080"
+  - name: "KR-SOCKS5-01-UNKNOWN-1.234.75.15:1080"
     type: socks5
-    server: 110.10.174.60
+    server: 1.234.75.15
     port: 1080
     udp: true
-  - name: "KR-SOCKS5-02-UNKNOWN-206.123.156.192:8633"
+  - name: "KR-SOCKS5-02-UNKNOWN-206.123.156.205:6184"
     type: socks5
-    server: 206.123.156.192
-    port: 8633
+    server: 206.123.156.205
+    port: 6184
     udp: true
   - name: "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
     type: http
@@ -27,39 +27,16 @@ proxies:
     server: 121.169.46.116
     port: 1090
     udp: true
-  - name: "KR-SOCKS5-05-TRANSPARENT-206.123.156.222:5413"
+  - name: "KR-SOCKS5-05-TRANSPARENT-206.123.156.181:4881"
+    type: socks5
+    server: 206.123.156.181
+    port: 4881
+    udp: true
+  - name: "KR-SOCKS5-06-TRANSPARENT-206.123.156.222:10445"
     type: socks5
     server: 206.123.156.222
-    port: 5413
+    port: 10445
     udp: true
-  - name: "KR-SOCKS5-06-TRANSPARENT-206.123.156.184:9002"
-    type: socks5
-    server: 206.123.156.184
-    port: 9002
-    udp: true
-  - name: "KR-SOCKS5-07-TRANSPARENT-206.123.156.179:5119"
-    type: socks5
-    server: 206.123.156.179
-    port: 5119
-    udp: true
-  - name: "KR-SOCKS5-08-TRANSPARENT-206.123.156.224:17169"
-    type: socks5
-    server: 206.123.156.224
-    port: 17169
-    udp: true
-  - name: "KR-SOCKS5-09-TRANSPARENT-206.123.156.212:8232"
-    type: socks5
-    server: 206.123.156.212
-    port: 8232
-    udp: true
-  - name: "KR-HTTP-10-TRANSPARENT-59.4.138.218:3108"
-    type: http
-    server: 59.4.138.218
-    port: 3108
-  - name: "KR-HTTP-11-TRANSPARENT-61.76.102.64:3064"
-    type: http
-    server: 61.76.102.64
-    port: 3064
 
 proxy-groups:
   - name: "节点选择"
@@ -67,17 +44,12 @@ proxy-groups:
     proxies:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
-      - "KR-SOCKS5-01-UNKNOWN-110.10.174.60:1080"
-      - "KR-SOCKS5-02-UNKNOWN-206.123.156.192:8633"
+      - "KR-SOCKS5-01-UNKNOWN-1.234.75.15:1080"
+      - "KR-SOCKS5-02-UNKNOWN-206.123.156.205:6184"
       - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
-      - "KR-SOCKS5-05-TRANSPARENT-206.123.156.222:5413"
-      - "KR-SOCKS5-06-TRANSPARENT-206.123.156.184:9002"
-      - "KR-SOCKS5-07-TRANSPARENT-206.123.156.179:5119"
-      - "KR-SOCKS5-08-TRANSPARENT-206.123.156.224:17169"
-      - "KR-SOCKS5-09-TRANSPARENT-206.123.156.212:8232"
-      - "KR-HTTP-10-TRANSPARENT-59.4.138.218:3108"
-      - "KR-HTTP-11-TRANSPARENT-61.76.102.64:3064"
+      - "KR-SOCKS5-05-TRANSPARENT-206.123.156.181:4881"
+      - "KR-SOCKS5-06-TRANSPARENT-206.123.156.222:10445"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -85,8 +57,8 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-UNKNOWN-110.10.174.60:1080"
-      - "KR-SOCKS5-02-UNKNOWN-206.123.156.192:8633"
+      - "KR-SOCKS5-01-UNKNOWN-1.234.75.15:1080"
+      - "KR-SOCKS5-02-UNKNOWN-206.123.156.205:6184"
       - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
   - name: "KR-全量自动测速"
     type: url-test
@@ -94,17 +66,12 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-UNKNOWN-110.10.174.60:1080"
-      - "KR-SOCKS5-02-UNKNOWN-206.123.156.192:8633"
+      - "KR-SOCKS5-01-UNKNOWN-1.234.75.15:1080"
+      - "KR-SOCKS5-02-UNKNOWN-206.123.156.205:6184"
       - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
-      - "KR-SOCKS5-05-TRANSPARENT-206.123.156.222:5413"
-      - "KR-SOCKS5-06-TRANSPARENT-206.123.156.184:9002"
-      - "KR-SOCKS5-07-TRANSPARENT-206.123.156.179:5119"
-      - "KR-SOCKS5-08-TRANSPARENT-206.123.156.224:17169"
-      - "KR-SOCKS5-09-TRANSPARENT-206.123.156.212:8232"
-      - "KR-HTTP-10-TRANSPARENT-59.4.138.218:3108"
-      - "KR-HTTP-11-TRANSPARENT-61.76.102.64:3064"
+      - "KR-SOCKS5-05-TRANSPARENT-206.123.156.181:4881"
+      - "KR-SOCKS5-06-TRANSPARENT-206.123.156.222:10445"
 
 rules:
   - MATCH,节点选择
