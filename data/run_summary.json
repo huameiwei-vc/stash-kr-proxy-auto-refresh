@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-11T14:59:08+00:00",
+  "generated_at": "2026-04-11T15:32:34+00:00",
   "working_count": 2,
   "working": [
     {
-      "source": "monosans_kr_json",
+      "source": "niek",
       "proxy": "http://1.231.81.166:3128",
       "protocol": "http",
       "ip": "1.231.81.166",
@@ -11,21 +11,20 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.448,
-      "https_time_s": 4.862,
+      "geo_time_s": 3.323,
+      "https_time_s": 3.525,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 4.855832",
+      "https_result": "200 3.517847",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 5.34
+        "status": "page_live"
       },
       "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     },
@@ -38,15 +37,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.16,
-      "https_time_s": 0.957,
+      "geo_time_s": 1.128,
+      "https_time_s": 0.777,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.950381",
+      "https_result": "200 0.770403",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
