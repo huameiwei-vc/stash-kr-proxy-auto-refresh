@@ -1,4 +1,4 @@
-# Generated at 2026-04-11T21:21:47+00:00
+# Generated at 2026-04-11T21:53:16+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -12,20 +12,20 @@ proxies:
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+  - name: "KR-SOCKS5-02-TRANSPARENT-211.185.201.101:1080"
+    type: socks5
+    server: 211.185.201.101
+    port: 1080
+    udp: true
+  - name: "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
     type: socks5
     server: 121.169.46.116
     port: 1090
     udp: true
-  - name: "KR-SOCKS5-03-TRANSPARENT-206.123.156.196:8360"
+  - name: "KR-SOCKS5-04-TRANSPARENT-206.123.156.223:4627"
     type: socks5
-    server: 206.123.156.196
-    port: 8360
-    udp: true
-  - name: "KR-SOCKS5-04-TRANSPARENT-206.123.156.233:4876"
-    type: socks5
-    server: 206.123.156.233
-    port: 4876
+    server: 206.123.156.223
+    port: 4627
     udp: true
 
 proxy-groups:
@@ -35,9 +35,9 @@ proxy-groups:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
       - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
-      - "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
-      - "KR-SOCKS5-03-TRANSPARENT-206.123.156.196:8360"
-      - "KR-SOCKS5-04-TRANSPARENT-206.123.156.233:4876"
+      - "KR-SOCKS5-02-TRANSPARENT-211.185.201.101:1080"
+      - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+      - "KR-SOCKS5-04-TRANSPARENT-206.123.156.223:4627"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -53,9 +53,9 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
-      - "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
-      - "KR-SOCKS5-03-TRANSPARENT-206.123.156.196:8360"
-      - "KR-SOCKS5-04-TRANSPARENT-206.123.156.233:4876"
+      - "KR-SOCKS5-02-TRANSPARENT-211.185.201.101:1080"
+      - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+      - "KR-SOCKS5-04-TRANSPARENT-206.123.156.223:4627"
 
 rules:
   - MATCH,节点选择
