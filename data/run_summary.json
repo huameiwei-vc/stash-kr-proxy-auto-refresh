@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-12T15:20:27+00:00",
-  "working_count": 2,
+  "generated_at": "2026-04-12T15:55:42+00:00",
+  "working_count": 3,
   "working": [
     {
       "source": "niek",
@@ -11,15 +11,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.472,
-      "https_time_s": 1.051,
+      "geo_time_s": 0.367,
+      "https_time_s": 0.825,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.044675",
+      "https_result": "200 0.818569",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -37,15 +37,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.148,
-      "https_time_s": 1.273,
+      "geo_time_s": 0.759,
+      "https_time_s": 0.702,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.266421",
+      "https_result": "200 0.694983",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -55,6 +55,34 @@
         "country_code": "KR"
       },
       "stash_name": "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+    },
+    {
+      "source": "proxifly",
+      "proxy": "socks5://43.133.77.87:1080",
+      "protocol": "socks5",
+      "ip": "43.133.77.87",
+      "port": 1080,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.924,
+      "https_time_s": 0.932,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "43.133.77.87"
+      },
+      "https_result": "200 0.924720",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": "KR-SOCKS5-03-TRANSPARENT-43.133.77.87:1080"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
