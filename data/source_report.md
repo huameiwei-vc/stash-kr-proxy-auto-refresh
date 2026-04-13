@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-12T23:56:21+00:00）
+# KR 免费代理自动刷新报告（2026-04-13T01:48:25+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,29 +24,24 @@
 
 ## 原始候选数量
 
-- geonode: 25
-- iplocate: 0
-- iplocate_error: 0
+- geonode: 24
+- iplocate: 23
 - monosans_fallback: 0
-- monosans_kr_json: 6
-- niek: 4
-- proxifly: 57
-- proxyscrape: 20
+- monosans_kr_json: 19
+- niek: 5
+- proxifly: 18
+- proxyscrape: 16
 - skillter_fallback: 0
-- 去重后总候选: 107
+- 去重后总候选: 99
 
 ## 当前验证通过的代理
 
-- 1. `socks5://43.133.77.87:1080` | `socks5` | `unknown` | 200 1.095704 | source=`monosans_kr_json`
-- 2. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.749090 | source=`monosans_kr_json`
-- 3. `socks5://61.77.118.52:1080` | `socks5` | `transparent` | 200 1.030506 | source=`proxifly`
-- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.356663 | source=`proxifly`
-- 5. `socks5://206.123.156.236:4661` | `socks5` | `transparent` | 200 3.654590 | source=`proxifly`
-- 6. `socks5://206.123.156.218:5678` | `socks5` | `transparent` | 200 4.883274 | source=`proxifly`
-- 7. `socks5://206.123.156.181:5171` | `socks5` | `transparent` | 200 7.209482 | source=`proxifly`
-- 8. `socks5://206.123.156.222:5112` | `socks5` | `transparent` | 200 8.060049 | source=`proxifly`
-- 9. `socks5://206.123.156.187:6403` | `socks5` | `transparent` | 200 8.147573 | source=`proxifly`
-- 10. `socks5://206.123.156.217:12852` | `socks5` | `transparent` | 200 10.355693 | source=`proxifly`
+- 1. `socks5://43.133.77.87:1080` | `socks5` | `unknown` | 200 2.406208 | source=`monosans_kr_json`
+- 2. `http://1.225.116.115:1080` | `http` | `unknown` | 200 1.276171 | source=`monosans_kr_json`
+- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.705585 | source=`monosans_kr_json`
+- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 0.834181 | source=`proxifly`
+- 5. `socks5://1.225.116.115:1080` | `socks5` | `transparent` | 200 3.461227 | source=`proxifly`
+- 6. `socks5://206.123.156.218:6461` | `socks5` | `transparent` | 200 6.399178 | source=`proxifly`
 
 ## 输出文件
 
