@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T17:56:06+00:00",
+  "generated_at": "2026-04-14T18:59:01+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,21 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.639,
-      "https_time_s": 1.174,
+      "geo_time_s": 0.706,
+      "https_time_s": 0.87,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "123.214.62.25"
       },
-      "https_result": "200 1.165739",
+      "https_result": "200 0.863455",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Yongin-si",
         "country_code": "KR",
-        "timeout_s": 1.45
+        "timeout_s": 1.49
       },
       "stash_name": "KR-SOCKS5-01-UNKNOWN-123.214.62.25:6881"
     },
@@ -38,21 +38,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.125,
-      "https_time_s": 1.113,
+      "geo_time_s": 0.779,
+      "https_time_s": 1.602,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.104969",
+      "https_result": "200 1.594630",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 2.87
+        "timeout_s": 1.28
       },
       "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
     },
@@ -65,15 +65,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.204,
-      "https_time_s": 1.135,
+      "geo_time_s": 0.697,
+      "https_time_s": 1.872,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.126806",
+      "https_result": "200 1.864759",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
