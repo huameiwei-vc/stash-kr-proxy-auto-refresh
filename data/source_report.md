@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-17T23:22:21+00:00）
+# KR 免费代理自动刷新报告（2026-04-17T23:59:16+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,21 +25,30 @@
 ## 原始候选数量
 
 - geonode: 45
-- iplocate: 3
-- monosans_fallback: 170
-- monosans_kr_json: 7
+- iplocate: 0
+- iplocate_error: 0
+- monosans_fallback: 0
+- monosans_kr_json: 22
 - niek: 19
-- proxifly: 85
-- proxyscrape: 29
-- skillter_fallback: 240
-- 去重后总候选: 176
+- proxifly: 93
+- proxyscrape: 21
+- skillter_fallback: 0
+- 去重后总候选: 175
 
 ## 当前验证通过的代理
 
-- 1. `socks5://3.35.138.52:1080` | `socks5` | `unknown` | 200 1.179520 | source=`monosans_kr_json`
-- 2. `socks5://152.70.237.238:3128` | `socks5` | `unknown` | 200 6.404394 | source=`skillter_socks5`
-- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.671748 | source=`monosans_kr_json`
-- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.411029 | source=`proxifly`
+- 1. `socks5://121.149.136.155:1080` | `socks5` | `elite` | 200 1.186253 | source=`proxyscrape`
+- 2. `socks5://3.35.138.52:1080` | `socks5` | `unknown` | 200 1.262382 | source=`monosans_kr_json`
+- 3. `socks5://206.123.156.204:10523` | `socks5` | `unknown` | 200 6.739587 | source=`monosans_kr_json`
+- 4. `socks5://206.123.156.200:8424` | `socks5` | `unknown` | 200 6.995904 | source=`monosans_kr_json`
+- 5. `socks5://206.123.156.217:6183` | `socks5` | `unknown` | 200 9.126969 | source=`monosans_kr_json`
+- 6. `socks5://206.123.156.204:7459` | `socks5` | `unknown` | 200 11.441467 | source=`monosans_kr_json`
+- 7. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.723392 | source=`monosans_kr_json`
+- 8. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.151370 | source=`proxifly`
+- 9. `socks5://206.123.156.225:5474` | `socks5` | `transparent` | 200 3.929367 | source=`proxifly`
+- 10. `socks5://206.123.156.222:6820` | `socks5` | `transparent` | 200 4.547937 | source=`proxifly`
+- 11. `socks5://206.123.156.231:10296` | `socks5` | `transparent` | 200 5.215479 | source=`proxifly`
+- 12. `socks5://206.123.156.222:9035` | `socks5` | `transparent` | 200 6.163582 | source=`proxifly`
 
 ## 输出文件
 
