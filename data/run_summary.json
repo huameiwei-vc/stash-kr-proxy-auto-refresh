@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T02:41:45+00:00",
+  "generated_at": "2026-04-23T07:12:17+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,21 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.047,
-      "https_time_s": 1.571,
+      "geo_time_s": 0.72,
+      "https_time_s": 1.617,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "104.28.249.218"
+        "query": "104.28.217.217"
       },
-      "https_result": "200 1.562106",
+      "https_result": "200 1.609773",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Incheon",
         "country_code": "KR",
-        "timeout_s": 1.73
+        "timeout_s": 2.11
       },
       "stash_name": "KR-SOCKS5-01-UNKNOWN-152.70.91.193:40000"
     },
@@ -38,21 +38,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.426,
-      "https_time_s": 0.738,
+      "geo_time_s": 0.35,
+      "https_time_s": 0.545,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.729842",
+      "https_result": "200 0.537944",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 1.14
+        "timeout_s": 1.44
       },
       "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
     },
@@ -65,15 +65,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.02,
-      "https_time_s": 1.682,
+      "geo_time_s": 0.702,
+      "https_time_s": 1.251,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.672816",
+      "https_result": "200 1.243975",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
