@@ -1,32 +1,7 @@
 {
-  "generated_at": "2026-04-24T17:34:13+00:00",
+  "generated_at": "2026-04-24T18:26:43+00:00",
   "working_count": 3,
   "working": [
-    {
-      "source": "skillter_socks5",
-      "proxy": "socks5://221.163.31.184:1080",
-      "protocol": "socks5",
-      "ip": "221.163.31.184",
-      "port": 1080,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 1.046,
-      "https_time_s": 0.757,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "221.163.31.184"
-      },
-      "https_result": "200 0.749157",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-SOCKS5-01-UNKNOWN-221.163.31.184:1080"
-    },
     {
       "source": "monosans_kr_json",
       "proxy": "http://1.231.81.166:3128",
@@ -36,23 +11,68 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.827,
-      "https_time_s": 1.904,
+      "geo_time_s": 1.004,
+      "https_time_s": 0.744,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 1.895450",
+      "https_result": "200 0.738144",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 1.16
+        "timeout_s": 1.38
       },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+    },
+    {
+      "source": "iplocate",
+      "proxy": "http://43.200.179.23:8301",
+      "protocol": "http",
+      "ip": "43.200.179.23",
+      "port": 8301,
+      "anonymity": "unknown",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.274,
+      "https_time_s": 2.728,
+      "geo": {
+        "status": "success",
+        "continent": "Asia",
+        "continentCode": "AS",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "region": "NY",
+        "regionName": "Seoul",
+        "city": "Seoul",
+        "district": "",
+        "zip": "03141",
+        "lat": 40.674,
+        "lon": -73.9701,
+        "timezone": "Asia/Seoul",
+        "offset": -14400,
+        "currency": "USD",
+        "isp": "Amazon.com",
+        "org": "AS16509 Amazon.com, Inc.",
+        "as": "AS16509 Amazon.com, Inc.",
+        "asname": "Amazon.com",
+        "reverse": "ec2-43-200-179-23.ap-northeast-2.compute.amazonaws.com",
+        "mobile": false,
+        "proxy": true,
+        "hosting": true,
+        "query": "43.200.179.23"
+      },
+      "https_result": "200 2.720108",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "country_code": "KR"
+      },
+      "stash_name": "KR-HTTP-02-UNKNOWN-43.200.179.23:8301"
     },
     {
       "source": "proxifly",
@@ -63,15 +83,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.369,
-      "https_time_s": 2.031,
+      "geo_time_s": 0.76,
+      "https_time_s": 1.02,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 2.023018",
+      "https_result": "200 1.013932",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
