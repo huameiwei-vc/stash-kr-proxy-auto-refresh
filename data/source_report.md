@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-04-26T15:40:30+00:00）
+# KR 免费代理自动刷新报告（2026-04-26T16:23:20+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,19 +25,21 @@
 ## 原始候选数量
 
 - geonode: 53
-- iplocate: 1
-- monosans_fallback: 146
-- monosans_kr_json: 3
+- iplocate: 0
+- iplocate_error: 0
+- monosans_fallback: 134
+- monosans_kr_json: 1
 - niek: 8
-- proxifly: 16
-- proxyscrape: 12
+- proxifly: 15
+- proxyscrape: 9
 - skillter_fallback: 240
-- 去重后总候选: 87
+- 去重后总候选: 82
 
 ## 当前验证通过的代理
 
-- 1. `http://43.133.90.161:8888` | `http` | `unknown` | 200 11.222419 | source=`niek`
-- 2. `http://1.231.81.166:3128` | `http` | `unknown` | 200 11.851388 | source=`niek`
+- 1. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 7.399391 | source=`proxyscrape`
+- 2. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.100551 | source=`monosans_kr_json`
+- 3. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 0.792898 | source=`proxifly`
 
 ## 输出文件
 
