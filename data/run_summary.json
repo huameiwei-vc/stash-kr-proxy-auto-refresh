@@ -1,62 +1,33 @@
 {
-  "generated_at": "2026-04-27T17:00:05+00:00",
-  "working_count": 2,
+  "generated_at": "2026-04-27T18:04:09+00:00",
+  "working_count": 1,
   "working": [
     {
-      "source": "proxyscrape",
+      "source": "monosans_kr_json",
       "proxy": "socks5://43.133.90.161:8088",
       "protocol": "socks5",
       "ip": "43.133.90.161",
       "port": 8088,
-      "anonymity": "elite",
+      "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.917,
-      "https_time_s": 3.124,
+      "geo_time_s": 3.907,
+      "https_time_s": 7.027,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.133.90.161"
       },
-      "https_result": "200 3.115748",
+      "https_result": "200 7.019110",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "timeout_ms": 5610.1,
         "city": "Seoul",
         "country_code": "KR",
-        "api": "proxyscrape_v4"
+        "timeout_s": 3.39
       },
-      "stash_name": "KR-SOCKS5-01-ELITE-43.133.90.161:8088"
-    },
-    {
-      "source": "proxifly",
-      "proxy": "socks5://121.169.46.116:1090",
-      "protocol": "socks5",
-      "ip": "121.169.46.116",
-      "port": 1090,
-      "anonymity": "transparent",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.822,
-      "https_time_s": 1.37,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "121.169.46.116"
-      },
-      "https_result": "200 1.362658",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "https_hint": false,
-        "score": 1,
-        "city": "Osan",
-        "country_code": "KR"
-      },
-      "stash_name": "KR-SOCKS5-02-TRANSPARENT-121.169.46.116:1090"
+      "stash_name": "KR-SOCKS5-01-UNKNOWN-43.133.90.161:8088"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
