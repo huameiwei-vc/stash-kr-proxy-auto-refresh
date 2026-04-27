@@ -1,4 +1,4 @@
-# Generated at 2026-04-27T18:04:09+00:00
+# Generated at 2026-04-27T19:46:28+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -8,11 +8,24 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "KR-SOCKS5-01-UNKNOWN-43.133.90.161:8088"
+  - name: "KR-SOCKS5-01-ELITE-152.70.237.238:3128"
     type: socks5
-    server: 43.133.90.161
-    port: 8088
+    server: 152.70.237.238
+    port: 3128
     udp: true
+  - name: "KR-HTTP-02-UNKNOWN-43.133.90.161:8888"
+    type: http
+    server: 43.133.90.161
+    port: 8888
+  - name: "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    udp: true
+  - name: "KR-HTTP-04-TRANSPARENT-221.156.27.160:3140"
+    type: http
+    server: 221.156.27.160
+    port: 3140
 
 proxy-groups:
   - name: "节点选择"
@@ -20,7 +33,10 @@ proxy-groups:
     proxies:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
-      - "KR-SOCKS5-01-UNKNOWN-43.133.90.161:8088"
+      - "KR-SOCKS5-01-ELITE-152.70.237.238:3128"
+      - "KR-HTTP-02-UNKNOWN-43.133.90.161:8888"
+      - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-04-TRANSPARENT-221.156.27.160:3140"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -28,14 +44,18 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-UNKNOWN-43.133.90.161:8088"
+      - "KR-SOCKS5-01-ELITE-152.70.237.238:3128"
+      - "KR-HTTP-02-UNKNOWN-43.133.90.161:8888"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-UNKNOWN-43.133.90.161:8088"
+      - "KR-SOCKS5-01-ELITE-152.70.237.238:3128"
+      - "KR-HTTP-02-UNKNOWN-43.133.90.161:8888"
+      - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-04-TRANSPARENT-221.156.27.160:3140"
 
 rules:
   - MATCH,节点选择
