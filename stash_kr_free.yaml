@@ -1,4 +1,4 @@
-# Generated at 2026-05-02T21:36:13+00:00
+# Generated at 2026-05-02T22:21:23+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -17,10 +17,10 @@ proxies:
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-SOCKS5-03-TRANSPARENT-206.123.156.227:36489"
+  - name: "KR-SOCKS5-03-TRANSPARENT-206.123.156.220:8616"
     type: socks5
-    server: 206.123.156.227
-    port: 36489
+    server: 206.123.156.220
+    port: 8616
     udp: true
 
 proxy-groups:
@@ -31,7 +31,7 @@ proxy-groups:
       - "KR-全量自动测速"
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-      - "KR-SOCKS5-03-TRANSPARENT-206.123.156.227:36489"
+      - "KR-SOCKS5-03-TRANSPARENT-206.123.156.220:8616"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -49,7 +49,7 @@ proxy-groups:
     proxies:
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-      - "KR-SOCKS5-03-TRANSPARENT-206.123.156.227:36489"
+      - "KR-SOCKS5-03-TRANSPARENT-206.123.156.220:8616"
 
 rules:
   - MATCH,节点选择
