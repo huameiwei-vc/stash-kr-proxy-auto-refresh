@@ -1,4 +1,4 @@
-# Generated at 2026-05-02T20:02:30+00:00
+# Generated at 2026-05-02T20:58:13+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -17,18 +17,6 @@ proxies:
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-HTTP-03-TRANSPARENT-121.177.104.154:3192"
-    type: http
-    server: 121.177.104.154
-    port: 3192
-  - name: "KR-HTTP-04-TRANSPARENT-221.156.27.160:3060"
-    type: http
-    server: 221.156.27.160
-    port: 3060
-  - name: "KR-HTTP-05-TRANSPARENT-183.104.30.49:3152"
-    type: http
-    server: 183.104.30.49
-    port: 3152
 
 proxy-groups:
   - name: "节点选择"
@@ -38,9 +26,6 @@ proxy-groups:
       - "KR-全量自动测速"
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-03-TRANSPARENT-121.177.104.154:3192"
-      - "KR-HTTP-04-TRANSPARENT-221.156.27.160:3060"
-      - "KR-HTTP-05-TRANSPARENT-183.104.30.49:3152"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -58,9 +43,6 @@ proxy-groups:
     proxies:
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-03-TRANSPARENT-121.177.104.154:3192"
-      - "KR-HTTP-04-TRANSPARENT-221.156.27.160:3060"
-      - "KR-HTTP-05-TRANSPARENT-183.104.30.49:3152"
 
 rules:
   - MATCH,节点选择
