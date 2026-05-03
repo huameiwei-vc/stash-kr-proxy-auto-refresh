@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-03T07:31:54+00:00）
+# KR 免费代理自动刷新报告（2026-05-03T09:07:41+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,25 +24,27 @@
 
 ## 原始候选数量
 
-- geonode: 75
+- geonode: 72
 - iplocate: 1
 - monosans_fallback: 0
-- monosans_kr_json: 5
+- monosans_kr_json: 18
 - niek: 7
-- proxifly: 24
-- proxyscrape: 35
+- proxifly: 38
+- proxyscrape: 24
 - skillter_fallback: 0
-- 去重后总候选: 138
+- 去重后总候选: 150
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.361320 | source=`geonode`
-- 2. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 10.599003 | source=`proxyscrape`
-- 3. `socks5://193.123.250.39:1080` | `socks5` | `unknown` | 200 1.551420 | source=`monosans_kr_json`
-- 4. `http://193.123.250.39:1080` | `http` | `unknown` | 200 1.027941 | source=`monosans_kr_json`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.367307 | source=`monosans_kr_json`
-- 6. `socks5://206.123.156.211:4912` | `socks5` | `transparent` | 200 5.391510 | source=`proxifly`
-- 7. `socks5://206.123.156.201:4937` | `socks5` | `transparent` | 200 11.438994 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.970791 | source=`geonode`
+- 2. `socks5://193.123.250.39:1080` | `socks5` | `unknown` | 200 1.797179 | source=`monosans_kr_json`
+- 3. `socks5://206.123.156.234:7234` | `socks5` | `unknown` | 200 5.752494 | source=`monosans_kr_json`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.104770 | source=`monosans_kr_json`
+- 5. `http://193.123.250.39:1080` | `http` | `unknown` | 200 1.542979 | source=`monosans_kr_json`
+- 6. `socks5://206.123.156.220:9849` | `socks5` | `transparent` | 200 4.013812 | source=`proxifly`
+- 7. `socks5://206.123.156.234:5629` | `socks5` | `transparent` | 200 4.888646 | source=`proxifly`
+- 8. `socks5://206.123.156.220:8546` | `socks5` | `transparent` | 200 7.836418 | source=`proxifly`
+- 9. `socks5://206.123.156.192:5661` | `socks5` | `transparent` | 200 8.309887 | source=`proxifly`
 
 ## 输出文件
 
