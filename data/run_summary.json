@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T07:56:47+00:00",
+  "generated_at": "2026-05-08T09:06:21+00:00",
   "working_count": 1,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 2.074,
-      "https_time_s": 1.075,
+      "geo_time_s": 0.95,
+      "https_time_s": 1.481,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.067383",
+      "https_result": "200 1.472688",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
