@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-09T21:42:37+00:00）
+# KR 免费代理自动刷新报告（2026-05-09T22:24:54+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -27,24 +27,27 @@
 - geonode: 94
 - iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 10
+- monosans_kr_json: 3
 - niek: 9
-- proxifly: 13
-- proxyscrape: 52
+- proxifly: 14
+- proxyscrape: 33
 - skillter_fallback: 0
-- 去重后总候选: 164
+- 去重后总候选: 144
 
 ## 当前验证通过的代理
 
-- 1. `socks5://193.122.105.251:65535` | `socks5` | `elite` | 200 0.971783 | source=`proxyscrape`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.984197 | source=`geonode`
-- 3. `socks5://49.143.59.205:110` | `socks5` | `elite` | 200 1.220353 | source=`proxyscrape`
-- 4. `socks4://27.102.134.31:1090` | `socks4` | `elite` | 200 1.823247 | source=`proxyscrape`
-- 5. `socks4://27.102.134.32:1081` | `socks4` | `elite` | 200 6.966035 | source=`proxyscrape`
-- 6. `socks5://152.70.91.193:40000` | `socks5` | `unknown` | 200 1.982597 | source=`monosans_kr_json`
-- 7. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.213279 | source=`niek`
-- 8. `http://193.122.96.242:3128` | `http` | `transparent` | 200 0.817017 | source=`geonode`
-- 9. `http://106.10.55.212:1121` | `http` | `transparent` | 200 0.929255 | source=`proxyscrape`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.883340 | source=`geonode`
+- 2. `socks5://146.56.185.39:10800` | `socks5` | `elite` | 200 1.193019 | source=`proxyscrape`
+- 3. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.364829 | source=`geonode`
+- 4. `socks5://27.102.134.32:1081` | `socks5` | `elite` | 200 8.038873 | source=`proxyscrape`
+- 5. `http://220.121.143.33:3128` | `http` | `elite` | 200 0.667983 | source=`proxyscrape`
+- 6. `http://112.163.160.93:3128` | `http` | `elite` | 200 0.673722 | source=`proxyscrape`
+- 7. `socks4://146.56.185.39:10800` | `socks4` | `elite` | 200 1.024549 | source=`proxyscrape`
+- 8. `socks4://27.102.134.32:1080` | `socks4` | `elite` | 200 4.844693 | source=`proxyscrape`
+- 9. `socks4://27.102.134.30:1081` | `socks4` | `elite` | 200 7.760932 | source=`proxyscrape`
+- 10. `http://106.10.55.212:1121` | `http` | `unknown` | 200 0.840375 | source=`monosans_kr_json`
+- 11. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.031783 | source=`monosans_kr_json`
+- 12. `http://121.126.166.115:15648` | `http` | `transparent` | 200 4.805156 | source=`proxifly`
 
 ## 输出文件
 
