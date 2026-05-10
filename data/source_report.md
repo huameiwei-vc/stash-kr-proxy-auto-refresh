@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-10T00:00:16+00:00）
+# KR 免费代理自动刷新报告（2026-05-10T04:10:23+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,25 +24,50 @@
 
 ## 原始候选数量
 
-- geonode: 89
-- iplocate: 2
+- geonode: 95
+- iplocate: 3
 - monosans_fallback: 0
-- monosans_kr_json: 4
-- niek: 9
-- proxifly: 11
-- proxyscrape: 47
+- monosans_kr_json: 21
+- niek: 18
+- proxifly: 25
+- proxyscrape: 71
 - skillter_fallback: 0
-- 去重后总候选: 154
+- 去重后总候选: 194
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.865049 | source=`geonode`
-- 2. `socks5://193.122.105.251:65535` | `socks5` | `elite` | 200 5.765004 | source=`proxyscrape`
-- 3. `socks4://125.209.9.182:1080` | `socks4` | `elite` | 200 0.987923 | source=`proxyscrape`
-- 4. `http://210.223.44.230:3128` | `http` | `anonymous` | 200 2.793692 | source=`proxyscrape`
-- 5. `socks5://152.70.91.193:40000` | `socks5` | `unknown` | 200 1.833241 | source=`monosans_kr_json`
-- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.922173 | source=`monosans_kr_json`
-- 7. `http://121.130.199.80:3128` | `http` | `transparent` | 200 1.100235 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.966077 | source=`geonode`
+- 2. `socks5://146.56.185.39:10800` | `socks5` | `elite` | 200 1.399258 | source=`proxyscrape`
+- 3. `socks5://158.247.206.191:1080` | `socks5` | `elite` | 200 1.473912 | source=`geonode`
+- 4. `http://27.102.134.31:1080` | `http` | `elite` | 200 8.115703 | source=`proxyscrape`
+- 5. `http://27.102.134.32:1081` | `http` | `elite` | 200 9.700519 | source=`proxyscrape`
+- 6. `socks4://158.247.212.189:1080` | `socks4` | `elite` | 200 3.276202 | source=`proxyscrape`
+- 7. `socks4://27.102.134.32:1082` | `socks4` | `elite` | 200 3.448273 | source=`proxyscrape`
+- 8. `socks4://27.102.134.31:1080` | `socks4` | `elite` | 200 7.701918 | source=`proxyscrape`
+- 9. `socks4://27.102.134.31:1082` | `socks4` | `elite` | 200 8.082397 | source=`proxyscrape`
+- 10. `socks4://27.102.134.30:1080` | `socks4` | `elite` | 200 8.140561 | source=`proxyscrape`
+- 11. `socks4://146.56.185.39:10800` | `socks4` | `elite` | 200 10.186451 | source=`proxyscrape`
+- 12. `socks4://27.102.134.31:1090` | `socks4` | `elite` | 200 11.662134 | source=`proxyscrape`
+- 13. `socks4://27.102.134.32:1081` | `socks4` | `elite` | 200 11.694376 | source=`proxyscrape`
+- 14. `socks5://152.70.91.193:40000` | `socks5` | `unknown` | 200 1.674913 | source=`monosans_kr_json`
+- 15. `socks5://27.102.134.31:1082` | `socks5` | `unknown` | 200 6.652658 | source=`monosans_kr_json`
+- 16. `socks5://27.102.134.30:1090` | `socks5` | `unknown` | 200 7.188956 | source=`monosans_kr_json`
+- 17. `socks5://152.70.237.238:3128` | `socks5` | `unknown` | 200 7.472886 | source=`monosans_kr_json`
+- 18. `socks5://27.102.134.31:1080` | `socks5` | `unknown` | 200 8.178912 | source=`monosans_kr_json`
+- 19. `socks5://27.102.134.30:1080` | `socks5` | `unknown` | 200 9.201229 | source=`monosans_kr_json`
+- 20. `socks5://27.102.134.32:1081` | `socks5` | `unknown` | 200 11.301252 | source=`monosans_kr_json`
+- 21. `http://112.163.160.93:3128` | `http` | `unknown` | 200 0.795419 | source=`iplocate`
+- 22. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.092467 | source=`monosans_kr_json`
+- 23. `http://27.102.134.32:1082` | `http` | `unknown` | 200 3.588018 | source=`monosans_kr_json`
+- 24. `http://27.102.134.30:1080` | `http` | `unknown` | 200 7.851364 | source=`monosans_kr_json`
+- 25. `http://27.102.134.30:1090` | `http` | `unknown` | 200 8.477320 | source=`monosans_kr_json`
+- 26. `http://27.102.134.31:1082` | `http` | `unknown` | 200 10.391569 | source=`monosans_kr_json`
+- 27. `socks5://27.102.134.32:1082` | `socks5` | `transparent` | 200 3.069523 | source=`proxifly`
+- 28. `http://121.147.253.205:3036` | `http` | `transparent` | 200 1.892835 | source=`proxifly`
+- 29. `http://121.148.239.82:3051` | `http` | `transparent` | 200 3.019856 | source=`proxyscrape`
+- 30. `http://221.156.27.160:3068` | `http` | `transparent` | 200 3.037498 | source=`proxyscrape`
+- 31. `socks4://152.70.237.238:3128` | `socks4` | `transparent` | 200 3.778206 | source=`proxifly`
+- 32. `socks4://27.102.134.30:1090` | `socks4` | `transparent` | 200 8.064194 | source=`proxifly`
 
 ## 输出文件
 
