@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-10T16:05:55+00:00）
+# KR 免费代理自动刷新报告（2026-05-10T17:09:10+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,57 +24,26 @@
 
 ## 原始候选数量
 
-- geonode: 87
+- geonode: 92
 - iplocate: 1
 - monosans_fallback: 0
-- monosans_kr_json: 23
+- monosans_kr_json: 15
 - niek: 18
-- proxifly: 24
-- proxyscrape: 84
+- proxifly: 11
+- proxyscrape: 38
 - skillter_fallback: 0
-- 去重后总候选: 195
+- 去重后总候选: 165
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.946950 | source=`geonode`
-- 2. `socks5://146.56.185.39:10800` | `socks5` | `elite` | 200 1.413740 | source=`proxyscrape`
-- 3. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.514885 | source=`geonode`
-- 4. `socks5://27.102.134.30:1081` | `socks5` | `elite` | 200 6.532603 | source=`proxyscrape`
-- 5. `socks4://146.56.185.39:10800` | `socks4` | `elite` | 200 1.161167 | source=`proxyscrape`
-- 6. `socks4://158.247.206.191:1080` | `socks4` | `elite` | 200 2.285699 | source=`proxyscrape`
-- 7. `socks4://130.162.141.185:52916` | `socks4` | `elite` | 200 3.262337 | source=`proxyscrape`
-- 8. `socks4://27.102.134.31:1081` | `socks4` | `elite` | 200 4.752688 | source=`proxyscrape`
-- 9. `socks4://27.102.134.32:1081` | `socks4` | `elite` | 200 5.547405 | source=`proxyscrape`
-- 10. `socks4://27.102.134.31:1082` | `socks4` | `elite` | 200 6.387212 | source=`proxyscrape`
-- 11. `socks4://27.102.134.31:1080` | `socks4` | `elite` | 200 6.596284 | source=`proxyscrape`
-- 12. `socks4://27.102.134.30:1090` | `socks4` | `elite` | 200 6.608490 | source=`proxyscrape`
-- 13. `socks4://27.102.134.30:1080` | `socks4` | `elite` | 200 6.685478 | source=`proxyscrape`
-- 14. `socks4://27.102.134.32:1080` | `socks4` | `elite` | 200 7.920865 | source=`proxyscrape`
-- 15. `socks4://27.102.134.32:1082` | `socks4` | `elite` | 200 9.897104 | source=`proxyscrape`
-- 16. `socks4://27.102.134.31:1090` | `socks4` | `elite` | 200 11.137559 | source=`proxyscrape`
-- 17. `http://210.223.44.230:3128` | `http` | `anonymous` | 200 2.588520 | source=`proxyscrape`
-- 18. `socks5://27.102.134.30:1080` | `socks5` | `unknown` | 200 4.973420 | source=`monosans_kr_json`
-- 19. `socks5://27.102.134.31:1081` | `socks5` | `unknown` | 200 5.320959 | source=`monosans_kr_json`
-- 20. `socks5://27.102.134.30:1082` | `socks5` | `unknown` | 200 5.548648 | source=`monosans_kr_json`
-- 21. `socks5://27.102.134.31:1082` | `socks5` | `unknown` | 200 6.749613 | source=`monosans_kr_json`
-- 22. `socks5://27.102.134.31:1080` | `socks5` | `unknown` | 200 6.757188 | source=`monosans_kr_json`
-- 23. `socks5://27.102.134.32:1080` | `socks5` | `unknown` | 200 6.893213 | source=`monosans_kr_json`
-- 24. `socks5://27.102.134.30:1090` | `socks5` | `unknown` | 200 9.156050 | source=`monosans_kr_json`
-- 25. `socks5://27.102.134.31:1090` | `socks5` | `unknown` | 200 10.073664 | source=`monosans_kr_json`
-- 26. `socks5://27.102.134.32:1082` | `socks5` | `unknown` | 200 11.850097 | source=`monosans_kr_json`
-- 27. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.896813 | source=`monosans_kr_json`
-- 28. `http://27.102.134.31:1080` | `http` | `unknown` | 200 5.620297 | source=`monosans_kr_json`
-- 29. `http://27.102.134.31:1082` | `http` | `unknown` | 200 5.659767 | source=`monosans_kr_json`
-- 30. `http://27.102.134.31:1081` | `http` | `unknown` | 200 6.023365 | source=`monosans_kr_json`
-- 31. `http://27.102.134.30:1082` | `http` | `unknown` | 200 6.057622 | source=`monosans_kr_json`
-- 32. `http://27.102.134.32:1081` | `http` | `unknown` | 200 6.203661 | source=`monosans_kr_json`
-- 33. `http://27.102.134.30:1081` | `http` | `unknown` | 200 6.584046 | source=`monosans_kr_json`
-- 34. `http://27.102.134.30:1080` | `http` | `unknown` | 200 7.596362 | source=`monosans_kr_json`
-- 35. `http://27.102.134.32:1080` | `http` | `unknown` | 200 8.155080 | source=`monosans_kr_json`
-- 36. `http://27.102.134.30:1090` | `http` | `unknown` | 200 9.052415 | source=`monosans_kr_json`
-- 37. `http://27.102.134.32:1082` | `http` | `unknown` | 200 10.334494 | source=`monosans_kr_json`
-- 38. `socks4://27.102.134.30:1082` | `socks4` | `transparent` | 200 5.986748 | source=`proxifly`
-- 39. `socks4://27.102.134.30:1081` | `socks4` | `transparent` | 200 6.245639 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.964470 | source=`geonode`
+- 2. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.473430 | source=`geonode`
+- 3. `socks5://27.102.134.30:1081` | `socks5` | `elite` | 200 6.246554 | source=`proxyscrape`
+- 4. `http://27.102.134.31:1081` | `http` | `elite` | 200 6.489050 | source=`proxyscrape`
+- 5. `http://27.102.134.32:1080` | `http` | `elite` | 200 6.492527 | source=`proxyscrape`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.457787 | source=`monosans_kr_json`
+- 7. `http://27.102.134.31:1090` | `http` | `unknown` | 200 4.317108 | source=`niek`
+- 8. `http://27.102.134.31:1080` | `http` | `unknown` | 200 9.171999 | source=`monosans_kr_json`
 
 ## 输出文件
 
