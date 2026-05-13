@@ -1,4 +1,4 @@
-# Generated at 2026-05-13T16:11:50+00:00
+# Generated at 2026-05-13T18:13:01+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -13,10 +13,18 @@ proxies:
     server: 121.169.46.116
     port: 1090
     udp: true
-  - name: "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+  - name: "KR-HTTP-02-TRANSPARENT-193.122.96.242:3128"
     type: http
-    server: 1.231.81.166
+    server: 193.122.96.242
     port: 3128
+  - name: "KR-HTTP-03-TRANSPARENT-146.56.164.121:3128"
+    type: http
+    server: 146.56.164.121
+    port: 3128
+  - name: "KR-HTTP-04-TRANSPARENT-140.245.66.105:8081"
+    type: http
+    server: 140.245.66.105
+    port: 8081
 
 proxy-groups:
   - name: "节点选择"
@@ -25,7 +33,9 @@ proxy-groups:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-02-TRANSPARENT-193.122.96.242:3128"
+      - "KR-HTTP-03-TRANSPARENT-146.56.164.121:3128"
+      - "KR-HTTP-04-TRANSPARENT-140.245.66.105:8081"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -34,7 +44,6 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
@@ -42,7 +51,9 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-02-TRANSPARENT-193.122.96.242:3128"
+      - "KR-HTTP-03-TRANSPARENT-146.56.164.121:3128"
+      - "KR-HTTP-04-TRANSPARENT-140.245.66.105:8081"
 
 rules:
   - MATCH,节点选择
