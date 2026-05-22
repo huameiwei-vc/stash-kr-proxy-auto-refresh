@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-22T20:05:41+00:00）
+# KR 免费代理自动刷新报告（2026-05-22T21:21:33+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,23 +24,23 @@
 
 ## 原始候选数量
 
-- geonode: 103
+- geonode: 104
 - iplocate: 1
 - monosans_fallback: 0
-- monosans_kr_json: 2
+- monosans_kr_json: 1
 - niek: 6
-- proxifly: 9
-- proxyscrape: 28
+- proxifly: 10
+- proxyscrape: 25
 - skillter_fallback: 0
-- 去重后总候选: 143
+- 去重后总候选: 138
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.097288 | source=`geonode`
-- 2. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.712295 | source=`proxyscrape`
-- 3. `http://144.24.84.140:7890` | `http` | `elite` | 200 0.787822 | source=`proxyscrape`
-- 4. `socks4://144.24.84.140:7890` | `socks4` | `elite` | 200 1.001827 | source=`proxyscrape`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 2.514343 | source=`niek`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.733962 | source=`geonode`
+- 2. `socks5://144.24.84.140:7890` | `socks5` | `elite` | 200 1.824747 | source=`proxyscrape`
+- 3. `socks4://144.24.84.140:7890` | `socks4` | `elite` | 200 3.175282 | source=`proxyscrape`
+- 4. `http://144.24.84.140:7890` | `http` | `unknown` | 200 1.380130 | source=`monosans_kr_json`
+- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 5.086187 | source=`niek`
 
 ## 输出文件
 
