@@ -1,4 +1,4 @@
-# Generated at 2026-05-22T05:58:59+00:00
+# Generated at 2026-05-22T08:58:13+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -8,36 +8,38 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "KR-SOCKS5-01-ELITE-144.24.84.140:7890"
+  - name: "KR-SOCKS5-01-ELITE-158.247.206.191:1080"
     type: socks5
-    server: 144.24.84.140
-    port: 7890
+    server: 158.247.206.191
+    port: 1080
     udp: true
-  - name: "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
+  - name: "KR-HTTP-02-ELITE-175.194.173.105:3128"
+    type: http
+    server: 175.194.173.105
+    port: 3128
+  - name: "KR-SOCKS5-03-UNKNOWN-206.123.156.225:8436"
     type: socks5
-    server: 121.169.46.116
-    port: 1090
+    server: 206.123.156.225
+    port: 8436
     udp: true
-  - name: "KR-HTTP-03-ELITE-125.129.15.95:3128"
-    type: http
-    server: 125.129.15.95
-    port: 3128
-  - name: "KR-HTTP-04-ELITE-43.155.208.21:3128"
-    type: http
-    server: 43.155.208.21
-    port: 3128
+  - name: "KR-SOCKS5-04-UNKNOWN-206.123.156.226:4583"
+    type: socks5
+    server: 206.123.156.226
+    port: 4583
+    udp: true
   - name: "KR-HTTP-05-UNKNOWN-1.231.81.166:3128"
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-HTTP-06-UNKNOWN-144.24.84.140:7890"
+  - name: "KR-SOCKS5-06-TRANSPARENT-121.169.46.116:1090"
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    udp: true
+  - name: "KR-HTTP-07-TRANSPARENT-140.245.66.105:8081"
     type: http
-    server: 144.24.84.140
-    port: 7890
-  - name: "KR-HTTP-07-TRANSPARENT-222.102.86.137:3168"
-    type: http
-    server: 222.102.86.137
-    port: 3168
+    server: 140.245.66.105
+    port: 8081
 
 proxy-groups:
   - name: "节点选择"
@@ -45,13 +47,13 @@ proxy-groups:
     proxies:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
-      - "KR-SOCKS5-01-ELITE-144.24.84.140:7890"
-      - "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-03-ELITE-125.129.15.95:3128"
-      - "KR-HTTP-04-ELITE-43.155.208.21:3128"
+      - "KR-SOCKS5-01-ELITE-158.247.206.191:1080"
+      - "KR-HTTP-02-ELITE-175.194.173.105:3128"
+      - "KR-SOCKS5-03-UNKNOWN-206.123.156.225:8436"
+      - "KR-SOCKS5-04-UNKNOWN-206.123.156.226:4583"
       - "KR-HTTP-05-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-06-UNKNOWN-144.24.84.140:7890"
-      - "KR-HTTP-07-TRANSPARENT-222.102.86.137:3168"
+      - "KR-SOCKS5-06-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-07-TRANSPARENT-140.245.66.105:8081"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -59,25 +61,24 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-ELITE-144.24.84.140:7890"
-      - "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-03-ELITE-125.129.15.95:3128"
-      - "KR-HTTP-04-ELITE-43.155.208.21:3128"
+      - "KR-SOCKS5-01-ELITE-158.247.206.191:1080"
+      - "KR-HTTP-02-ELITE-175.194.173.105:3128"
+      - "KR-SOCKS5-03-UNKNOWN-206.123.156.225:8436"
+      - "KR-SOCKS5-04-UNKNOWN-206.123.156.226:4583"
       - "KR-HTTP-05-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-06-UNKNOWN-144.24.84.140:7890"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-ELITE-144.24.84.140:7890"
-      - "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-03-ELITE-125.129.15.95:3128"
-      - "KR-HTTP-04-ELITE-43.155.208.21:3128"
+      - "KR-SOCKS5-01-ELITE-158.247.206.191:1080"
+      - "KR-HTTP-02-ELITE-175.194.173.105:3128"
+      - "KR-SOCKS5-03-UNKNOWN-206.123.156.225:8436"
+      - "KR-SOCKS5-04-UNKNOWN-206.123.156.226:4583"
       - "KR-HTTP-05-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-06-UNKNOWN-144.24.84.140:7890"
-      - "KR-HTTP-07-TRANSPARENT-222.102.86.137:3168"
+      - "KR-SOCKS5-06-TRANSPARENT-121.169.46.116:1090"
+      - "KR-HTTP-07-TRANSPARENT-140.245.66.105:8081"
 
 rules:
   - MATCH,节点选择
