@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-23T04:54:58+00:00）
+# KR 免费代理自动刷新报告（2026-05-23T07:24:07+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,23 +24,37 @@
 
 ## 原始候选数量
 
-- geonode: 103
-- iplocate: 10
+- geonode: 101
+- iplocate: 11
 - monosans_fallback: 0
-- monosans_kr_json: 3
+- monosans_kr_json: 5
 - niek: 10
-- proxifly: 12
-- proxyscrape: 28
+- proxifly: 18
+- proxyscrape: 51
 - skillter_fallback: 0
-- 去重后总候选: 157
+- 去重后总候选: 184
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.902838 | source=`geonode`
-- 2. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.988114 | source=`proxyscrape`
-- 3. `socks4://158.247.206.191:1080` | `socks4` | `elite` | 200 2.189340 | source=`proxyscrape`
-- 4. `http://144.24.84.140:7890` | `http` | `unknown` | 200 0.679025 | source=`monosans_kr_json`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.915515 | source=`monosans_kr_json`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.714141 | source=`geonode`
+- 2. `http://3.38.161.46:1080` | `http` | `elite` | 200 0.801757 | source=`proxyscrape`
+- 3. `http://3.38.206.96:1080` | `http` | `elite` | 200 0.867532 | source=`proxyscrape`
+- 4. `http://43.203.112.93:1080` | `http` | `elite` | 200 0.885167 | source=`proxyscrape`
+- 5. `http://43.201.153.78:1080` | `http` | `elite` | 200 0.949886 | source=`proxyscrape`
+- 6. `http://3.38.172.68:1080` | `http` | `elite` | 200 1.385196 | source=`proxyscrape`
+- 7. `http://43.201.153.25:1080` | `http` | `elite` | 200 2.194672 | source=`proxyscrape`
+- 8. `http://43.203.117.104:1080` | `http` | `elite` | 200 2.752723 | source=`proxyscrape`
+- 9. `http://3.38.198.134:1080` | `http` | `elite` | 200 3.094220 | source=`proxyscrape`
+- 10. `http://3.38.146.139:1080` | `http` | `elite` | 200 3.217905 | source=`proxyscrape`
+- 11. `http://43.203.112.144:1080` | `http` | `elite` | 200 3.255986 | source=`proxyscrape`
+- 12. `http://43.201.153.87:1080` | `http` | `elite` | 200 4.562778 | source=`proxyscrape`
+- 13. `http://3.38.163.43:1080` | `http` | `elite` | 200 6.091265 | source=`proxyscrape`
+- 14. `http://43.201.153.223:1080` | `http` | `elite` | 200 6.222965 | source=`proxyscrape`
+- 15. `http://3.38.194.119:1080` | `http` | `elite` | 200 10.284245 | source=`proxyscrape`
+- 16. `socks4://144.24.84.140:7890` | `socks4` | `elite` | 200 1.666393 | source=`proxyscrape`
+- 17. `http://3.38.167.255:1080` | `http` | `unknown` | 200 0.889952 | source=`monosans_kr_json`
+- 18. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.002003 | source=`monosans_kr_json`
+- 19. `http://144.24.84.140:7890` | `http` | `unknown` | 200 1.006139 | source=`niek`
 
 ## 输出文件
 
