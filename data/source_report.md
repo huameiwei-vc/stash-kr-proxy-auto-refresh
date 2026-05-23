@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-23T16:38:00+00:00）
+# KR 免费代理自动刷新报告（2026-05-23T17:40:13+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,28 +24,27 @@
 
 ## 原始候选数量
 
-- geonode: 102
+- geonode: 101
 - iplocate: 1
 - monosans_fallback: 0
 - monosans_kr_json: 7
 - niek: 10
-- proxifly: 9
-- proxyscrape: 30
+- proxifly: 11
+- proxyscrape: 35
 - skillter_fallback: 0
-- 去重后总候选: 147
+- 去重后总候选: 152
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.971949 | source=`geonode`
-- 2. `socks5://158.247.241.3:1080` | `socks5` | `elite` | 200 2.681247 | source=`geonode`
-- 3. `socks5://158.179.173.238:1080` | `socks5` | `elite` | 200 3.034818 | source=`proxyscrape`
-- 4. `http://43.202.165.234:1080` | `http` | `elite` | 200 0.778558 | source=`proxyscrape`
-- 5. `http://3.35.7.133:1080` | `http` | `elite` | 200 0.791108 | source=`proxyscrape`
-- 6. `http://16.184.28.1:1080` | `http` | `elite` | 200 1.864195 | source=`proxyscrape`
-- 7. `socks5://152.67.217.8:1080` | `socks5` | `unknown` | 200 0.980039 | source=`monosans_kr_json`
-- 8. `http://152.67.217.8:1080` | `http` | `unknown` | 200 0.786261 | source=`monosans_kr_json`
-- 9. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.050636 | source=`monosans_kr_json`
-- 10. `http://43.128.145.26:1080` | `http` | `unknown` | 200 2.197514 | source=`monosans_kr_json`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.004497 | source=`geonode`
+- 2. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.404117 | source=`proxyscrape`
+- 3. `socks5://158.247.241.3:1080` | `socks5` | `elite` | 200 2.822175 | source=`geonode`
+- 4. `socks4://144.24.84.140:7890` | `socks4` | `elite` | 200 0.527551 | source=`proxyscrape`
+- 5. `socks5://152.67.217.8:1080` | `socks5` | `unknown` | 200 0.673188 | source=`monosans_kr_json`
+- 6. `socks5://158.179.173.238:1080` | `socks5` | `unknown` | 200 6.896693 | source=`monosans_kr_json`
+- 7. `http://152.67.217.8:1080` | `http` | `unknown` | 200 0.552481 | source=`monosans_kr_json`
+- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.386582 | source=`monosans_kr_json`
+- 9. `http://43.128.145.26:1080` | `http` | `unknown` | 200 3.820275 | source=`monosans_kr_json`
 
 ## 输出文件
 
