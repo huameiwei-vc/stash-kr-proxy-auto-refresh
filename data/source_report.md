@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-24T16:30:37+00:00）
+# KR 免费代理自动刷新报告（2026-05-24T17:38:09+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,30 +25,24 @@
 ## 原始候选数量
 
 - geonode: 100
-- iplocate: 2
+- iplocate: 6
 - monosans_fallback: 0
-- monosans_kr_json: 9
+- monosans_kr_json: 6
 - niek: 14
-- proxifly: 12
-- proxyscrape: 38
+- proxifly: 13
+- proxyscrape: 34
 - skillter_fallback: 0
-- 去重后总候选: 159
+- 去重后总候选: 160
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.148412 | source=`geonode`
-- 2. `socks5://146.56.185.39:10800` | `socks5` | `elite` | 200 1.396814 | source=`proxyscrape`
-- 3. `http://16.184.3.64:1080` | `http` | `elite` | 200 1.131013 | source=`proxyscrape`
-- 4. `http://16.184.28.1:1080` | `http` | `elite` | 200 1.533649 | source=`proxyscrape`
-- 5. `http://43.202.165.234:1080` | `http` | `elite` | 200 1.826596 | source=`proxyscrape`
-- 6. `socks4://146.56.185.39:10800` | `socks4` | `elite` | 200 1.206296 | source=`proxyscrape`
-- 7. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 8.358247 | source=`proxyscrape`
-- 8. `socks5://158.180.77.24:1080` | `socks5` | `unknown` | 200 2.168679 | source=`monosans_kr_json`
-- 9. `socks5://206.123.156.181:5498` | `socks5` | `unknown` | 200 10.739360 | source=`iplocate`
-- 10. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.785228 | source=`monosans_kr_json`
-- 11. `http://15.165.71.55:1080` | `http` | `unknown` | 200 0.786760 | source=`monosans_kr_json`
-- 12. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.001126 | source=`monosans_kr_json`
-- 13. `http://15.164.242.220:1080` | `http` | `unknown` | 200 1.804498 | source=`niek`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.990982 | source=`geonode`
+- 2. `http://16.184.3.64:1080` | `http` | `elite` | 200 1.208503 | source=`proxyscrape`
+- 3. `socks5://158.180.77.24:1080` | `socks5` | `unknown` | 200 1.600472 | source=`monosans_kr_json`
+- 4. `socks5://206.123.156.187:4265` | `socks5` | `unknown` | 200 10.903956 | source=`iplocate`
+- 5. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.777312 | source=`niek`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.069889 | source=`monosans_kr_json`
+- 7. `http://13.125.240.195:1080` | `http` | `unknown` | 200 3.677702 | source=`niek`
 
 ## 输出文件
 

@@ -1,4 +1,4 @@
-# Generated at 2026-05-24T16:30:37+00:00
+# Generated at 2026-05-24T17:38:09+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -13,58 +13,31 @@ proxies:
     server: 121.169.46.116
     port: 1090
     udp: true
-  - name: "KR-SOCKS5-02-ELITE-146.56.185.39:10800"
-    type: socks5
-    server: 146.56.185.39
-    port: 10800
-    udp: true
-  - name: "KR-HTTP-03-ELITE-16.184.3.64:1080"
+  - name: "KR-HTTP-02-ELITE-16.184.3.64:1080"
     type: http
     server: 16.184.3.64
     port: 1080
-  - name: "KR-HTTP-04-ELITE-16.184.28.1:1080"
-    type: http
-    server: 16.184.28.1
-    port: 1080
-  - name: "KR-HTTP-05-ELITE-43.202.165.234:1080"
-    type: http
-    server: 43.202.165.234
-    port: 1080
-  - name: "KR-SOCKS4-06-ELITE-146.56.185.39:10800"
-    type: socks4
-    server: 146.56.185.39
-    port: 10800
-    udp: true
-  - name: "KR-SOCKS4-07-ELITE-152.70.237.238:3128"
-    type: socks4
-    server: 152.70.237.238
-    port: 3128
-    udp: true
-  - name: "KR-SOCKS5-08-UNKNOWN-158.180.77.24:1080"
+  - name: "KR-SOCKS5-03-UNKNOWN-158.180.77.24:1080"
     type: socks5
     server: 158.180.77.24
     port: 1080
     udp: true
-  - name: "KR-SOCKS5-09-UNKNOWN-206.123.156.181:5498"
+  - name: "KR-SOCKS5-04-UNKNOWN-206.123.156.187:4265"
     type: socks5
-    server: 206.123.156.181
-    port: 5498
+    server: 206.123.156.187
+    port: 4265
     udp: true
-  - name: "KR-HTTP-10-UNKNOWN-43.128.145.26:1080"
+  - name: "KR-HTTP-05-UNKNOWN-43.128.145.26:1080"
     type: http
     server: 43.128.145.26
     port: 1080
-  - name: "KR-HTTP-11-UNKNOWN-15.165.71.55:1080"
-    type: http
-    server: 15.165.71.55
-    port: 1080
-  - name: "KR-HTTP-12-UNKNOWN-1.231.81.166:3128"
+  - name: "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-HTTP-13-UNKNOWN-15.164.242.220:1080"
+  - name: "KR-HTTP-07-UNKNOWN-13.125.240.195:1080"
     type: http
-    server: 15.164.242.220
+    server: 13.125.240.195
     port: 1080
 
 proxy-groups:
@@ -74,18 +47,12 @@ proxy-groups:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-      - "KR-SOCKS5-02-ELITE-146.56.185.39:10800"
-      - "KR-HTTP-03-ELITE-16.184.3.64:1080"
-      - "KR-HTTP-04-ELITE-16.184.28.1:1080"
-      - "KR-HTTP-05-ELITE-43.202.165.234:1080"
-      - "KR-SOCKS4-06-ELITE-146.56.185.39:10800"
-      - "KR-SOCKS4-07-ELITE-152.70.237.238:3128"
-      - "KR-SOCKS5-08-UNKNOWN-158.180.77.24:1080"
-      - "KR-SOCKS5-09-UNKNOWN-206.123.156.181:5498"
-      - "KR-HTTP-10-UNKNOWN-43.128.145.26:1080"
-      - "KR-HTTP-11-UNKNOWN-15.165.71.55:1080"
-      - "KR-HTTP-12-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-13-UNKNOWN-15.164.242.220:1080"
+      - "KR-HTTP-02-ELITE-16.184.3.64:1080"
+      - "KR-SOCKS5-03-UNKNOWN-158.180.77.24:1080"
+      - "KR-SOCKS5-04-UNKNOWN-206.123.156.187:4265"
+      - "KR-HTTP-05-UNKNOWN-43.128.145.26:1080"
+      - "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-07-UNKNOWN-13.125.240.195:1080"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -94,18 +61,12 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-      - "KR-SOCKS5-02-ELITE-146.56.185.39:10800"
-      - "KR-HTTP-03-ELITE-16.184.3.64:1080"
-      - "KR-HTTP-04-ELITE-16.184.28.1:1080"
-      - "KR-HTTP-05-ELITE-43.202.165.234:1080"
-      - "KR-SOCKS4-06-ELITE-146.56.185.39:10800"
-      - "KR-SOCKS4-07-ELITE-152.70.237.238:3128"
-      - "KR-SOCKS5-08-UNKNOWN-158.180.77.24:1080"
-      - "KR-SOCKS5-09-UNKNOWN-206.123.156.181:5498"
-      - "KR-HTTP-10-UNKNOWN-43.128.145.26:1080"
-      - "KR-HTTP-11-UNKNOWN-15.165.71.55:1080"
-      - "KR-HTTP-12-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-13-UNKNOWN-15.164.242.220:1080"
+      - "KR-HTTP-02-ELITE-16.184.3.64:1080"
+      - "KR-SOCKS5-03-UNKNOWN-158.180.77.24:1080"
+      - "KR-SOCKS5-04-UNKNOWN-206.123.156.187:4265"
+      - "KR-HTTP-05-UNKNOWN-43.128.145.26:1080"
+      - "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-07-UNKNOWN-13.125.240.195:1080"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
@@ -113,18 +74,12 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-      - "KR-SOCKS5-02-ELITE-146.56.185.39:10800"
-      - "KR-HTTP-03-ELITE-16.184.3.64:1080"
-      - "KR-HTTP-04-ELITE-16.184.28.1:1080"
-      - "KR-HTTP-05-ELITE-43.202.165.234:1080"
-      - "KR-SOCKS4-06-ELITE-146.56.185.39:10800"
-      - "KR-SOCKS4-07-ELITE-152.70.237.238:3128"
-      - "KR-SOCKS5-08-UNKNOWN-158.180.77.24:1080"
-      - "KR-SOCKS5-09-UNKNOWN-206.123.156.181:5498"
-      - "KR-HTTP-10-UNKNOWN-43.128.145.26:1080"
-      - "KR-HTTP-11-UNKNOWN-15.165.71.55:1080"
-      - "KR-HTTP-12-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-13-UNKNOWN-15.164.242.220:1080"
+      - "KR-HTTP-02-ELITE-16.184.3.64:1080"
+      - "KR-SOCKS5-03-UNKNOWN-158.180.77.24:1080"
+      - "KR-SOCKS5-04-UNKNOWN-206.123.156.187:4265"
+      - "KR-HTTP-05-UNKNOWN-43.128.145.26:1080"
+      - "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-07-UNKNOWN-13.125.240.195:1080"
 
 rules:
   - MATCH,节点选择
