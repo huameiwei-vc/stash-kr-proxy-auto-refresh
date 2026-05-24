@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-24T22:38:08+00:00）
+# KR 免费代理自动刷新报告（2026-05-24T23:40:14+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,29 +24,25 @@
 
 ## 原始候选数量
 
-- geonode: 103
-- iplocate: 1
+- geonode: 101
+- iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 3
+- monosans_kr_json: 2
 - niek: 14
 - proxifly: 11
-- proxyscrape: 45
+- proxyscrape: 39
 - skillter_fallback: 0
-- 去重后总候选: 161
+- 去重后总候选: 157
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.929134 | source=`geonode`
-- 2. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.095326 | source=`proxyscrape`
-- 3. `socks5://152.70.237.238:3128` | `socks5` | `elite` | 200 4.197339 | source=`proxyscrape`
-- 4. `http://15.165.71.55:1080` | `http` | `elite` | 200 1.206685 | source=`proxyscrape`
-- 5. `socks4://146.56.185.39:10800` | `socks4` | `elite` | 200 0.703976 | source=`proxyscrape`
-- 6. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.546212 | source=`monosans_kr_json`
-- 7. `http://15.164.242.220:1080` | `http` | `unknown` | 200 0.588478 | source=`niek`
-- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.711871 | source=`monosans_kr_json`
-- 9. `http://3.35.242.248:1080` | `http` | `unknown` | 200 1.248782 | source=`monosans_kr_json`
-- 10. `http://121.174.186.199:8080` | `http` | `unknown` | 200 5.246979 | source=`niek`
-- 11. `socks5://158.180.77.24:1080` | `socks5` | `transparent` | 200 1.160884 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.985799 | source=`geonode`
+- 2. `http://210.223.44.230:3128` | `http` | `anonymous` | 200 3.003338 | source=`proxyscrape`
+- 3. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.789647 | source=`monosans_kr_json`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.016306 | source=`monosans_kr_json`
+- 5. `http://121.174.186.199:8080` | `http` | `unknown` | 200 8.227527 | source=`niek`
+- 6. `socks5://158.180.77.24:1080` | `socks5` | `transparent` | 200 1.829321 | source=`proxifly`
+- 7. `socks5://206.123.156.196:5550` | `socks5` | `transparent` | 200 3.599250 | source=`proxifly`
 
 ## 输出文件
 
