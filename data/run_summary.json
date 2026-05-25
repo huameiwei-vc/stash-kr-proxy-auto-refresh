@@ -1,7 +1,36 @@
 {
-  "generated_at": "2026-05-25T21:50:14+00:00",
-  "working_count": 0,
-  "message": "No KR proxy passed both geo and Naver HTTPS validation.",
+  "generated_at": "2026-05-25T22:48:36+00:00",
+  "working_count": 1,
+  "working": [
+    {
+      "source": "proxifly",
+      "proxy": "socks4://152.70.237.238:3128",
+      "protocol": "socks4",
+      "ip": "152.70.237.238",
+      "port": 3128,
+      "anonymity": "transparent",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 3.606,
+      "https_time_s": 3.168,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "104.28.249.216"
+      },
+      "https_result": "200 3.161052",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "https_hint": false,
+        "score": 1,
+        "city": "Unknown",
+        "country_code": "KR"
+      },
+      "stash_name": "KR-SOCKS4-01-TRANSPARENT-152.70.237.238:3128"
+    }
+  ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
   "tested_results": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/tested_kr_proxies.json",
   "report": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/source_report.md"
