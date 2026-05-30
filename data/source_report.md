@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-05-30T21:11:52+00:00）
+# KR 免费代理自动刷新报告（2026-05-30T22:11:04+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,25 +24,29 @@
 
 ## 原始候选数量
 
-- geonode: 101
-- iplocate: 3
+- geonode: 102
+- iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 2
+- monosans_kr_json: 3
 - niek: 13
-- proxifly: 14
+- proxifly: 12
 - proxyscrape: 37
 - skillter_fallback: 0
-- 去重后总候选: 151
+- 去重后总候选: 152
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.232577 | source=`geonode`
-- 2. `socks5://152.70.91.193:40000` | `socks5` | `elite` | 200 1.464263 | source=`geonode`
-- 3. `http://125.129.15.95:3128` | `http` | `elite` | 200 0.783837 | source=`proxyscrape`
-- 4. `http://43.155.208.105:80` | `http` | `unknown` | 200 0.760802 | source=`monosans_kr_json`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.995005 | source=`niek`
-- 6. `http://43.128.145.26:1080` | `http` | `unknown` | 200 1.729190 | source=`niek`
-- 7. `http://106.10.55.212:1121` | `http` | `transparent` | 200 0.775623 | source=`proxyscrape`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.985302 | source=`geonode`
+- 2. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.399111 | source=`geonode`
+- 3. `socks5://158.247.240.61:1080` | `socks5` | `elite` | 200 1.971214 | source=`proxyscrape`
+- 4. `socks5://152.70.237.238:3128` | `socks5` | `elite` | 200 4.408639 | source=`proxyscrape`
+- 5. `socks4://158.247.206.191:1080` | `socks4` | `elite` | 200 1.072297 | source=`proxyscrape`
+- 6. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.756061 | source=`monosans_kr_json`
+- 7. `http://106.10.55.212:1121` | `http` | `unknown` | 200 0.892475 | source=`monosans_kr_json`
+- 8. `http://43.155.208.105:80` | `http` | `unknown` | 200 2.811692 | source=`niek`
+- 9. `http://1.231.81.166:3128` | `http` | `unknown` | 200 5.706943 | source=`monosans_kr_json`
+- 10. `socks4://158.247.241.3:1080` | `socks4` | `unknown` | 200 2.752553 | source=`iplocate`
+- 11. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 1.177228 | source=`proxifly`
 
 ## 输出文件
 
