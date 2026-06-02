@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-02T21:28:46+00:00）
+# KR 免费代理自动刷新报告（2026-06-02T23:14:17+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,25 +24,29 @@
 
 ## 原始候选数量
 
-- geonode: 104
-- iplocate: 5
+- geonode: 106
+- iplocate: 7
 - monosans_fallback: 0
 - monosans_kr_json: 0
 - niek: 12
-- proxifly: 12
-- proxyscrape: 34
+- proxifly: 13
+- proxyscrape: 45
 - skillter_fallback: 0
-- 去重后总候选: 155
+- 去重后总候选: 169
 
 ## 当前验证通过的代理
 
-- 1. `socks5://59.11.209.162:1080` | `socks5` | `elite` | 200 1.066743 | source=`proxyscrape`
-- 2. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 1.892190 | source=`geonode`
-- 3. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.930606 | source=`geonode`
-- 4. `socks5://158.180.77.24:1080` | `socks5` | `unknown` | 200 2.372233 | source=`iplocate`
-- 5. `http://175.198.235.18:3128` | `http` | `unknown` | 200 0.738297 | source=`iplocate`
-- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.824143 | source=`niek`
-- 7. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.852969 | source=`niek`
+- 1. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 0.901938 | source=`geonode`
+- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.911543 | source=`geonode`
+- 3. `socks5://59.11.209.162:1080` | `socks5` | `elite` | 200 1.123611 | source=`proxyscrape`
+- 4. `socks5://158.247.253.121:1080` | `socks5` | `elite` | 200 1.866319 | source=`proxyscrape`
+- 5. `socks5://158.247.241.3:1080` | `socks5` | `elite` | 200 4.293093 | source=`geonode`
+- 6. `http://210.223.44.230:3128` | `http` | `anonymous` | 200 0.683076 | source=`proxyscrape`
+- 7. `http://175.198.235.18:3128` | `http` | `anonymous` | 200 0.908586 | source=`proxyscrape`
+- 8. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.930964 | source=`niek`
+- 9. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.140474 | source=`niek`
+- 10. `http://221.167.80.109:3076` | `http` | `transparent` | 200 3.269520 | source=`proxyscrape`
+- 11. `http://221.167.81.223:3168` | `http` | `transparent` | 200 4.383164 | source=`proxyscrape`
 
 ## 输出文件
 
