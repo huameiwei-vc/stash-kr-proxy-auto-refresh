@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-03T22:23:37+00:00）
+# KR 免费代理自动刷新报告（2026-06-04T00:09:12+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,29 +24,29 @@
 
 ## 原始候选数量
 
-- geonode: 110
-- iplocate: 2
+- geonode: 104
+- iplocate: 3
 - monosans_fallback: 0
-- monosans_kr_json: 5
+- monosans_kr_json: 4
 - niek: 13
-- proxifly: 11
-- proxyscrape: 38
+- proxifly: 13
+- proxyscrape: 46
 - skillter_fallback: 0
-- 去重后总候选: 164
+- 去重后总候选: 170
 
 ## 当前验证通过的代理
 
-- 1. `socks5://118.36.249.175:2080` | `socks5` | `elite` | 200 0.955495 | source=`proxyscrape`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.167202 | source=`geonode`
-- 3. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.213341 | source=`geonode`
-- 4. `http://203.232.107.6:2080` | `http` | `elite` | 200 0.552841 | source=`proxyscrape`
-- 5. `http://210.223.44.230:3128` | `http` | `anonymous` | 200 1.677753 | source=`proxyscrape`
-- 6. `socks5://150.230.249.50:1080` | `socks5` | `unknown` | 200 1.712598 | source=`monosans_kr_json`
-- 7. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.560179 | source=`niek`
-- 8. `http://175.198.235.18:3128` | `http` | `unknown` | 200 0.566681 | source=`monosans_kr_json`
-- 9. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.837218 | source=`monosans_kr_json`
-- 10. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.045320 | source=`monosans_kr_json`
-- 11. `socks5://203.232.107.6:2080` | `socks5` | `transparent` | 200 0.695075 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.929903 | source=`geonode`
+- 2. `socks5://59.11.209.162:1080` | `socks5` | `elite` | 200 1.284023 | source=`proxyscrape`
+- 3. `socks5://203.232.107.6:2080` | `socks5` | `elite` | 200 4.524413 | source=`proxyscrape`
+- 4. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 5.656759 | source=`geonode`
+- 5. `socks4://203.232.107.6:2080` | `socks4` | `elite` | 200 2.382095 | source=`proxyscrape`
+- 6. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.725977 | source=`niek`
+- 7. `http://43.155.214.75:8080` | `http` | `unknown` | 200 2.863115 | source=`monosans_kr_json`
+- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.125999 | source=`monosans_kr_json`
+- 9. `http://43.128.145.26:1080` | `http` | `unknown` | 200 3.867898 | source=`monosans_kr_json`
+- 10. `http://203.232.107.6:2080` | `http` | `unknown` | 200 4.735971 | source=`monosans_kr_json`
+- 11. `http://175.198.235.18:3128` | `http` | `unknown` | 200 6.058324 | source=`niek`
 
 ## 输出文件
 
