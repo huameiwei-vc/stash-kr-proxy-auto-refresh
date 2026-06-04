@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-04T21:16:22+00:00）
+# KR 免费代理自动刷新报告（2026-06-04T22:50:14+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,26 +24,27 @@
 
 ## 原始候选数量
 
-- geonode: 83
-- iplocate: 5
+- geonode: 93
+- iplocate: 3
 - monosans_fallback: 0
-- monosans_kr_json: 2
+- monosans_kr_json: 4
 - niek: 11
-- proxifly: 13
-- proxyscrape: 36
+- proxifly: 9
+- proxyscrape: 53
 - skillter_fallback: 0
-- 去重后总候选: 137
+- 去重后总候选: 158
 
 ## 当前验证通过的代理
 
-- 1. `socks5://152.70.236.84:1080` | `socks5` | `elite` | 200 0.979884 | source=`proxyscrape`
-- 2. `socks5://59.11.209.162:1080` | `socks5` | `elite` | 200 1.184525 | source=`proxyscrape`
-- 3. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.424420 | source=`geonode`
-- 4. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.586240 | source=`geonode`
-- 5. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 3.323542 | source=`geonode`
-- 6. `socks5://158.247.240.61:1080` | `socks5` | `elite` | 200 6.855131 | source=`proxyscrape`
-- 7. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.874079 | source=`niek`
-- 8. `http://43.128.145.26:1080` | `http` | `unknown` | 200 1.561669 | source=`monosans_kr_json`
+- 1. `socks5://59.11.209.162:1080` | `socks5` | `elite` | 200 0.827914 | source=`proxyscrape`
+- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.105275 | source=`geonode`
+- 3. `socks5://150.109.81.35:1080` | `socks5` | `elite` | 200 1.647491 | source=`proxyscrape`
+- 4. `socks5://158.247.206.191:1080` | `socks5` | `elite` | 200 1.904691 | source=`geonode`
+- 5. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 1.949870 | source=`geonode`
+- 6. `socks5://158.179.173.238:1080` | `socks5` | `elite` | 200 8.334303 | source=`proxyscrape`
+- 7. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.537152 | source=`monosans_kr_json`
+- 8. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.575864 | source=`monosans_kr_json`
+- 9. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.785389 | source=`monosans_kr_json`
 
 ## 输出文件
 
