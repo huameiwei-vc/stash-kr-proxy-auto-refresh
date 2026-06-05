@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-05T06:55:18+00:00）
+# KR 免费代理自动刷新报告（2026-06-05T10:38:27+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,28 +24,27 @@
 
 ## 原始候选数量
 
-- geonode: 105
-- iplocate: 5
+- geonode: 107
+- iplocate: 3
 - monosans_fallback: 0
 - monosans_kr_json: 3
 - niek: 14
 - proxifly: 11
-- proxyscrape: 39
+- proxyscrape: 44
 - skillter_fallback: 0
-- 去重后总候选: 163
+- 去重后总候选: 168
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.982161 | source=`geonode`
-- 2. `socks5://193.122.105.251:65535` | `socks5` | `elite` | 200 0.995345 | source=`geonode`
-- 3. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.850612 | source=`geonode`
-- 4. `socks5://152.70.237.238:3128` | `socks5` | `elite` | 200 8.747828 | source=`proxyscrape`
-- 5. `socks5://15.164.226.130:1080` | `socks5` | `unknown` | 200 1.461249 | source=`iplocate`
-- 6. `http://175.198.235.18:3128` | `http` | `unknown` | 200 0.702205 | source=`monosans_kr_json`
-- 7. `http://1.231.81.166:3128` | `http` | `unknown` | 200 8.261036 | source=`monosans_kr_json`
-- 8. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 1.100080 | source=`proxifly`
-- 9. `socks5://150.109.81.35:1080` | `socks5` | `transparent` | 200 1.315336 | source=`proxifly`
-- 10. `http://146.56.164.121:3128` | `http` | `transparent` | 200 11.050075 | source=`proxyscrape`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.993178 | source=`geonode`
+- 2. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 3.747778 | source=`geonode`
+- 3. `socks5://158.179.173.238:1080` | `socks5` | `elite` | 200 7.494628 | source=`proxyscrape`
+- 4. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 6.434597 | source=`proxyscrape`
+- 5. `socks5://206.123.156.210:4224` | `socks5` | `unknown` | 200 6.411455 | source=`iplocate`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.910522 | source=`monosans_kr_json`
+- 7. `http://43.128.145.26:1080` | `http` | `unknown` | 200 1.537293 | source=`monosans_kr_json`
+- 8. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 1.150472 | source=`proxifly`
+- 9. `socks5://150.109.81.35:1080` | `socks5` | `transparent` | 200 1.877766 | source=`proxifly`
 
 ## 输出文件
 
