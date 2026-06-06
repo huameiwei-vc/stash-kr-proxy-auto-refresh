@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-05T23:55:57+00:00）
+# KR 免费代理自动刷新报告（2026-06-06T02:03:25+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,26 +24,28 @@
 
 ## 原始候选数量
 
-- geonode: 99
-- iplocate: 3
+- geonode: 102
+- iplocate: 5
 - monosans_fallback: 0
-- monosans_kr_json: 5
-- niek: 14
-- proxifly: 10
-- proxyscrape: 40
+- monosans_kr_json: 1
+- niek: 11
+- proxifly: 12
+- proxyscrape: 29
 - skillter_fallback: 0
-- 去重后总候选: 157
+- 去重后总候选: 147
 
 ## 当前验证通过的代理
 
-- 1. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 0.896202 | source=`geonode`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.727116 | source=`geonode`
-- 3. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.530306 | source=`monosans_kr_json`
-- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.959435 | source=`monosans_kr_json`
-- 5. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.993121 | source=`monosans_kr_json`
-- 6. `http://43.155.138.148:3128` | `http` | `unknown` | 200 1.941155 | source=`monosans_kr_json`
-- 7. `http://43.200.174.95:40868` | `http` | `unknown` | 200 4.638522 | source=`iplocate`
-- 8. `http://121.174.186.199:8080` | `http` | `unknown` | 200 4.866836 | source=`monosans_kr_json`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.667669 | source=`geonode`
+- 2. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 0.708520 | source=`geonode`
+- 3. `socks5://1.245.175.180:1080` | `socks5` | `elite` | 200 2.166696 | source=`proxyscrape`
+- 4. `socks5://158.247.206.191:1080` | `socks5` | `elite` | 200 4.485093 | source=`proxyscrape`
+- 5. `socks5://168.107.55.115:50161` | `socks5` | `elite` | 200 8.127112 | source=`proxyscrape`
+- 6. `socks4://168.107.55.115:50161` | `socks4` | `elite` | 200 2.950994 | source=`proxyscrape`
+- 7. `socks4://1.245.175.180:1080` | `socks4` | `elite` | 200 3.910695 | source=`proxyscrape`
+- 8. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.565321 | source=`niek`
+- 9. `http://43.128.145.26:1080` | `http` | `unknown` | 200 1.023372 | source=`monosans_kr_json`
+- 10. `http://1.231.81.166:3128` | `http` | `transparent` | 200 6.764622 | source=`proxyscrape`
 
 ## 输出文件
 
