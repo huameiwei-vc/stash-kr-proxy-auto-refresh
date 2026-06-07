@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-06T23:40:42+00:00）
+# KR 免费代理自动刷新报告（2026-06-07T01:52:55+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,25 +25,26 @@
 ## 原始候选数量
 
 - geonode: 102
-- iplocate: 2
+- iplocate: 3
 - monosans_fallback: 0
-- monosans_kr_json: 3
-- niek: 11
-- proxifly: 14
-- proxyscrape: 39
+- monosans_kr_json: 4
+- niek: 15
+- proxifly: 15
+- proxyscrape: 36
 - skillter_fallback: 0
-- 去重后总候选: 157
+- 去重后总候选: 156
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.899164 | source=`geonode`
-- 2. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 1.004851 | source=`geonode`
-- 3. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.610022 | source=`geonode`
-- 4. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.809177 | source=`monosans_kr_json`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.950209 | source=`monosans_kr_json`
-- 6. `http://43.128.145.26:1080` | `http` | `unknown` | 200 2.711273 | source=`monosans_kr_json`
-- 7. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 1.127836 | source=`proxifly`
-- 8. `socks4://152.70.237.238:3128` | `socks4` | `transparent` | 200 4.494876 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.677332 | source=`geonode`
+- 2. `socks5://150.230.249.50:1080` | `socks5` | `elite` | 200 0.695199 | source=`geonode`
+- 3. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.199995 | source=`geonode`
+- 4. `socks5://158.247.241.3:1080` | `socks5` | `elite` | 200 1.659017 | source=`geonode`
+- 5. `socks5://158.247.206.191:1080` | `socks5` | `elite` | 200 1.665441 | source=`proxyscrape`
+- 6. `http://43.128.145.26:1080` | `http` | `unknown` | 200 0.532065 | source=`monosans_kr_json`
+- 7. `http://150.230.249.50:1080` | `http` | `unknown` | 200 0.560121 | source=`monosans_kr_json`
+- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.711159 | source=`monosans_kr_json`
+- 9. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 0.914181 | source=`proxifly`
 
 ## 输出文件
 
