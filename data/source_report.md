@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-09T12:19:28+00:00）
+# KR 免费代理自动刷新报告（2026-06-09T15:30:51+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,28 +24,25 @@
 
 ## 原始候选数量
 
-- geonode: 103
+- geonode: 97
 - iplocate: 4
 - monosans_fallback: 0
 - monosans_kr_json: 3
 - niek: 12
-- proxifly: 8
-- proxyscrape: 40
+- proxifly: 9
+- proxyscrape: 27
 - skillter_fallback: 0
-- 去重后总候选: 161
+- 去重后总候选: 143
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.014100 | source=`geonode`
-- 2. `socks5://59.11.209.162:1080` | `socks5` | `elite` | 200 1.301942 | source=`proxyscrape`
-- 3. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.616025 | source=`proxyscrape`
-- 4. `socks4://158.247.253.121:1080` | `socks4` | `elite` | 200 5.252532 | source=`proxyscrape`
-- 5. `socks5://206.123.156.213:4057` | `socks5` | `unknown` | 200 4.860768 | source=`iplocate`
-- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.136933 | source=`niek`
-- 7. `http://43.128.145.26:1080` | `http` | `unknown` | 200 1.562329 | source=`monosans_kr_json`
-- 8. `http://169.212.15.161:5000` | `http` | `unknown` | 200 6.187092 | source=`monosans_kr_json`
-- 9. `http://47.239.126.54:6001` | `http` | `unknown` | 200 6.912962 | source=`monosans_kr_json`
-- 10. `http://175.215.147.63:3084` | `http` | `transparent` | 200 6.576203 | source=`proxyscrape`
+- 1. `socks5://211.245.23.166:1080` | `socks5` | `elite` | 200 1.494221 | source=`proxyscrape`
+- 2. `socks4://211.245.23.166:1080` | `socks4` | `elite` | 200 0.974271 | source=`proxyscrape`
+- 3. `socks4://158.247.212.189:1080` | `socks4` | `elite` | 200 5.647127 | source=`proxyscrape`
+- 4. `http://43.128.145.26:1080` | `http` | `unknown` | 200 1.009720 | source=`monosans_kr_json`
+- 5. `http://169.212.15.161:5000` | `http` | `unknown` | 200 1.114396 | source=`monosans_kr_json`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 2.501315 | source=`monosans_kr_json`
+- 7. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.004789 | source=`proxifly`
 
 ## 输出文件
 
