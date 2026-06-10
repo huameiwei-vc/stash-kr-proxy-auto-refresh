@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-10T04:43:17+00:00）
+# KR 免费代理自动刷新报告（2026-06-10T08:35:05+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,31 +25,25 @@
 ## 原始候选数量
 
 - geonode: 102
-- iplocate: 5
+- iplocate: 4
 - monosans_fallback: 0
-- monosans_kr_json: 4
+- monosans_kr_json: 3
 - niek: 10
-- proxifly: 12
-- proxyscrape: 40
+- proxifly: 11
+- proxyscrape: 35
 - skillter_fallback: 0
-- 去重后总候选: 156
+- 去重后总候选: 151
 
 ## 当前验证通过的代理
 
-- 1. `socks5://1.245.175.180:1080` | `socks5` | `elite` | 200 0.964013 | source=`proxyscrape`
-- 2. `socks5://158.247.241.3:1080` | `socks5` | `elite` | 200 2.656392 | source=`proxyscrape`
-- 3. `socks5://146.56.191.98:19422` | `socks5` | `elite` | 200 4.575327 | source=`proxyscrape`
-- 4. `socks5://152.70.237.238:3128` | `socks5` | `elite` | 200 8.565007 | source=`geonode`
-- 5. `socks5://158.247.253.121:1080` | `socks5` | `elite` | 200 8.760391 | source=`proxyscrape`
-- 6. `socks4://158.247.253.121:1080` | `socks4` | `elite` | 200 7.368456 | source=`proxyscrape`
-- 7. `http://169.212.15.161:5000` | `http` | `unknown` | 200 1.124689 | source=`monosans_kr_json`
-- 8. `http://47.239.126.54:6001` | `http` | `unknown` | 200 1.911308 | source=`iplocate`
-- 9. `http://43.155.138.148:3128` | `http` | `unknown` | 200 2.075847 | source=`monosans_kr_json`
-- 10. `http://43.128.145.26:1080` | `http` | `unknown` | 200 2.663646 | source=`monosans_kr_json`
-- 11. `http://1.231.81.166:3128` | `http` | `unknown` | 200 3.950545 | source=`monosans_kr_json`
-- 12. `socks4://152.70.237.238:3128` | `socks4` | `unknown` | 200 6.235857 | source=`iplocate`
-- 13. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 1.141574 | source=`proxifly`
-- 14. `http://106.10.55.212:1121` | `http` | `transparent` | 200 0.533723 | source=`proxyscrape`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.713554 | source=`geonode`
+- 2. `socks5://158.247.253.121:1080` | `socks5` | `elite` | 200 1.229671 | source=`proxyscrape`
+- 3. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.286531 | source=`geonode`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.787736 | source=`monosans_kr_json`
+- 5. `http://43.128.145.26:1080` | `http` | `unknown` | 200 2.572303 | source=`monosans_kr_json`
+- 6. `http://169.212.15.161:5000` | `http` | `unknown` | 200 10.558257 | source=`monosans_kr_json`
+- 7. `socks5://59.11.209.162:1080` | `socks5` | `transparent` | 200 1.052648 | source=`proxifly`
+- 8. `socks4://158.247.253.121:1080` | `socks4` | `transparent` | 200 2.466859 | source=`proxifly`
 
 ## 输出文件
 
