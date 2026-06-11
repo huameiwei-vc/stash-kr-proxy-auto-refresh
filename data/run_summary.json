@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T18:29:24+00:00",
+  "generated_at": "2026-06-11T20:41:58+00:00",
   "working_count": 1,
   "working": [
     {
@@ -11,22 +11,22 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.969,
-      "https_time_s": 0.953,
+      "geo_time_s": 6.058,
+      "https_time_s": 1.651,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.945502",
+      "https_result": "200 1.643426",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "asn": "AS4766",
         "city": "Suwon",
-        "last_checked": 1781193226,
-        "up_time": 91.14285714285715,
+        "last_checked": 1781203835,
+        "up_time": 91.16809116809117,
         "google_hint": false,
         "country_code": "KR"
       },
