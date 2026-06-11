@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-11T11:45:35+00:00）
+# KR 免费代理自动刷新报告（2026-06-11T15:26:13+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,23 +25,23 @@
 ## 原始候选数量
 
 - geonode: 101
-- iplocate: 5
+- iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 2
+- monosans_kr_json: 3
 - niek: 12
-- proxifly: 9
-- proxyscrape: 46
+- proxifly: 11
+- proxyscrape: 27
 - skillter_fallback: 0
-- 去重后总候选: 164
+- 去重后总候选: 145
 
 ## 当前验证通过的代理
 
-- 1. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.203472 | source=`geonode`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.630998 | source=`geonode`
-- 3. `socks5://158.247.241.3:1080` | `socks5` | `elite` | 200 7.175710 | source=`geonode`
-- 4. `socks4://158.247.240.61:1080` | `socks4` | `elite` | 200 3.956966 | source=`proxyscrape`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 4.358071 | source=`monosans_kr_json`
-- 6. `http://119.195.17.15:3180` | `http` | `transparent` | 200 8.557564 | source=`proxyscrape`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.797153 | source=`geonode`
+- 2. `socks5://1.245.175.180:1080` | `socks5` | `elite` | 200 2.231106 | source=`proxyscrape`
+- 3. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 3.053552 | source=`proxyscrape`
+- 4. `http://169.212.15.161:5000` | `http` | `unknown` | 200 0.804142 | source=`monosans_kr_json`
+- 5. `http://106.10.55.212:1121` | `http` | `unknown` | 200 0.835512 | source=`monosans_kr_json`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 2.364474 | source=`monosans_kr_json`
 
 ## 输出文件
 
