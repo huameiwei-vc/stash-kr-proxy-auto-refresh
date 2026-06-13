@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-13T08:14:19+00:00）
+# KR 免费代理自动刷新报告（2026-06-13T10:37:54+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,23 +24,40 @@
 
 ## 原始候选数量
 
-- geonode: 104
-- iplocate: 5
+- geonode: 103
+- iplocate: 3
 - monosans_fallback: 0
-- monosans_kr_json: 1
+- monosans_kr_json: 2
 - niek: 14
-- proxifly: 12
-- proxyscrape: 26
+- proxifly: 27
+- proxyscrape: 31
 - skillter_fallback: 0
-- 去重后总候选: 150
+- 去重后总候选: 171
 
 ## 当前验证通过的代理
 
-- 1. `socks5://158.180.77.24:1080` | `socks5` | `elite` | 200 1.531174 | source=`geonode`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.045744 | source=`geonode`
-- 3. `socks5://158.179.173.238:1080` | `socks5` | `elite` | 200 3.064488 | source=`geonode`
-- 4. `socks5://146.56.191.98:14785` | `socks5` | `elite` | 200 10.402970 | source=`proxyscrape`
-- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.907992 | source=`monosans_kr_json`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.761863 | source=`geonode`
+- 2. `socks5://193.123.254.182:1080` | `socks5` | `elite` | 200 2.818201 | source=`proxyscrape`
+- 3. `socks5://211.245.23.166:1080` | `socks5` | `elite` | 200 5.709560 | source=`proxyscrape`
+- 4. `http://169.212.15.161:5000` | `http` | `unknown` | 200 0.682608 | source=`monosans_kr_json`
+- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.904874 | source=`monosans_kr_json`
+- 6. `socks4://152.70.237.238:3128` | `socks4` | `unknown` | 200 5.140786 | source=`iplocate`
+- 7. `socks5://206.123.156.227:6919` | `socks5` | `transparent` | 200 3.319840 | source=`proxifly`
+- 8. `socks5://206.123.156.235:6999` | `socks5` | `transparent` | 200 3.326476 | source=`proxifly`
+- 9. `socks5://206.123.156.224:5505` | `socks5` | `transparent` | 200 3.331383 | source=`proxifly`
+- 10. `socks5://206.123.156.210:7553` | `socks5` | `transparent` | 200 3.346585 | source=`proxifly`
+- 11. `socks5://206.123.156.212:5516` | `socks5` | `transparent` | 200 3.387054 | source=`proxifly`
+- 12. `socks5://206.123.156.238:6862` | `socks5` | `transparent` | 200 3.398697 | source=`proxifly`
+- 13. `socks5://206.123.156.236:7400` | `socks5` | `transparent` | 200 3.418719 | source=`proxifly`
+- 14. `socks5://206.123.156.210:4880` | `socks5` | `transparent` | 200 3.448557 | source=`proxifly`
+- 15. `socks5://206.123.156.238:5920` | `socks5` | `transparent` | 200 3.747636 | source=`proxifly`
+- 16. `socks5://206.123.156.211:10596` | `socks5` | `transparent` | 200 3.900592 | source=`proxifly`
+- 17. `socks5://206.123.156.236:6642` | `socks5` | `transparent` | 200 3.910239 | source=`proxifly`
+- 18. `socks5://206.123.156.224:8553` | `socks5` | `transparent` | 200 4.145389 | source=`proxifly`
+- 19. `socks5://206.123.156.227:6610` | `socks5` | `transparent` | 200 4.162324 | source=`proxifly`
+- 20. `socks5://206.123.156.225:10417` | `socks5` | `transparent` | 200 4.166305 | source=`proxifly`
+- 21. `socks5://206.123.156.225:4705` | `socks5` | `transparent` | 200 4.346414 | source=`proxifly`
+- 22. `socks5://206.123.156.210:6951` | `socks5` | `transparent` | 200 4.487958 | source=`proxifly`
 
 ## 输出文件
 
