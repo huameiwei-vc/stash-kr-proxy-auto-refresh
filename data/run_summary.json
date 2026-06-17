@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T19:34:21+00:00",
+  "generated_at": "2026-06-17T21:32:20+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.737,
-      "https_time_s": 1.139,
+      "geo_time_s": 0.913,
+      "https_time_s": 1.266,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.133527",
+      "https_result": "200 1.258102",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -41,21 +41,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.354,
-      "https_time_s": 0.752,
+      "geo_time_s": 0.614,
+      "https_time_s": 1.175,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.746477",
+      "https_result": "200 1.166629",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 2.3
+        "timeout_s": 1.19
       },
       "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
     },
@@ -68,21 +68,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.467,
-      "https_time_s": 1.109,
+      "geo_time_s": 1.373,
+      "https_time_s": 3.534,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "169.212.15.161"
       },
-      "https_result": "200 1.103095",
+      "https_result": "200 3.526056",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Gimpo-si",
         "country_code": "KR",
-        "timeout_s": 4.03
+        "timeout_s": 3.69
       },
       "stash_name": "KR-HTTP-03-UNKNOWN-169.212.15.161:5000"
     }
