@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-06-16T23:07:12+00:00）
+# KR 免费代理自动刷新报告（2026-06-17T01:38:48+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,21 +25,21 @@
 ## 原始候选数量
 
 - geonode: 107
-- iplocate: 4
+- iplocate: 6
 - monosans_fallback: 0
 - monosans_kr_json: 0
-- niek: 15
-- proxifly: 10
-- proxyscrape: 23
+- niek: 10
+- proxifly: 9
+- proxyscrape: 24
 - skillter_fallback: 0
-- 去重后总候选: 152
+- 去重后总候选: 149
 
 ## 当前验证通过的代理
 
-- 1. `socks5://1.245.175.180:1080` | `socks5` | `elite` | 200 0.985307 | source=`proxyscrape`
-- 2. `http://169.212.15.161:5000` | `http` | `unknown` | 200 1.088237 | source=`niek`
-- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.451204 | source=`niek`
-- 4. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 1.035936 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.693480 | source=`geonode`
+- 2. `socks5://1.245.175.180:1080` | `socks5` | `unknown` | 200 0.954176 | source=`iplocate`
+- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.198695 | source=`niek`
+- 4. `http://169.212.15.161:5000` | `http` | `unknown` | 200 5.005415 | source=`niek`
 
 ## 输出文件
 
