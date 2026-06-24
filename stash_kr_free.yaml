@@ -1,4 +1,4 @@
-# Generated at 2026-06-24T13:32:23+00:00
+# Generated at 2026-06-24T15:58:11+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -22,15 +22,11 @@ proxies:
     server: 218.52.249.121
     port: 1080
     udp: true
-  - name: "KR-SOCKS5-04-TRANSPARENT-206.123.156.227:20747"
+  - name: "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
     type: socks5
-    server: 206.123.156.227
-    port: 20747
+    server: 121.169.46.116
+    port: 1090
     udp: true
-  - name: "KR-HTTP-05-TRANSPARENT-43.155.138.148:3128"
-    type: http
-    server: 43.155.138.148
-    port: 3128
 
 proxy-groups:
   - name: "节点选择"
@@ -41,8 +37,7 @@ proxy-groups:
       - "KR-SOCKS5-01-ELITE-158.179.173.238:1080"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-03-TRANSPARENT-218.52.249.121:1080"
-      - "KR-SOCKS5-04-TRANSPARENT-206.123.156.227:20747"
-      - "KR-HTTP-05-TRANSPARENT-43.155.138.148:3128"
+      - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -61,8 +56,7 @@ proxy-groups:
       - "KR-SOCKS5-01-ELITE-158.179.173.238:1080"
       - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
       - "KR-SOCKS5-03-TRANSPARENT-218.52.249.121:1080"
-      - "KR-SOCKS5-04-TRANSPARENT-206.123.156.227:20747"
-      - "KR-HTTP-05-TRANSPARENT-43.155.138.148:3128"
+      - "KR-SOCKS5-04-TRANSPARENT-121.169.46.116:1090"
 
 rules:
   - MATCH,节点选择
