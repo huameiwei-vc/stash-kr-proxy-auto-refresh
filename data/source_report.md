@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-03T18:05:46+00:00）
+# KR 免费代理自动刷新报告（2026-07-03T19:45:05+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,29 +24,24 @@
 
 ## 原始候选数量
 
-- geonode: 13
-- iplocate: 10
+- geonode: 12
+- iplocate: 1
 - monosans_fallback: 0
 - monosans_kr_json: 2
 - niek: 13
-- proxifly: 22
-- proxyscrape: 22
+- proxifly: 16
+- proxyscrape: 29
 - skillter_fallback: 0
-- 去重后总候选: 68
+- 去重后总候选: 61
 
 ## 当前验证通过的代理
 
-- 1. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 1.555516 | source=`geonode`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.893880 | source=`geonode`
-- 3. `socks5://152.70.237.238:3128` | `socks5` | `elite` | 200 3.586238 | source=`proxyscrape`
-- 4. `socks5://152.70.241.59:1080` | `socks5` | `elite` | 200 5.493223 | source=`proxyscrape`
-- 5. `socks5://206.123.156.230:5778` | `socks5` | `unknown` | 200 6.860743 | source=`iplocate`
-- 6. `socks5://206.123.156.199:8910` | `socks5` | `unknown` | 200 6.968921 | source=`iplocate`
-- 7. `socks5://206.123.156.212:5902` | `socks5` | `unknown` | 200 7.635563 | source=`iplocate`
-- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.893766 | source=`monosans_kr_json`
-- 9. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.816628 | source=`proxifly`
-- 10. `socks5://206.123.156.233:5681` | `socks5` | `transparent` | 200 7.538421 | source=`proxifly`
-- 11. `socks5://206.123.156.229:9361` | `socks5` | `transparent` | 200 8.194768 | source=`proxifly`
+- 1. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 0.895603 | source=`geonode`
+- 2. `socks5://152.70.237.238:3128` | `socks5` | `elite` | 200 2.691199 | source=`proxyscrape`
+- 3. `socks5://158.179.173.238:1080` | `socks5` | `elite` | 200 3.220950 | source=`proxyscrape`
+- 4. `socks5://152.70.241.59:1080` | `socks5` | `elite` | 200 5.192713 | source=`geonode`
+- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.901196 | source=`monosans_kr_json`
+- 6. `http://106.10.55.212:1121` | `http` | `transparent` | 200 7.840199 | source=`proxyscrape`
 
 ## 输出文件
 
