@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-04T15:36:44+00:00）
+# KR 免费代理自动刷新报告（2026-07-04T16:38:29+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,28 +24,27 @@
 
 ## 原始候选数量
 
-- geonode: 10
+- geonode: 9
 - iplocate: 0
 - iplocate_error: 0
 - monosans_fallback: 0
-- monosans_kr_json: 0
+- monosans_kr_json: 7
 - niek: 13
-- proxifly: 28
-- proxyscrape: 38
+- proxifly: 20
+- proxyscrape: 25
 - skillter_fallback: 0
-- 去重后总候选: 81
+- 去重后总候选: 62
 
 ## 当前验证通过的代理
 
-- 1. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 0.958945 | source=`geonode`
-- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.028928 | source=`geonode`
-- 3. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 7.591493 | source=`proxyscrape`
-- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.991980 | source=`niek`
-- 5. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.944359 | source=`proxifly`
-- 6. `socks5://152.70.241.59:1080` | `socks5` | `transparent` | 200 1.222236 | source=`proxifly`
-- 7. `http://220.95.121.83:1521` | `http` | `transparent` | 200 0.765677 | source=`proxyscrape`
-- 8. `http://121.180.75.228:1723` | `http` | `transparent` | 200 1.027058 | source=`proxyscrape`
-- 9. `http://193.122.96.242:3128` | `http` | `transparent` | 200 8.002902 | source=`proxyscrape`
+- 1. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 0.963894 | source=`geonode`
+- 2. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 9.256163 | source=`proxyscrape`
+- 3. `http://220.95.121.83:1521` | `http` | `unknown` | 200 0.774125 | source=`monosans_kr_json`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.990893 | source=`monosans_kr_json`
+- 5. `http://168.126.169.198:808` | `http` | `unknown` | 200 4.103274 | source=`monosans_kr_json`
+- 6. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.959933 | source=`proxifly`
+- 7. `socks5://152.70.241.59:1080` | `socks5` | `transparent` | 200 3.434331 | source=`proxifly`
+- 8. `http://121.180.75.228:1723` | `http` | `transparent` | 200 1.047779 | source=`proxyscrape`
 
 ## 输出文件
 
