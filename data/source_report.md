@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-04T12:52:38+00:00）
+# KR 免费代理自动刷新报告（2026-07-04T14:20:54+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,25 +24,29 @@
 
 ## 原始候选数量
 
-- geonode: 13
+- geonode: 14
 - iplocate: 1
 - monosans_fallback: 0
 - monosans_kr_json: 0
 - niek: 13
-- proxifly: 30
-- proxyscrape: 21
+- proxifly: 23
+- proxyscrape: 30
 - skillter_fallback: 0
-- 去重后总候选: 65
+- 去重后总候选: 69
 
 ## 当前验证通过的代理
 
-- 1. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 0.687048 | source=`geonode`
-- 2. `socks5://152.70.241.59:1080` | `socks5` | `elite` | 200 1.086576 | source=`geonode`
-- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.942056 | source=`niek`
-- 4. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.662522 | source=`proxifly`
-- 5. `socks5://180.136.129.80:1080` | `socks5` | `transparent` | 200 4.859728 | source=`proxifly`
-- 6. `http://121.180.75.228:1723` | `http` | `transparent` | 200 0.780107 | source=`proxyscrape`
-- 7. `http://14.53.55.217:3128` | `http` | `transparent` | 200 1.162164 | source=`proxifly`
+- 1. `socks5://152.70.241.59:1080` | `socks5` | `elite` | 200 1.063233 | source=`geonode`
+- 2. `socks5://101.33.76.248:1080` | `socks5` | `elite` | 200 1.095643 | source=`geonode`
+- 3. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.429332 | source=`geonode`
+- 4. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 2.846382 | source=`geonode`
+- 5. `http://146.56.110.131:8118` | `http` | `elite` | 200 4.777387 | source=`proxyscrape`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.805379 | source=`niek`
+- 7. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 2.079513 | source=`proxifly`
+- 8. `socks5://206.123.156.228:10507` | `socks5` | `transparent` | 200 5.684999 | source=`proxifly`
+- 9. `socks5://206.123.156.228:9546` | `socks5` | `transparent` | 200 6.526295 | source=`proxifly`
+- 10. `socks5://206.123.156.233:5681` | `socks5` | `transparent` | 200 9.179035 | source=`proxifly`
+- 11. `http://121.180.75.228:1723` | `http` | `transparent` | 200 0.877392 | source=`proxyscrape`
 
 ## 输出文件
 
