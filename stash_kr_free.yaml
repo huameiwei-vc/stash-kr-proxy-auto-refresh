@@ -1,4 +1,4 @@
-# Generated at 2026-07-05T12:00:59+00:00
+# Generated at 2026-07-05T14:03:49+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -13,45 +13,31 @@ proxies:
     server: 43.128.150.150
     port: 1080
     udp: true
-  - name: "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-    type: socks5
-    server: 121.169.46.116
-    port: 1090
-    udp: true
-  - name: "KR-HTTP-03-UNKNOWN-106.10.55.212:1121"
-    type: http
-    server: 106.10.55.212
-    port: 1121
-  - name: "KR-HTTP-04-UNKNOWN-220.95.121.83:1521"
-    type: http
-    server: 220.95.121.83
-    port: 1521
-  - name: "KR-HTTP-05-UNKNOWN-121.180.75.228:1723"
-    type: http
-    server: 121.180.75.228
-    port: 1723
-  - name: "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
+  - name: "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-HTTP-07-UNKNOWN-220.95.64.74:1521"
+  - name: "KR-HTTP-03-UNKNOWN-121.180.75.228:1723"
+    type: http
+    server: 121.180.75.228
+    port: 1723
+  - name: "KR-HTTP-04-UNKNOWN-220.95.64.74:1521"
     type: http
     server: 220.95.64.74
     port: 1521
-  - name: "KR-SOCKS5-08-TRANSPARENT-152.70.241.59:1080"
+  - name: "KR-HTTP-05-UNKNOWN-106.10.55.212:1121"
+    type: http
+    server: 106.10.55.212
+    port: 1121
+  - name: "KR-SOCKS5-06-TRANSPARENT-152.70.241.59:1080"
     type: socks5
     server: 152.70.241.59
     port: 1080
     udp: true
-  - name: "KR-SOCKS5-09-TRANSPARENT-206.123.156.228:7366"
+  - name: "KR-SOCKS5-07-TRANSPARENT-206.123.156.228:4298"
     type: socks5
     server: 206.123.156.228
-    port: 7366
-    udp: true
-  - name: "KR-SOCKS5-10-TRANSPARENT-218.52.249.121:1080"
-    type: socks5
-    server: 218.52.249.121
-    port: 1080
+    port: 4298
     udp: true
 
 proxy-groups:
@@ -61,15 +47,12 @@ proxy-groups:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
       - "KR-SOCKS5-01-ELITE-43.128.150.150:1080"
-      - "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-03-UNKNOWN-106.10.55.212:1121"
-      - "KR-HTTP-04-UNKNOWN-220.95.121.83:1521"
-      - "KR-HTTP-05-UNKNOWN-121.180.75.228:1723"
-      - "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-07-UNKNOWN-220.95.64.74:1521"
-      - "KR-SOCKS5-08-TRANSPARENT-152.70.241.59:1080"
-      - "KR-SOCKS5-09-TRANSPARENT-206.123.156.228:7366"
-      - "KR-SOCKS5-10-TRANSPARENT-218.52.249.121:1080"
+      - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-03-UNKNOWN-121.180.75.228:1723"
+      - "KR-HTTP-04-UNKNOWN-220.95.64.74:1521"
+      - "KR-HTTP-05-UNKNOWN-106.10.55.212:1121"
+      - "KR-SOCKS5-06-TRANSPARENT-152.70.241.59:1080"
+      - "KR-SOCKS5-07-TRANSPARENT-206.123.156.228:4298"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -78,12 +61,10 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-SOCKS5-01-ELITE-43.128.150.150:1080"
-      - "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-03-UNKNOWN-106.10.55.212:1121"
-      - "KR-HTTP-04-UNKNOWN-220.95.121.83:1521"
-      - "KR-HTTP-05-UNKNOWN-121.180.75.228:1723"
-      - "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-07-UNKNOWN-220.95.64.74:1521"
+      - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-03-UNKNOWN-121.180.75.228:1723"
+      - "KR-HTTP-04-UNKNOWN-220.95.64.74:1521"
+      - "KR-HTTP-05-UNKNOWN-106.10.55.212:1121"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
@@ -91,15 +72,12 @@ proxy-groups:
     tolerance: 150
     proxies:
       - "KR-SOCKS5-01-ELITE-43.128.150.150:1080"
-      - "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
-      - "KR-HTTP-03-UNKNOWN-106.10.55.212:1121"
-      - "KR-HTTP-04-UNKNOWN-220.95.121.83:1521"
-      - "KR-HTTP-05-UNKNOWN-121.180.75.228:1723"
-      - "KR-HTTP-06-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-07-UNKNOWN-220.95.64.74:1521"
-      - "KR-SOCKS5-08-TRANSPARENT-152.70.241.59:1080"
-      - "KR-SOCKS5-09-TRANSPARENT-206.123.156.228:7366"
-      - "KR-SOCKS5-10-TRANSPARENT-218.52.249.121:1080"
+      - "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      - "KR-HTTP-03-UNKNOWN-121.180.75.228:1723"
+      - "KR-HTTP-04-UNKNOWN-220.95.64.74:1521"
+      - "KR-HTTP-05-UNKNOWN-106.10.55.212:1121"
+      - "KR-SOCKS5-06-TRANSPARENT-152.70.241.59:1080"
+      - "KR-SOCKS5-07-TRANSPARENT-206.123.156.228:4298"
 
 rules:
   - MATCH,节点选择
