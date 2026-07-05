@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-05T05:13:50+00:00）
+# KR 免费代理自动刷新报告（2026-07-05T08:15:57+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,29 +25,27 @@
 ## 原始候选数量
 
 - geonode: 14
-- iplocate: 10
+- iplocate: 7
 - monosans_fallback: 0
-- monosans_kr_json: 7
+- monosans_kr_json: 0
 - niek: 17
-- proxifly: 17
-- proxyscrape: 31
+- proxifly: 18
+- proxyscrape: 36
 - skillter_fallback: 0
-- 去重后总候选: 73
+- 去重后总候选: 72
 
 ## 当前验证通过的代理
 
-- 1. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 0.974830 | source=`geonode`
-- 2. `socks5://152.70.241.59:1080` | `socks5` | `elite` | 200 1.238453 | source=`geonode`
-- 3. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.092514 | source=`geonode`
-- 4. `socks4://146.56.191.98:14785` | `socks4` | `elite` | 200 9.901756 | source=`proxyscrape`
-- 5. `socks5://158.179.173.238:1080` | `socks5` | `unknown` | 200 8.622369 | source=`iplocate`
-- 6. `http://106.10.55.212:1121` | `http` | `unknown` | 200 0.749200 | source=`monosans_kr_json`
-- 7. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.960408 | source=`monosans_kr_json`
-- 8. `http://220.95.121.83:1521` | `http` | `unknown` | 200 0.993006 | source=`monosans_kr_json`
-- 9. `http://220.95.64.74:1521` | `http` | `unknown` | 200 1.020587 | source=`monosans_kr_json`
-- 10. `http://121.180.75.228:1723` | `http` | `unknown` | 200 1.088194 | source=`niek`
-- 11. `http://168.126.169.198:808` | `http` | `unknown` | 200 1.580873 | source=`monosans_kr_json`
-- 12. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.948299 | source=`proxifly`
+- 1. `socks5://193.122.105.251:65535` | `socks5` | `elite` | 200 0.692105 | source=`geonode`
+- 2. `socks5://43.128.150.150:1080` | `socks5` | `elite` | 200 0.706939 | source=`geonode`
+- 3. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.342966 | source=`geonode`
+- 4. `socks5://222.102.194.158:1111` | `socks5` | `elite` | 200 6.080476 | source=`proxyscrape`
+- 5. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.773892 | source=`niek`
+- 6. `http://121.180.75.228:1723` | `http` | `unknown` | 200 0.799595 | source=`niek`
+- 7. `http://220.95.64.74:1521` | `http` | `unknown` | 200 0.914625 | source=`niek`
+- 8. `http://220.95.121.83:1521` | `http` | `unknown` | 200 0.950054 | source=`niek`
+- 9. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.673027 | source=`proxifly`
+- 10. `socks5://152.70.241.59:1080` | `socks5` | `transparent` | 200 1.398469 | source=`proxifly`
 
 ## 输出文件
 
