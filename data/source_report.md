@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-14T23:23:07+00:00）
+# KR 免费代理自动刷新报告（2026-07-15T00:10:23+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,27 +24,25 @@
 
 ## 原始候选数量
 
-- geonode: 14
-- iplocate: 1
+- geonode: 13
+- iplocate: 0
+- iplocate_error: 0
 - monosans_fallback: 0
 - monosans_kr_json: 5
 - niek: 11
-- proxifly: 18
-- proxyscrape: 30
+- proxifly: 16
+- proxyscrape: 27
 - skillter_fallback: 0
-- 去重后总候选: 64
+- 去重后总候选: 57
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 3.898498 | source=`geonode`
-- 2. `http://43.164.129.36:3128` | `http` | `elite` | 200 0.757431 | source=`proxyscrape`
-- 3. `http://106.10.55.212:1121` | `http` | `unknown` | 200 0.945536 | source=`monosans_kr_json`
-- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.984945 | source=`monosans_kr_json`
-- 5. `http://211.233.44.58:8080` | `http` | `unknown` | 200 1.266033 | source=`monosans_kr_json`
-- 6. `http://58.180.17.51:3128` | `http` | `unknown` | 200 4.255366 | source=`monosans_kr_json`
-- 7. `http://168.126.169.198:808` | `http` | `transparent` | 200 1.112264 | source=`proxyscrape`
-- 8. `http://140.245.66.105:8081` | `http` | `transparent` | 200 4.634122 | source=`proxyscrape`
-- 9. `http://43.131.224.66:80` | `http` | `transparent` | 200 4.698802 | source=`proxyscrape`
+- 1. `socks5://218.52.249.121:1080` | `socks5` | `elite` | 200 0.941538 | source=`geonode`
+- 2. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.527812 | source=`geonode`
+- 3. `http://106.10.55.212:1121` | `http` | `unknown` | 200 0.745060 | source=`monosans_kr_json`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.971072 | source=`monosans_kr_json`
+- 5. `http://211.233.44.58:8080` | `http` | `unknown` | 200 1.249460 | source=`monosans_kr_json`
+- 6. `http://168.126.169.198:808` | `http` | `transparent` | 200 4.402396 | source=`proxyscrape`
 
 ## 输出文件
 
