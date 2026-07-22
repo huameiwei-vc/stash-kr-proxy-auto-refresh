@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-22T09:35:46+00:00）
+# KR 免费代理自动刷新报告（2026-07-22T11:27:47+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,29 +24,28 @@
 
 ## 原始候选数量
 
-- geonode: 14
-- iplocate: 5
+- geonode: 13
+- iplocate: 0
+- iplocate_error: 0
 - monosans_fallback: 0
-- monosans_kr_json: 3
+- monosans_kr_json: 4
 - niek: 12
-- proxifly: 27
-- proxyscrape: 25
+- proxifly: 32
+- proxyscrape: 28
 - skillter_fallback: 0
 - 去重后总候选: 74
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.884725 | source=`geonode`
-- 2. `socks5://140.238.28.230:10808` | `socks5` | `elite` | 200 1.107416 | source=`proxyscrape`
-- 3. `socks4://43.133.242.194:888` | `socks4` | `elite` | 200 0.773702 | source=`proxyscrape`
-- 4. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.794088 | source=`monosans_kr_json`
-- 5. `socks5://8.213.149.224:1080` | `socks5` | `unknown` | 200 1.478341 | source=`iplocate`
-- 6. `socks5://43.133.242.194:888` | `socks5` | `unknown` | 200 2.452289 | source=`monosans_kr_json`
-- 7. `http://43.203.128.219:3128` | `http` | `unknown` | 200 0.654691 | source=`niek`
-- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.914833 | source=`monosans_kr_json`
-- 9. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.911280 | source=`proxifly`
-- 10. `http://112.186.12.207:3128` | `http` | `transparent` | 200 3.639133 | source=`proxyscrape`
-- 11. `http://58.180.17.51:3128` | `http` | `transparent` | 200 3.696124 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 1.149363 | source=`geonode`
+- 2. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.655938 | source=`monosans_kr_json`
+- 3. `http://43.203.128.219:3128` | `http` | `unknown` | 200 0.547918 | source=`niek`
+- 4. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.871867 | source=`monosans_kr_json`
+- 5. `socks5://8.213.149.224:1080` | `socks5` | `transparent` | 200 0.673929 | source=`proxifly`
+- 6. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 1.104822 | source=`proxifly`
+- 7. `http://106.10.55.212:1121` | `http` | `transparent` | 200 1.594877 | source=`proxyscrape`
+- 8. `http://112.168.176.184:3128` | `http` | `transparent` | 200 4.402056 | source=`proxyscrape`
+- 9. `http://58.180.17.51:3128` | `http` | `transparent` | 200 8.127679 | source=`proxifly`
 
 ## 输出文件
 
