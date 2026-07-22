@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-22T16:10:57+00:00）
+# KR 免费代理自动刷新报告（2026-07-22T17:39:07+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,27 +24,27 @@
 
 ## 原始候选数量
 
-- geonode: 14
-- iplocate: 1
+- geonode: 15
+- iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 3
+- monosans_kr_json: 5
 - niek: 12
 - proxifly: 27
-- proxyscrape: 31
+- proxyscrape: 27
 - skillter_fallback: 0
-- 去重后总候选: 77
+- 去重后总候选: 76
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.682028 | source=`geonode`
-- 2. `socks5://132.226.235.199:1080` | `socks5` | `elite` | 200 0.991995 | source=`proxyscrape`
-- 3. `http://211.233.44.58:8080` | `http` | `elite` | 200 5.742616 | source=`proxyscrape`
-- 4. `socks4://152.70.237.238:3128` | `socks4` | `elite` | 200 1.436037 | source=`proxyscrape`
-- 5. `http://43.203.128.219:3128` | `http` | `unknown` | 200 0.550990 | source=`niek`
-- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 1.366100 | source=`monosans_kr_json`
-- 7. `socks5://8.213.149.224:1080` | `socks5` | `transparent` | 200 0.661562 | source=`proxifly`
-- 8. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 1.648770 | source=`proxifly`
-- 9. `http://106.10.55.212:1121` | `http` | `transparent` | 200 0.724187 | source=`proxyscrape`
+- 1. `socks5://132.226.235.199:1080` | `socks5` | `elite` | 200 1.152739 | source=`geonode`
+- 2. `socks5://140.238.28.230:10808` | `socks5` | `elite` | 200 1.163658 | source=`proxyscrape`
+- 3. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.386521 | source=`geonode`
+- 4. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 2.644142 | source=`monosans_kr_json`
+- 5. `http://43.203.128.219:3128` | `http` | `unknown` | 200 0.758061 | source=`niek`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.951169 | source=`monosans_kr_json`
+- 7. `socks5://8.213.149.224:1080` | `socks5` | `transparent` | 200 0.941626 | source=`proxifly`
+- 8. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 3.745247 | source=`proxifly`
+- 9. `http://58.180.17.51:3128` | `http` | `transparent` | 200 6.212659 | source=`proxyscrape`
 
 ## 输出文件
 
