@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-23T03:41:42+00:00）
+# KR 免费代理自动刷新报告（2026-07-23T06:17:24+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -24,29 +24,24 @@
 
 ## 原始候选数量
 
-- geonode: 15
-- iplocate: 7
+- geonode: 14
+- iplocate: 1
 - monosans_fallback: 0
-- monosans_kr_json: 4
+- monosans_kr_json: 5
 - niek: 15
-- proxifly: 22
-- proxyscrape: 31
+- proxifly: 21
+- proxyscrape: 27
 - skillter_fallback: 0
-- 去重后总候选: 78
+- 去重后总候选: 70
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.065286 | source=`geonode`
-- 2. `socks5://158.179.171.148:1080` | `socks5` | `elite` | 200 8.012666 | source=`proxyscrape`
-- 3. `http://211.233.44.58:8080` | `http` | `elite` | 200 7.502065 | source=`proxyscrape`
-- 4. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.788333 | source=`monosans_kr_json`
-- 5. `socks5://152.70.237.238:3128` | `socks5` | `unknown` | 200 1.231617 | source=`iplocate`
-- 6. `socks5://206.123.156.204:4559` | `socks5` | `unknown` | 200 3.154945 | source=`iplocate`
-- 7. `socks5://206.123.156.217:4149` | `socks5` | `unknown` | 200 3.298009 | source=`iplocate`
-- 8. `socks5://206.123.156.222:5281` | `socks5` | `unknown` | 200 5.156265 | source=`iplocate`
-- 9. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.924207 | source=`monosans_kr_json`
-- 10. `socks5://8.213.149.224:1080` | `socks5` | `transparent` | 200 0.798824 | source=`proxifly`
-- 11. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.833111 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 2.765847 | source=`geonode`
+- 2. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.871216 | source=`monosans_kr_json`
+- 3. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.942948 | source=`monosans_kr_json`
+- 4. `http://58.180.17.51:3128` | `http` | `unknown` | 200 2.767948 | source=`monosans_kr_json`
+- 5. `socks5://8.213.149.224:1080` | `socks5` | `transparent` | 200 0.859231 | source=`proxifly`
+- 6. `socks5://218.52.249.121:1080` | `socks5` | `transparent` | 200 0.874116 | source=`proxifly`
 
 ## 输出文件
 
