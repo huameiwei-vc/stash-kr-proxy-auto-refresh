@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-31T16:20:34+00:00）
+# KR 免费代理自动刷新报告（2026-07-31T17:58:21+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,26 +25,24 @@
 ## 原始候选数量
 
 - geonode: 15
-- iplocate: 1
+- iplocate: 2
 - monosans_fallback: 0
-- monosans_kr_json: 6
+- monosans_kr_json: 5
 - niek: 12
 - proxifly: 22
 - proxyscrape: 19
 - skillter_fallback: 0
-- 去重后总候选: 55
+- 去重后总候选: 57
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.708137 | source=`geonode`
-- 2. `socks5://146.56.185.39:34500` | `socks5` | `elite` | 200 0.796041 | source=`proxyscrape`
-- 3. `socks5://43.155.232.123:1080` | `socks5` | `unknown` | 200 0.662273 | source=`monosans_kr_json`
-- 4. `socks5://218.52.249.121:1080` | `socks5` | `unknown` | 200 0.703785 | source=`monosans_kr_json`
-- 5. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.883972 | source=`monosans_kr_json`
-- 6. `socks5://43.155.185.73:1080` | `socks5` | `unknown` | 200 2.592593 | source=`monosans_kr_json`
-- 7. `http://43.155.179.47:8080` | `http` | `unknown` | 200 0.529446 | source=`monosans_kr_json`
-- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.550069 | source=`monosans_kr_json`
-- 9. `socks5://152.70.253.226:1080` | `socks5` | `transparent` | 200 0.672096 | source=`proxifly`
+- 1. `socks5://168.107.13.220:50161` | `socks5` | `elite` | 200 1.188212 | source=`geonode`
+- 2. `socks4://168.107.13.220:50161` | `socks4` | `elite` | 200 1.033835 | source=`proxyscrape`
+- 3. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.919834 | source=`monosans_kr_json`
+- 4. `socks5://43.155.185.73:1080` | `socks5` | `unknown` | 200 0.925042 | source=`monosans_kr_json`
+- 5. `socks5://43.155.232.123:1080` | `socks5` | `unknown` | 200 0.936661 | source=`monosans_kr_json`
+- 6. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.753952 | source=`monosans_kr_json`
+- 7. `socks5://152.70.253.226:1080` | `socks5` | `transparent` | 200 1.697682 | source=`proxifly`
 
 ## 输出文件
 
