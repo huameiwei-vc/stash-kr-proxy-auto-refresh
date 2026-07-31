@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-07-31T07:41:43+00:00）
+# KR 免费代理自动刷新报告（2026-07-31T10:13:21+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,28 +25,27 @@
 ## 原始候选数量
 
 - geonode: 14
-- iplocate: 2
+- iplocate: 6
 - monosans_fallback: 0
-- monosans_kr_json: 8
+- monosans_kr_json: 6
 - niek: 12
 - proxifly: 25
-- proxyscrape: 28
+- proxyscrape: 25
 - skillter_fallback: 0
-- 去重后总候选: 67
+- 去重后总候选: 66
 
 ## 当前验证通过的代理
 
-- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 5.514276 | source=`geonode`
-- 2. `http://43.155.222.216:3128` | `http` | `elite` | 200 3.567661 | source=`proxyscrape`
-- 3. `socks4://168.107.13.220:50161` | `socks4` | `elite` | 200 0.817167 | source=`proxyscrape`
-- 4. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 0.663098 | source=`monosans_kr_json`
-- 5. `socks5://43.155.185.73:1080` | `socks5` | `unknown` | 200 0.666072 | source=`monosans_kr_json`
-- 6. `socks5://43.155.232.123:1080` | `socks5` | `unknown` | 200 0.667207 | source=`monosans_kr_json`
-- 7. `socks5://218.52.249.121:1080` | `socks5` | `unknown` | 200 0.740263 | source=`monosans_kr_json`
-- 8. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.537709 | source=`monosans_kr_json`
-- 9. `http://43.155.179.47:8080` | `http` | `unknown` | 200 2.146142 | source=`monosans_kr_json`
-- 10. `socks5://152.70.253.226:1080` | `socks5` | `transparent` | 200 0.657256 | source=`proxifly`
-- 11. `socks5://168.107.13.220:50161` | `socks5` | `transparent` | 200 0.895498 | source=`proxifly`
+- 1. `socks5://121.169.46.116:1090` | `socks5` | `elite` | 200 0.948226 | source=`geonode`
+- 2. `socks4://168.107.13.220:50161` | `socks4` | `elite` | 200 1.163382 | source=`proxyscrape`
+- 3. `socks5://43.155.232.123:1080` | `socks5` | `unknown` | 200 0.956019 | source=`monosans_kr_json`
+- 4. `socks5://43.155.185.73:1080` | `socks5` | `unknown` | 200 1.147534 | source=`monosans_kr_json`
+- 5. `socks5://43.164.136.189:1080` | `socks5` | `unknown` | 200 1.376783 | source=`monosans_kr_json`
+- 6. `socks5://218.52.249.121:1080` | `socks5` | `unknown` | 200 2.013487 | source=`monosans_kr_json`
+- 7. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.780013 | source=`monosans_kr_json`
+- 8. `http://43.155.179.47:8080` | `http` | `unknown` | 200 5.629611 | source=`monosans_kr_json`
+- 9. `socks5://152.70.253.226:1080` | `socks5` | `transparent` | 200 0.939641 | source=`proxifly`
+- 10. `socks5://168.107.13.220:50161` | `socks5` | `transparent` | 200 1.304298 | source=`proxifly`
 
 ## 输出文件
 
