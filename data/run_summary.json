@@ -1,65 +1,7 @@
 {
-  "generated_at": "2026-08-05T22:39:29+00:00",
-  "working_count": 2,
-  "working": [
-    {
-      "source": "geonode",
-      "proxy": "socks5://121.169.46.116:1090",
-      "protocol": "socks5",
-      "ip": "121.169.46.116",
-      "port": 1090,
-      "anonymity": "elite",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.927,
-      "https_time_s": 1.216,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "121.169.46.116"
-      },
-      "https_result": "200 1.209140",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "asn": null,
-        "city": "Suwon",
-        "last_checked": 1785958031,
-        "up_time": 92.6829268292683,
-        "google_hint": false,
-        "country_code": "KR"
-      },
-      "stash_name": "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-    },
-    {
-      "source": "monosans_kr_json",
-      "proxy": "http://1.231.81.166:3128",
-      "protocol": "http",
-      "ip": "1.231.81.166",
-      "port": 3128,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.486,
-      "https_time_s": 0.779,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "1.231.81.166"
-      },
-      "https_result": "200 0.772597",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "city": "Jongno-gu",
-        "country_code": "KR",
-        "timeout_s": 2.21
-      },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-    }
-  ],
+  "generated_at": "2026-08-05T23:34:07+00:00",
+  "working_count": 0,
+  "message": "No KR proxy passed both geo and Naver HTTPS validation.",
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
   "tested_results": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/tested_kr_proxies.json",
   "report": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/source_report.md"
