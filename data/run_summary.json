@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:02:15+00:00",
+  "generated_at": "2026-08-08T14:45:58+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,22 +11,22 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 3.79,
-      "https_time_s": 2.163,
+      "geo_time_s": 0.738,
+      "https_time_s": 0.697,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 2.155464",
+      "https_result": "200 0.690859",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "asn": null,
         "city": "Suwon",
-        "last_checked": 1786184555,
-        "up_time": 94.11764705882352,
+        "last_checked": 1786197883,
+        "up_time": 94.1747572815534,
         "google_hint": false,
         "country_code": "KR"
       },
@@ -41,21 +41,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.759,
-      "https_time_s": 0.731,
+      "geo_time_s": 1.742,
+      "https_time_s": 0.677,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 0.724086",
+      "https_result": "200 0.671162",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 1.81
+        "timeout_s": 2.24
       },
       "stash_name": "KR-SOCKS5-02-UNKNOWN-43.164.136.189:1080"
     },
@@ -68,21 +68,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.383,
-      "https_time_s": 0.602,
+      "geo_time_s": 1.892,
+      "https_time_s": 1.816,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.595180",
+      "https_result": "200 1.810746",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 1.31
+        "timeout_s": 1.32
       },
       "stash_name": "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
     }
