@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:52:52+00:00",
+  "generated_at": "2026-08-09T20:16:10+00:00",
   "working_count": 2,
   "working": [
     {
@@ -11,22 +11,22 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.804,
-      "https_time_s": 1.312,
+      "geo_time_s": 1.759,
+      "https_time_s": 3.096,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.306999",
+      "https_result": "200 3.089000",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "asn": "AS4766",
         "city": "Suwon",
-        "last_checked": 1786292485,
-        "up_time": 94.64285714285714,
+        "last_checked": 1786305388,
+        "up_time": 94.69026548672566,
         "google_hint": false,
         "country_code": "KR"
       },
@@ -41,21 +41,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.348,
-      "https_time_s": 0.555,
+      "geo_time_s": 0.482,
+      "https_time_s": 0.761,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.550324",
+      "https_result": "200 0.752526",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 1.31
+        "timeout_s": 1.32
       },
       "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
     }
