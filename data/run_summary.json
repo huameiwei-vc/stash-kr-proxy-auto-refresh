@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T14:40:04+00:00",
+  "generated_at": "2026-08-11T15:33:14+00:00",
   "working_count": 4,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.951,
-      "https_time_s": 0.984,
+      "geo_time_s": 0.95,
+      "https_time_s": 0.688,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.976546",
+      "https_result": "200 0.681569",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -41,21 +41,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.918,
-      "https_time_s": 0.94,
+      "geo_time_s": 0.715,
+      "https_time_s": 0.676,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "47.80.27.150"
       },
-      "https_result": "200 0.932427",
+      "https_result": "200 0.668780",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 4.96
+        "timeout_s": 1.66
       },
       "stash_name": "KR-SOCKS5-02-UNKNOWN-47.80.27.150:1080"
     },
@@ -68,21 +68,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.906,
-      "https_time_s": 1.133,
+      "geo_time_s": 0.699,
+      "https_time_s": 5.287,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 1.125645",
+      "https_result": "200 5.279686",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 3.39
+        "timeout_s": 1.46
       },
       "stash_name": "KR-SOCKS5-03-UNKNOWN-43.164.136.189:1080"
     },
@@ -95,21 +95,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.737,
-      "https_time_s": 0.84,
+      "geo_time_s": 0.358,
+      "https_time_s": 0.546,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.832237",
+      "https_result": "200 0.539330",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Jongno-gu",
         "country_code": "KR",
-        "timeout_s": 1.39
+        "timeout_s": 1.32
       },
       "stash_name": "KR-HTTP-04-UNKNOWN-1.231.81.166:3128"
     }
