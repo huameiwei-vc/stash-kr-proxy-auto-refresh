@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:33:14+00:00",
+  "generated_at": "2026-08-13T19:40:33+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,21 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.826,
-      "https_time_s": 0.864,
+      "geo_time_s": 0.817,
+      "https_time_s": 0.796,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "47.80.27.150"
       },
-      "https_result": "200 0.857401",
+      "https_result": "200 0.789138",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 1.75
+        "timeout_s": 1.69
       },
       "stash_name": "KR-SOCKS5-01-UNKNOWN-47.80.27.150:1080"
     },
@@ -38,21 +38,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.864,
-      "https_time_s": 1.347,
+      "geo_time_s": 0.786,
+      "https_time_s": 0.8,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 1.340846",
+      "https_result": "200 0.792591",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 3.21
+        "timeout_s": 1.77
       },
       "stash_name": "KR-SOCKS5-02-UNKNOWN-43.164.136.189:1080"
     },
@@ -65,21 +65,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.44,
-      "https_time_s": 0.7,
+      "geo_time_s": 0.411,
+      "https_time_s": 0.652,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.693102",
+      "https_result": "200 0.644496",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dobong-gu",
         "country_code": "KR",
-        "timeout_s": 5.65
+        "timeout_s": 1.32
       },
       "stash_name": "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
     }
