@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:56:24+00:00",
+  "generated_at": "2026-08-14T23:12:13+00:00",
   "working_count": 5,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.798,
-      "https_time_s": 0.772,
+      "geo_time_s": 0.691,
+      "https_time_s": 0.637,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.765323",
+      "https_result": "200 0.629366",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -34,33 +34,6 @@
     },
     {
       "source": "monosans_kr_json",
-      "proxy": "socks5://43.164.136.189:1080",
-      "protocol": "socks5",
-      "ip": "43.164.136.189",
-      "port": 1080,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.788,
-      "https_time_s": 0.759,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "43.164.136.189"
-      },
-      "https_result": "200 0.752442",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "city": "Seoul",
-        "country_code": "KR",
-        "timeout_s": 1.77
-      },
-      "stash_name": "KR-SOCKS5-02-UNKNOWN-43.164.136.189:1080"
-    },
-    {
-      "source": "monosans_kr_json",
       "proxy": "socks5://47.80.27.150:1080",
       "protocol": "socks5",
       "ip": "47.80.27.150",
@@ -68,15 +41,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.803,
-      "https_time_s": 0.819,
+      "geo_time_s": 0.702,
+      "https_time_s": 0.635,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "47.80.27.150"
       },
-      "https_result": "200 0.813587",
+      "https_result": "200 0.627432",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -84,7 +57,34 @@
         "country_code": "KR",
         "timeout_s": 1.94
       },
-      "stash_name": "KR-SOCKS5-03-UNKNOWN-47.80.27.150:1080"
+      "stash_name": "KR-SOCKS5-02-UNKNOWN-47.80.27.150:1080"
+    },
+    {
+      "source": "monosans_kr_json",
+      "proxy": "socks5://43.164.136.189:1080",
+      "protocol": "socks5",
+      "ip": "43.164.136.189",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.659,
+      "https_time_s": 1.593,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "43.164.136.189"
+      },
+      "https_result": "200 1.585488",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "city": "Seoul",
+        "country_code": "KR",
+        "timeout_s": 1.77
+      },
+      "stash_name": "KR-SOCKS5-03-UNKNOWN-43.164.136.189:1080"
     },
     {
       "source": "monosans_kr_json",
@@ -95,15 +95,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.42,
-      "https_time_s": 0.727,
+      "geo_time_s": 0.334,
+      "https_time_s": 0.555,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.719838",
+      "https_result": "200 0.547755",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -122,15 +122,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.594,
-      "https_time_s": 4.97,
+      "geo_time_s": 3.796,
+      "https_time_s": 3.843,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "132.226.171.101"
       },
-      "https_result": "200 4.964313",
+      "https_result": "200 3.835647",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
