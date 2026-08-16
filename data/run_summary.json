@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:06:37+00:00",
+  "generated_at": "2026-08-16T22:33:28+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,21 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.898,
-      "https_time_s": 1.55,
+      "geo_time_s": 0.72,
+      "https_time_s": 0.857,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 1.543796",
+      "https_result": "200 0.851111",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 1.7
+        "timeout_s": 1.93
       },
       "stash_name": "KR-SOCKS5-01-UNKNOWN-43.164.136.189:1080"
     },
@@ -38,15 +38,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.494,
-      "https_time_s": 0.757,
+      "geo_time_s": 0.533,
+      "https_time_s": 0.545,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.750617",
+      "https_result": "200 0.538319",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -65,15 +65,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 2.032,
-      "https_time_s": 3.358,
+      "geo_time_s": 1.769,
+      "https_time_s": 1.002,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 3.351949",
+      "https_result": "200 0.996026",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
