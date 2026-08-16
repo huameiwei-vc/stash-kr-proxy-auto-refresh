@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T08:21:57+00:00",
+  "generated_at": "2026-08-16T08:51:48+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.805,
-      "https_time_s": 0.796,
+      "geo_time_s": 0.918,
+      "https_time_s": 1.499,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 0.789055",
+      "https_result": "200 1.492074",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -33,34 +33,31 @@
       "stash_name": "KR-SOCKS5-01-ELITE-43.164.136.189:1080"
     },
     {
-      "source": "geonode",
-      "proxy": "socks5://121.169.46.116:1090",
-      "protocol": "socks5",
-      "ip": "121.169.46.116",
-      "port": 1090,
-      "anonymity": "elite",
+      "source": "monosans_kr_json",
+      "proxy": "http://183.101.185.89:20002",
+      "protocol": "http",
+      "ip": "183.101.185.89",
+      "port": 20002,
+      "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 7.991,
-      "https_time_s": 4.258,
+      "geo_time_s": 1.259,
+      "https_time_s": 1.924,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "121.169.46.116"
+        "query": "183.101.185.89"
       },
-      "https_result": "200 4.250814",
+      "https_result": "200 1.916808",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "asn": null,
-        "city": "Suwon",
-        "last_checked": 1786864359,
-        "up_time": 93.67088607594937,
-        "google_hint": false,
-        "country_code": "KR"
+        "city": "Geumcheon-gu",
+        "country_code": "KR",
+        "timeout_s": 1.62
       },
-      "stash_name": "KR-SOCKS5-02-ELITE-121.169.46.116:1090"
+      "stash_name": "KR-HTTP-02-UNKNOWN-183.101.185.89:20002"
     },
     {
       "source": "monosans_kr_json",
@@ -71,15 +68,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.409,
-      "https_time_s": 0.678,
+      "geo_time_s": 2.158,
+      "https_time_s": 2.48,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.670786",
+      "https_result": "200 2.472815",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
