@@ -1,60 +1,7 @@
 {
-  "generated_at": "2026-08-16T07:41:50+00:00",
-  "working_count": 3,
+  "generated_at": "2026-08-16T07:58:09+00:00",
+  "working_count": 1,
   "working": [
-    {
-      "source": "monosans_kr_json",
-      "proxy": "socks5://43.164.136.189:1080",
-      "protocol": "socks5",
-      "ip": "43.164.136.189",
-      "port": 1080,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.705,
-      "https_time_s": 1.486,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "43.164.136.189"
-      },
-      "https_result": "200 1.479555",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "city": "Seoul",
-        "country_code": "KR",
-        "timeout_s": 2.83
-      },
-      "stash_name": "KR-SOCKS5-01-UNKNOWN-43.164.136.189:1080"
-    },
-    {
-      "source": "niek",
-      "proxy": "http://1.231.81.166:3128",
-      "protocol": "http",
-      "ip": "1.231.81.166",
-      "port": 3128,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.405,
-      "https_time_s": 0.548,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "1.231.81.166"
-      },
-      "https_result": "200 0.542388",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "country_code": "KR",
-        "status": "page_live"
-      },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
-    },
     {
       "source": "monosans_kr_json",
       "proxy": "http://183.101.185.89:20002",
@@ -64,15 +11,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.77,
-      "https_time_s": 0.858,
+      "geo_time_s": 1.886,
+      "https_time_s": 1.251,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "183.101.185.89"
       },
-      "https_result": "200 0.851448",
+      "https_result": "200 1.243253",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -80,7 +27,7 @@
         "country_code": "KR",
         "timeout_s": 2.0
       },
-      "stash_name": "KR-HTTP-03-UNKNOWN-183.101.185.89:20002"
+      "stash_name": "KR-HTTP-01-UNKNOWN-183.101.185.89:20002"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
