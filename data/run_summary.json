@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:31:56+00:00",
+  "generated_at": "2026-08-17T10:08:05+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.926,
-      "https_time_s": 0.957,
+      "geo_time_s": 1.074,
+      "https_time_s": 1.451,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 0.949536",
+      "https_result": "200 1.444076",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -38,15 +38,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.468,
-      "https_time_s": 0.776,
+      "geo_time_s": 0.342,
+      "https_time_s": 0.517,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.767900",
+      "https_result": "200 0.510021",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -65,15 +65,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.678,
-      "https_time_s": 1.37,
+      "geo_time_s": 1.504,
+      "https_time_s": 1.737,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.362091",
+      "https_result": "200 1.729649",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
