@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T22:12:39+00:00",
-  "working_count": 2,
+  "generated_at": "2026-08-20T22:42:50+00:00",
+  "working_count": 3,
   "working": [
     {
       "source": "geonode",
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.877,
-      "https_time_s": 1.644,
+      "geo_time_s": 0.94,
+      "https_time_s": 0.952,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 1.638901",
+      "https_result": "200 0.944160",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -41,23 +41,50 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.48,
-      "https_time_s": 0.693,
+      "geo_time_s": 0.541,
+      "https_time_s": 0.785,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.687572",
+      "https_result": "200 0.773983",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dobong-gu",
         "country_code": "KR",
-        "timeout_s": 1.32
+        "timeout_s": 1.29
       },
       "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+    },
+    {
+      "source": "monosans_kr_json",
+      "proxy": "http://112.216.54.226:12121",
+      "protocol": "http",
+      "ip": "112.216.54.226",
+      "port": 12121,
+      "anonymity": "unknown",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.618,
+      "https_time_s": 1.01,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "112.216.54.226"
+      },
+      "https_result": "200 1.002294",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "city": "Yongin-si",
+        "country_code": "KR",
+        "timeout_s": 1.41
+      },
+      "stash_name": "KR-HTTP-03-UNKNOWN-112.216.54.226:12121"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
