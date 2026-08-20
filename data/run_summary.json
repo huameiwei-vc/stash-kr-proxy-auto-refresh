@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:45:36+00:00",
+  "generated_at": "2026-08-20T16:18:08+00:00",
   "working_count": 4,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.805,
-      "https_time_s": 1.508,
+      "geo_time_s": 1.023,
+      "https_time_s": 0.789,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 1.502703",
+      "https_result": "200 0.784019",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -38,15 +38,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.462,
-      "https_time_s": 0.56,
+      "geo_time_s": 0.702,
+      "https_time_s": 0.673,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.553899",
+      "https_result": "200 0.667843",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -65,15 +65,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.811,
-      "https_time_s": 0.686,
+      "geo_time_s": 1.095,
+      "https_time_s": 0.805,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.679221",
+      "https_result": "200 0.800045",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -93,15 +93,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.976,
-      "https_time_s": 0.773,
+      "geo_time_s": 1.063,
+      "https_time_s": 0.867,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "150.230.249.50"
       },
-      "https_result": "200 0.766100",
+      "https_result": "200 0.861893",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
