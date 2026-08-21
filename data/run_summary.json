@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:13:46+00:00",
+  "generated_at": "2026-08-21T11:40:02+00:00",
   "working_count": 3,
   "working": [
     {
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.905,
-      "https_time_s": 0.931,
+      "geo_time_s": 0.816,
+      "https_time_s": 0.828,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 0.924940",
+      "https_result": "200 0.823502",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -41,21 +41,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.914,
-      "https_time_s": 1.135,
+      "geo_time_s": 0.85,
+      "https_time_s": 0.787,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 1.128862",
+      "https_result": "200 0.783056",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Seoul",
         "country_code": "KR",
-        "timeout_s": 1.7
+        "timeout_s": 1.9
       },
       "stash_name": "KR-SOCKS5-02-UNKNOWN-43.164.136.189:1080"
     },
@@ -68,21 +68,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.455,
-      "https_time_s": 0.767,
+      "geo_time_s": 0.531,
+      "https_time_s": 0.866,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.760964",
+      "https_result": "200 0.862035",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dobong-gu",
         "country_code": "KR",
-        "timeout_s": 1.31
+        "timeout_s": 1.28
       },
       "stash_name": "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
     }
