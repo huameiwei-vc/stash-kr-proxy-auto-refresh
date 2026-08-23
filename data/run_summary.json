@@ -1,63 +1,33 @@
 {
-  "generated_at": "2026-08-23T21:54:09+00:00",
-  "working_count": 2,
+  "generated_at": "2026-08-23T22:07:38+00:00",
+  "working_count": 1,
   "working": [
     {
-      "source": "geonode",
-      "proxy": "socks5://121.169.46.116:1090",
-      "protocol": "socks5",
-      "ip": "121.169.46.116",
-      "port": 1090,
-      "anonymity": "elite",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 0.989,
-      "https_time_s": 0.945,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "121.169.46.116"
-      },
-      "https_result": "200 0.938526",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "asn": "AS4766",
-        "city": "Suwon",
-        "last_checked": 1787512767,
-        "up_time": 97.61904761904762,
-        "google_hint": false,
-        "country_code": "KR"
-      },
-      "stash_name": "KR-SOCKS5-01-ELITE-121.169.46.116:1090"
-    },
-    {
       "source": "monosans_kr_json",
-      "proxy": "http://1.231.81.166:3128",
+      "proxy": "http://112.216.54.226:12121",
       "protocol": "http",
-      "ip": "1.231.81.166",
-      "port": 3128,
+      "ip": "112.216.54.226",
+      "port": 12121,
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.488,
-      "https_time_s": 0.755,
+      "geo_time_s": 0.5,
+      "https_time_s": 0.711,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
-        "query": "1.231.81.166"
+        "query": "112.216.54.226"
       },
-      "https_result": "200 0.747526",
+      "https_result": "200 0.704678",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
-        "city": "Dobong-gu",
+        "city": "Yongin-si",
         "country_code": "KR",
-        "timeout_s": 1.28
+        "timeout_s": 1.52
       },
-      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+      "stash_name": "KR-HTTP-01-UNKNOWN-112.216.54.226:12121"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
