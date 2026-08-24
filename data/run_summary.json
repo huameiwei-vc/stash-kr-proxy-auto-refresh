@@ -1,7 +1,62 @@
 {
-  "generated_at": "2026-08-24T02:06:00+00:00",
-  "working_count": 0,
-  "message": "No KR proxy passed both geo and Naver HTTPS validation.",
+  "generated_at": "2026-08-24T03:13:32+00:00",
+  "working_count": 2,
+  "working": [
+    {
+      "source": "monosans_kr_json",
+      "proxy": "socks5://43.164.136.189:1080",
+      "protocol": "socks5",
+      "ip": "43.164.136.189",
+      "port": 1080,
+      "anonymity": "unknown",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.92,
+      "https_time_s": 1.957,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "43.164.136.189"
+      },
+      "https_result": "200 1.950035",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "city": "Seoul",
+        "country_code": "KR",
+        "timeout_s": 5.14
+      },
+      "stash_name": "KR-SOCKS5-01-UNKNOWN-43.164.136.189:1080"
+    },
+    {
+      "source": "monosans_kr_json",
+      "proxy": "http://1.231.81.166:3128",
+      "protocol": "http",
+      "ip": "1.231.81.166",
+      "port": 3128,
+      "anonymity": "unknown",
+      "geo_ok": true,
+      "https_ok": true,
+      "geo_time_s": 0.453,
+      "https_time_s": 0.758,
+      "geo": {
+        "status": "success",
+        "country": "South Korea",
+        "countryCode": "KR",
+        "query": "1.231.81.166"
+      },
+      "https_result": "200 0.750673",
+      "geo_error": null,
+      "https_error": null,
+      "source_meta": {
+        "city": "Dobong-gu",
+        "country_code": "KR",
+        "timeout_s": 1.28
+      },
+      "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
+    }
+  ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
   "tested_results": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/tested_kr_proxies.json",
   "report": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/data/source_report.md"
