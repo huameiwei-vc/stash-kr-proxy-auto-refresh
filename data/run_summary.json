@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T10:55:42+00:00",
-  "working_count": 4,
+  "generated_at": "2026-08-25T11:15:40+00:00",
+  "working_count": 3,
   "working": [
     {
       "source": "geonode",
@@ -11,15 +11,15 @@
       "anonymity": "elite",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 1.783,
-      "https_time_s": 1.671,
+      "geo_time_s": 0.976,
+      "https_time_s": 1.759,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 1.663213",
+      "https_result": "200 1.752198",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -41,15 +41,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.816,
-      "https_time_s": 0.805,
+      "geo_time_s": 0.682,
+      "https_time_s": 0.849,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "43.164.136.189"
       },
-      "https_result": "200 0.796759",
+      "https_result": "200 0.841298",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -68,15 +68,15 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 0.421,
-      "https_time_s": 0.652,
+      "geo_time_s": 0.347,
+      "https_time_s": 0.515,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 0.643950",
+      "https_result": "200 0.508036",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
@@ -85,31 +85,6 @@
         "timeout_s": 1.29
       },
       "stash_name": "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
-    },
-    {
-      "source": "monosans_http",
-      "proxy": "http://185.204.170.179:1142",
-      "protocol": "http",
-      "ip": "185.204.170.179",
-      "port": 1142,
-      "anonymity": "unknown",
-      "geo_ok": true,
-      "https_ok": true,
-      "geo_time_s": 5.102,
-      "https_time_s": 5.837,
-      "geo": {
-        "status": "success",
-        "country": "South Korea",
-        "countryCode": "KR",
-        "query": "141.164.40.209"
-      },
-      "https_result": "200 5.828493",
-      "geo_error": null,
-      "https_error": null,
-      "source_meta": {
-        "generic_list": true
-      },
-      "stash_name": "KR-HTTP-04-UNKNOWN-185.204.170.179:1142"
     }
   ],
   "output_yaml": "/home/runner/work/stash-kr-proxy-auto-refresh/stash-kr-proxy-auto-refresh/stash_kr_free.yaml",
