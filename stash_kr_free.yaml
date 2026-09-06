@@ -1,4 +1,4 @@
-# Generated at 2026-09-06T15:44:06+00:00
+# Generated at 2026-09-06T17:42:15+00:00
 # Verified through http://ip-api.com/json/?fields=status,country,countryCode,query,message and https://www.naver.com/
 # Goal: usable KR IP proxies; Google reachability is not guaranteed.
 # Sources: proxyscrape, proxifly, iplocate, geonode, niek, monosans_kr_json, generic fallbacks
@@ -8,27 +8,20 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "KR-SOCKS5-01-ELITE-8.220.245.72:9898"
-    type: socks5
-    server: 8.220.245.72
-    port: 9898
-    udp: true
-  - name: "KR-HTTP-02-ANONYMOUS-132.145.89.15:6688"
-    type: http
-    server: 132.145.89.15
-    port: 6688
-  - name: "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
+  - name: "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
     type: http
     server: 1.231.81.166
     port: 3128
-  - name: "KR-HTTP-04-UNKNOWN-112.216.54.226:12121"
-    type: http
-    server: 112.216.54.226
-    port: 12121
-  - name: "KR-HTTP-05-TRANSPARENT-129.154.201.19:33128"
-    type: http
-    server: 129.154.201.19
-    port: 33128
+  - name: "KR-SOCKS4-02-UNKNOWN-8.220.245.72:9898"
+    type: socks4
+    server: 8.220.245.72
+    port: 9898
+    udp: true
+  - name: "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
+    type: socks5
+    server: 121.169.46.116
+    port: 1090
+    udp: true
 
 proxy-groups:
   - name: "节点选择"
@@ -36,11 +29,9 @@ proxy-groups:
     proxies:
       - "KR-安全自动测速"
       - "KR-全量自动测速"
-      - "KR-SOCKS5-01-ELITE-8.220.245.72:9898"
-      - "KR-HTTP-02-ANONYMOUS-132.145.89.15:6688"
-      - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-04-UNKNOWN-112.216.54.226:12121"
-      - "KR-HTTP-05-TRANSPARENT-129.154.201.19:33128"
+      - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+      - "KR-SOCKS4-02-UNKNOWN-8.220.245.72:9898"
+      - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
       - DIRECT
   - name: "KR-安全自动测速"
     type: url-test
@@ -48,21 +39,17 @@ proxy-groups:
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-ELITE-8.220.245.72:9898"
-      - "KR-HTTP-02-ANONYMOUS-132.145.89.15:6688"
-      - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-04-UNKNOWN-112.216.54.226:12121"
+      - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+      - "KR-SOCKS4-02-UNKNOWN-8.220.245.72:9898"
   - name: "KR-全量自动测速"
     type: url-test
     url: "https://www.naver.com/"
     interval: 180
     tolerance: 150
     proxies:
-      - "KR-SOCKS5-01-ELITE-8.220.245.72:9898"
-      - "KR-HTTP-02-ANONYMOUS-132.145.89.15:6688"
-      - "KR-HTTP-03-UNKNOWN-1.231.81.166:3128"
-      - "KR-HTTP-04-UNKNOWN-112.216.54.226:12121"
-      - "KR-HTTP-05-TRANSPARENT-129.154.201.19:33128"
+      - "KR-HTTP-01-UNKNOWN-1.231.81.166:3128"
+      - "KR-SOCKS4-02-UNKNOWN-8.220.245.72:9898"
+      - "KR-SOCKS5-03-TRANSPARENT-121.169.46.116:1090"
 
 rules:
   - MATCH,节点选择
