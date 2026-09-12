@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:14:40+00:00",
+  "generated_at": "2026-09-12T12:50:49+00:00",
   "working_count": 4,
   "working": [
     {
@@ -11,21 +11,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 7.58,
-      "https_time_s": 11.662,
+      "geo_time_s": 1.679,
+      "https_time_s": 3.606,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "134.185.103.14"
       },
-      "https_result": "200 11.657247",
+      "https_result": "200 3.599216",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Chuncheon",
         "country_code": "KR",
-        "timeout_s": 5.68
+        "timeout_s": 2.78
       },
       "stash_name": "KR-SOCKS5-01-UNKNOWN-202.141.161.50:10808"
     },
@@ -38,21 +38,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 4.991,
-      "https_time_s": 4.255,
+      "geo_time_s": 0.487,
+      "https_time_s": 0.77,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "1.231.81.166"
       },
-      "https_result": "200 4.249302",
+      "https_result": "200 0.762452",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Dobong-gu",
         "country_code": "KR",
-        "timeout_s": 1.26
+        "timeout_s": 1.28
       },
       "stash_name": "KR-HTTP-02-UNKNOWN-1.231.81.166:3128"
     },
@@ -65,21 +65,21 @@
       "anonymity": "unknown",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 7.511,
-      "https_time_s": 7.665,
+      "geo_time_s": 1.199,
+      "https_time_s": 4.063,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "134.185.103.14"
       },
-      "https_result": "200 7.660033",
+      "https_result": "200 4.055515",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
         "city": "Chuncheon",
         "country_code": "KR",
-        "timeout_s": 4.5
+        "timeout_s": 5.54
       },
       "stash_name": "KR-HTTP-03-UNKNOWN-202.141.161.50:10808"
     },
@@ -92,15 +92,15 @@
       "anonymity": "transparent",
       "geo_ok": true,
       "https_ok": true,
-      "geo_time_s": 4.062,
-      "https_time_s": 3.856,
+      "geo_time_s": 0.918,
+      "https_time_s": 0.991,
       "geo": {
         "status": "success",
         "country": "South Korea",
         "countryCode": "KR",
         "query": "121.169.46.116"
       },
-      "https_result": "200 3.850862",
+      "https_result": "200 0.984366",
       "geo_error": null,
       "https_error": null,
       "source_meta": {
