@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-09-13T15:02:54+00:00）
+# KR 免费代理自动刷新报告（2026-09-13T18:08:31+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,39 +25,21 @@
 ## 原始候选数量
 
 - geonode: 11
-- iplocate: 1
+- iplocate: 4
 - monosans_fallback: 0
-- monosans_kr_json: 6
+- monosans_kr_json: 10
 - niek: 12
-- proxifly: 18
-- proxyscrape: 65
+- proxifly: 24
+- proxyscrape: 14
 - skillter_fallback: 0
-- 去重后总候选: 106
+- 去重后总候选: 68
 
 ## 当前验证通过的代理
 
-- 1. `http://121.170.165.39:25448` | `http` | `elite` | 200 0.968300 | source=`proxyscrape`
-- 2. `http://121.170.165.26:21973` | `http` | `elite` | 200 0.993572 | source=`proxyscrape`
-- 3. `http://121.170.165.27:21833` | `http` | `elite` | 200 1.084813 | source=`proxyscrape`
-- 4. `http://203.245.16.115:18090` | `http` | `elite` | 200 1.088790 | source=`proxyscrape`
-- 5. `http://121.170.165.60:27557` | `http` | `elite` | 200 1.162197 | source=`proxyscrape`
-- 6. `http://210.121.160.184:22591` | `http` | `elite` | 200 1.181447 | source=`proxyscrape`
-- 7. `http://210.121.160.143:12795` | `http` | `elite` | 200 1.213812 | source=`proxyscrape`
-- 8. `http://121.170.165.243:28754` | `http` | `elite` | 200 1.410129 | source=`proxyscrape`
-- 9. `http://121.170.165.46:13483` | `http` | `elite` | 200 1.443027 | source=`proxyscrape`
-- 10. `http://121.170.165.5:13348` | `http` | `elite` | 200 2.490029 | source=`proxyscrape`
-- 11. `http://210.220.138.217:16051` | `http` | `elite` | 200 2.814934 | source=`proxyscrape`
-- 12. `http://121.170.165.28:17043` | `http` | `elite` | 200 3.014845 | source=`proxyscrape`
-- 13. `http://121.170.165.3:24439` | `http` | `elite` | 200 3.044113 | source=`proxyscrape`
-- 14. `http://210.121.160.13:26440` | `http` | `elite` | 200 3.509493 | source=`proxyscrape`
-- 15. `http://210.121.160.154:14416` | `http` | `elite` | 200 3.523797 | source=`proxyscrape`
-- 16. `http://210.121.160.196:23836` | `http` | `elite` | 200 5.580904 | source=`proxyscrape`
-- 17. `http://210.121.160.221:21455` | `http` | `elite` | 200 5.829745 | source=`proxyscrape`
-- 18. `http://210.121.160.206:18539` | `http` | `elite` | 200 7.164808 | source=`proxyscrape`
-- 19. `socks5://111.119.162.248:10940` | `socks5` | `unknown` | 200 4.501549 | source=`monosans_kr_json`
-- 20. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.574625 | source=`monosans_kr_json`
-- 21. `http://111.119.162.248:10940` | `http` | `unknown` | 200 5.683735 | source=`monosans_kr_json`
-- 22. `http://121.170.165.76:24818` | `http` | `transparent` | 200 2.805881 | source=`proxifly`
+- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.745542 | source=`monosans_kr_json`
+- 2. `socks5://202.141.161.50:10808` | `socks5` | `transparent` | 200 2.836032 | source=`proxifly`
+- 3. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 2.835892 | source=`proxifly`
+- 4. `http://43.164.129.84:3128` | `http` | `transparent` | 200 11.962945 | source=`proxyscrape`
 
 ## 输出文件
 
