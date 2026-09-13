@@ -1,4 +1,4 @@
-# KR 免费代理自动刷新报告（2026-09-13T18:08:31+00:00）
+# KR 免费代理自动刷新报告（2026-09-13T20:44:14+00:00）
 
 > 目标：自动抓取并验证当前可用于 Stash 的韩国代理，仅在当前目录生成结果。
 
@@ -25,21 +25,29 @@
 ## 原始候选数量
 
 - geonode: 11
-- iplocate: 4
+- iplocate: 6
 - monosans_fallback: 0
-- monosans_kr_json: 10
+- monosans_kr_json: 15
 - niek: 12
-- proxifly: 24
-- proxyscrape: 14
+- proxifly: 26
+- proxyscrape: 20
 - skillter_fallback: 0
-- 去重后总候选: 68
+- 去重后总候选: 80
 
 ## 当前验证通过的代理
 
-- 1. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.745542 | source=`monosans_kr_json`
-- 2. `socks5://202.141.161.50:10808` | `socks5` | `transparent` | 200 2.836032 | source=`proxifly`
-- 3. `socks5://121.169.46.116:1090` | `socks5` | `transparent` | 200 2.835892 | source=`proxifly`
-- 4. `http://43.164.129.84:3128` | `http` | `transparent` | 200 11.962945 | source=`proxyscrape`
+- 1. `socks5://193.122.105.251:65535` | `socks5` | `elite` | 200 0.679023 | source=`proxyscrape`
+- 2. `http://1.231.81.166:3128` | `http` | `unknown` | 200 0.533256 | source=`monosans_kr_json`
+- 3. `http://210.121.160.199:24614` | `http` | `unknown` | 200 2.652272 | source=`monosans_kr_json`
+- 4. `http://121.170.165.45:18615` | `http` | `unknown` | 200 2.771862 | source=`monosans_kr_json`
+- 5. `http://121.170.165.67:19306` | `http` | `unknown` | 200 3.109668 | source=`monosans_kr_json`
+- 6. `http://210.121.160.49:25598` | `http` | `unknown` | 200 3.142323 | source=`monosans_kr_json`
+- 7. `http://121.170.165.94:24398` | `http` | `unknown` | 200 3.862354 | source=`monosans_kr_json`
+- 8. `http://210.121.160.79:28510` | `http` | `unknown` | 200 4.201858 | source=`monosans_kr_json`
+- 9. `http://121.170.165.54:29487` | `http` | `unknown` | 200 4.447311 | source=`monosans_kr_json`
+- 10. `http://210.121.160.174:20447` | `http` | `unknown` | 200 4.730404 | source=`monosans_kr_json`
+- 11. `http://121.170.165.56:10433` | `http` | `unknown` | 200 5.210470 | source=`monosans_kr_json`
+- 12. `http://43.164.129.84:3128` | `http` | `transparent` | 200 3.859870 | source=`proxyscrape`
 
 ## 输出文件
 
